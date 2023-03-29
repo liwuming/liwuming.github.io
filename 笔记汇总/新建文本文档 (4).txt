@@ -1,0 +1,134 @@
+https://echarts.apache.org/examples/zh/editor.html?c=dynamic-data2
+
+
+https://echarts.apache.org/examples/zh/editor.html?c=gauge-stage
+
+
+仪表盘
+import * as echarts from 'echarts';
+
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom, 'dark');
+var option;
+
+option = {
+  series: [
+    {
+      type: 'gauge',
+      min: -100,
+      max: 100,
+      backgroundColor: '#fffff',
+      axisLine: {
+        backgroundColor: '#090D16',
+        lineStyle: {
+          width: 30,
+          color: [
+            [0.3, '#FF0000'],
+            [0.4, '#FFFF00'],
+            [0.5, '#05ED6F'],
+            [0.6, '#05ED6F'],
+            [0.7, '#FFFF00'],
+            [1, '#FF0000']
+          ]
+        }
+      },
+      pointer: {
+        itemStyle: {
+          color: 'inherit'
+        }
+      },
+      axisTick: {
+        distance: -30,
+        length: 10,
+        lineStyle: {
+          color: '#fff',
+          width: 2
+        }
+      },
+      splitLine: {
+        distance: -30,
+        length: 30,
+        lineStyle: {
+          color: '#fff',
+          width: 4
+        }
+      },
+      axisLabel: {
+        color: 'inherit',
+        distance: 40,
+        fontSize: 20
+      },
+      detail: {
+        valueAnimation: true,
+        formatter: '{value}',
+        color: 'inherit'
+      },
+      data: [
+        {
+          value: 70
+        }
+      ]
+    }
+  ]
+};
+setInterval(function () {
+  myChart.setOption({
+    backgroundColor: '#090D16',
+    series: [
+      {
+        data: [
+          {
+            value: +(Math.random() * 100).toFixed(2)
+          }
+        ]
+      }
+    ]
+  });
+}, 2000);
+
+option && myChart.setOption(option);
+
+
+
+
+
+
+曲线图
+
+import * as echarts from 'echarts';
+
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom, 'dark');
+var option;
+
+option = {
+  backgroundColor: '#fffff',
+  xAxis: {
+    type: 'category',
+    data: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+  },
+  yAxis: {
+    type: 'category',
+    data: ['-NG', '-OK', '+OK', '+NG']
+  },
+  series: [
+    {
+      data: [
+        '+NG',
+        '+OK',
+        '-OK',
+        '-NG',
+        '-OK',
+        '-NG',
+        '+OK',
+        '-OK',
+        '-NG',
+        '+OK',
+        '-NG'
+      ],
+      type: 'line'
+    }
+  ]
+};
+
+option && myChart.setOption(option);
