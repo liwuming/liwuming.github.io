@@ -1,1 +1,0 @@
-acme.sh --installcert -d ibiancheng.net --key-file   /root/.acme.sh/ibiancheng.net/ibiancheng.net.key --fullchain-file /root/.acme.sh/ibiancheng.net/fullchain.cer --reloadcmd  "nginx -s reload"
