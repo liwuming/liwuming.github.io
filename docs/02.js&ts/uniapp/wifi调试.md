@@ -12,3 +12,13 @@
 
 adb devices 查看设备
 adb disconnct 断开链接
+
+adb pair 192.168.124.106:41729
+
+Enter pairing code:输入配对码
+577333
+
+
+adb pair 192.168.124.106:41729
+
+adb connect 192.168.124.106:41729
