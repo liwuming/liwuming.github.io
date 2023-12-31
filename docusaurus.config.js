@@ -70,7 +70,7 @@ const config = {
 		 }
 	  },
       navbar: {
-        title: 'My Site',
+        title: "liwuming'blog",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -105,6 +105,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+		additionalLanguages: ['java','nginx','php','javascript','go','markdown'],
       },
     }),
 };
