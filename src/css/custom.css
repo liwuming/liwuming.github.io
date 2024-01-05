@@ -15,6 +15,8 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --detail-padding:27px;
+  --detail-margin:-27px;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,4 +29,72 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+body{background:#f6f8fa;}
+aside{background:#fff;}
+main>.container{margin:15px auto;padding:5px 30px 10px 30px;width:1200px!important;border-radius:8px;background:#fff;}
+
+/*
+main>.container>.row>.col{width:100%;}
+main>.container>.row>.col.col--3{width:230px;position:fixed;top:100px;right:0;}
+
+
+
+.padding-top--md{padding-top:0!important;}
+
+.theme-doc-sidebar-container{
+	background:#fff;
+}
+main>.container{margin:15px auto;padding:10px 30px 20px 30px;width:960px!important;border-radius:8px;background:#fff;}
+*/
+.markdown> h2,
+.markdown> h3,
+.markdown> h4,
+.markdown> h5,
+.markdown> h6{padding-bottom:3px;border-bottom:3px double #ddd;font-weight:400;}
+
+
+.markdown>h1,
+.markdown>h1:first-child{margin:0.35rem 0;padding-bottom:0.75rem;font-size:2.1rem;position:relative;}
+.markdown>h1:first-child:before{width:100%;content:"";border-bottom:3px solid #ddd;position:absolute;bottom:0;left:0;}
+
+
+
+.markdown>h2{margin:1.5rem 0 1rem 0;padding-bottom:0.25rem;font-size:1.8rem;}
+.markdown>h3{margin:1.3rem 0 0.8rem 0;padding-bottom:0.25rem;font-size:1.6rem;}
+.markdown>h4{margin:1rem 0 0.618rem 0;padding-bottom:0.25rem;font-size:1.5rem;}
+.markdown>h5{margin:0.8rem 0 0.5rem;padding-bottom:0.15rem;font-size:1.4rem;}
+.markdown>h6{margin:0.618rem 0 0.35rem;padding-bottom:0.13rem;font-size:1.3rem;}
+.markdown>header{margin:0 -30px;padding:0 30px;
+height:62px;line-height:6px;
+border-bottom:3px solid #ddd;}
+.markdown>header>h1{
+margin:0;height:53px;line-height:53px;border:none;
+font-size:2.3rem;font-weight:500;
+}
+
+#detail p{margin:1rem 0;}
+#detail ul,.main .markdown ul{margin:1rem 0;}
+#detail blockquote>*:first-child{margin-top:0;}
+#detail blockquote>*:last-child{margin-bottom:0;}
+#detail p>code{padding:2px 7px;border-radius:5px;}
+
+
+.markdown>blockquote {
+  margin: 0 0 1em 0;
+  padding:12px 10px;
+  background: #eef0f4;
+  border-left: 5px solid #dddfe4;
+  font-style: normal;
+  font-weight: 400;
+  overflow: auto;
+  color: #787878;
+  display: block;
+  word-break: break-word;
+  position: relative;
 }
