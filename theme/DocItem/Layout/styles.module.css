@@ -9,9 +9,4 @@
 .docItemContainer article > *:first-child {
   margin-top: 0;
 }
-
-@media (min-width: 997px) {
-  .docItemCol {
-    max-width:83% !important;
-  }
-}
+.docItemCol{width:100%;max-width:100%;}
