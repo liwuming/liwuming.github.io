@@ -110,6 +110,10 @@
               "previous": {
                 "title": "intro",
                 "permalink": "/docs/docker/intro"
+              },
+              "next": {
+                "title": "关于全角半角切换",
+                "permalink": "/docs/win10系统/关于全角半角切换"
               }
             },
             {
@@ -156,8 +160,8 @@
                 "permalink": "/docs/算法/刷题必备"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/docs/linux/intro"
+                "title": "巧计易混淆点",
+                "permalink": "/docs/linux/解惑迷经/巧计易混淆点"
               }
             },
             {
@@ -180,7 +184,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "xhr",
-                "permalink": "/docs/js&ts/es5/xhr"
+                "permalink": "/docs/js&ts/js学习经/xhr"
               }
             },
             {
@@ -1252,144 +1256,67 @@
               }
             },
             {
-              "unversionedId": "js&ts/常用算法/查找",
-              "id": "js&ts/常用算法/查找",
-              "title": "查找",
+              "unversionedId": "js&ts/标准阮一峰es6入门/01",
+              "id": "js&ts/标准阮一峰es6入门/01",
+              "title": "01",
               "description": "",
-              "source": "@site/docs/02.js&ts/21.常用算法/10.查找.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/查找",
-              "permalink": "/docs/js&ts/常用算法/查找",
+              "source": "@site/docs/02.js&ts/03.标准阮一峰es6入门/01.md",
+              "sourceDirName": "02.js&ts/03.标准阮一峰es6入门",
+              "slug": "/js&ts/标准阮一峰es6入门/01",
+              "permalink": "/docs/js&ts/标准阮一峰es6入门/01",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/10.查找.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/03.标准阮一峰es6入门/01.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 10,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "快速排序",
-                "permalink": "/docs/js&ts/常用算法/快速排序"
+                "title": "面向对象程序编程",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/面向对象程序编程"
               },
               "next": {
-                "title": "地图",
-                "permalink": "/docs/js&ts/小程序开发/地图"
+                "title": "02.",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/02."
               }
             },
             {
-              "unversionedId": "js&ts/常用算法/基础准备",
-              "id": "js&ts/常用算法/基础准备",
-              "title": "基础准备",
-              "description": "数组常用方法",
-              "source": "@site/docs/02.js&ts/21.常用算法/01.基础准备.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/基础准备",
-              "permalink": "/docs/js&ts/常用算法/基础准备",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/01.基础准备.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "学习目标",
-                "permalink": "/docs/js&ts/常用算法/intro"
-              },
-              "next": {
-                "title": "线性结构",
-                "permalink": "/docs/js&ts/常用算法/线性结构"
-              }
-            },
-            {
-              "unversionedId": "js&ts/常用算法/快速排序",
-              "id": "js&ts/常用算法/快速排序",
-              "title": "快速排序",
-              "description": "希尔排序",
-              "source": "@site/docs/02.js&ts/21.常用算法/09.快速排序.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/快速排序",
-              "permalink": "/docs/js&ts/常用算法/快速排序",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/09.快速排序.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 9,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "排序",
-                "permalink": "/docs/js&ts/常用算法/排序"
-              },
-              "next": {
-                "title": "查找",
-                "permalink": "/docs/js&ts/常用算法/查找"
-              }
-            },
-            {
-              "unversionedId": "js&ts/常用算法/排序",
-              "id": "js&ts/常用算法/排序",
-              "title": "排序",
+              "unversionedId": "js&ts/标准阮一峰es6入门/02.",
+              "id": "js&ts/标准阮一峰es6入门/02.",
+              "title": "02.",
               "description": "",
-              "source": "@site/docs/02.js&ts/21.常用算法/08.排序.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/排序",
-              "permalink": "/docs/js&ts/常用算法/排序",
+              "source": "@site/docs/02.js&ts/03.标准阮一峰es6入门/02..md",
+              "sourceDirName": "02.js&ts/03.标准阮一峰es6入门",
+              "slug": "/js&ts/标准阮一峰es6入门/02.",
+              "permalink": "/docs/js&ts/标准阮一峰es6入门/02.",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/08.排序.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/03.标准阮一峰es6入门/02..md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 8,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "线性结构",
-                "permalink": "/docs/js&ts/常用算法/线性结构"
+                "title": "01",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/01"
               },
               "next": {
-                "title": "快速排序",
-                "permalink": "/docs/js&ts/常用算法/快速排序"
+                "title": "疑惑",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/疑惑"
               }
             },
             {
-              "unversionedId": "js&ts/常用算法/线性结构",
-              "id": "js&ts/常用算法/线性结构",
-              "title": "线性结构",
-              "description": "",
-              "source": "@site/docs/02.js&ts/21.常用算法/02.线性结构.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/线性结构",
-              "permalink": "/docs/js&ts/常用算法/线性结构",
+              "unversionedId": "js&ts/标准阮一峰es6入门/迭代器与生成器",
+              "id": "js&ts/标准阮一峰es6入门/迭代器与生成器",
+              "title": "什么是迭代",
+              "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
+              "source": "@site/docs/02.js&ts/03.标准阮一峰es6入门/07.迭代器与生成器.md",
+              "sourceDirName": "02.js&ts/03.标准阮一峰es6入门",
+              "slug": "/js&ts/标准阮一峰es6入门/迭代器与生成器",
+              "permalink": "/docs/js&ts/标准阮一峰es6入门/迭代器与生成器",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/02.线性结构.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/03.标准阮一峰es6入门/07.迭代器与生成器.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "基础准备",
-                "permalink": "/docs/js&ts/常用算法/基础准备"
-              },
-              "next": {
-                "title": "排序",
-                "permalink": "/docs/js&ts/常用算法/排序"
-              }
-            },
-            {
-              "unversionedId": "js&ts/常用算法/intro",
-              "id": "js&ts/常用算法/intro",
-              "title": "学习目标",
-              "description": "线性结构",
-              "source": "@site/docs/02.js&ts/21.常用算法/00.intro.md",
-              "sourceDirName": "02.js&ts/21.常用算法",
-              "slug": "/js&ts/常用算法/intro",
-              "permalink": "/docs/js&ts/常用算法/intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/21.常用算法/00.intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
+              "sidebarPosition": 7,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
@@ -1397,8 +1324,57 @@
                 "permalink": "/docs/js&ts/js高级程序设计-第四版/intro"
               },
               "next": {
-                "title": "基础准备",
-                "permalink": "/docs/js&ts/常用算法/基础准备"
+                "title": "面向对象程序编程",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/面向对象程序编程"
+              }
+            },
+            {
+              "unversionedId": "js&ts/标准阮一峰es6入门/面向对象程序编程",
+              "id": "js&ts/标准阮一峰es6入门/面向对象程序编程",
+              "title": "面向对象程序编程",
+              "description": "",
+              "source": "@site/docs/02.js&ts/03.标准阮一峰es6入门/08.面向对象程序编程.md",
+              "sourceDirName": "02.js&ts/03.标准阮一峰es6入门",
+              "slug": "/js&ts/标准阮一峰es6入门/面向对象程序编程",
+              "permalink": "/docs/js&ts/标准阮一峰es6入门/面向对象程序编程",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/03.标准阮一峰es6入门/08.面向对象程序编程.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "什么是迭代",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/迭代器与生成器"
+              },
+              "next": {
+                "title": "01",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/01"
+              }
+            },
+            {
+              "unversionedId": "js&ts/标准阮一峰es6入门/疑惑",
+              "id": "js&ts/标准阮一峰es6入门/疑惑",
+              "title": "疑惑",
+              "description": "从毕业到现在，已经很多年了，但是一直没能搞懂function与object之间的联系",
+              "source": "@site/docs/02.js&ts/03.标准阮一峰es6入门/疑惑.md",
+              "sourceDirName": "02.js&ts/03.标准阮一峰es6入门",
+              "slug": "/js&ts/标准阮一峰es6入门/疑惑",
+              "permalink": "/docs/js&ts/标准阮一峰es6入门/疑惑",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/03.标准阮一峰es6入门/疑惑.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "02.",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/02."
+              },
+              "next": {
+                "title": "学习目标",
+                "permalink": "/docs/js&ts/js数据结构与算法/intro"
               }
             },
             {
@@ -1417,8 +1393,8 @@
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "常见问题",
-                "permalink": "/docs/js&ts/uniapp/常见问题"
+                "title": "uniapp实现聊天功能",
+                "permalink": "/docs/js&ts/uniapp/聊天记录/发送语音"
               },
               "next": {
                 "title": "ant design pro安装及开发用户中心",
@@ -1540,8 +1516,8 @@
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "查找",
-                "permalink": "/docs/js&ts/常用算法/查找"
+                "title": "新要求",
+                "permalink": "/docs/js&ts/react/新要求"
               },
               "next": {
                 "title": "如何查看小程序管理员",
@@ -1593,321 +1569,6 @@
               }
             },
             {
-              "unversionedId": "js&ts/es5/本地存储",
-              "id": "js&ts/es5/本地存储",
-              "title": "本地存储",
-              "description": "cookie",
-              "source": "@site/docs/02.js&ts/01.es5/本地存储.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/本地存储",
-              "permalink": "/docs/js&ts/es5/本地存储",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/本地存储.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "js之函数",
-                "permalink": "/docs/js&ts/es5/函数"
-              },
-              "next": {
-                "title": "迭代器与生成器",
-                "permalink": "/docs/js&ts/es6/迭代器与生成器"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es5/函数",
-              "id": "js&ts/es5/函数",
-              "title": "js之函数",
-              "description": "函数的定义",
-              "source": "@site/docs/02.js&ts/01.es5/函数.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/函数",
-              "permalink": "/docs/js&ts/es5/函数",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/函数.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "事件",
-                "permalink": "/docs/js&ts/es5/事件"
-              },
-              "next": {
-                "title": "本地存储",
-                "permalink": "/docs/js&ts/es5/本地存储"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es5/精度丢失",
-              "id": "js&ts/es5/精度丢失",
-              "title": "js中两个小数相减，出现多位小数",
-              "description": "",
-              "source": "@site/docs/02.js&ts/01.es5/01.精度丢失.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/精度丢失",
-              "permalink": "/docs/js&ts/es5/精度丢失",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/01.精度丢失.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "xhr",
-                "permalink": "/docs/js&ts/es5/xhr"
-              },
-              "next": {
-                "title": "日期格式化",
-                "permalink": "/docs/js&ts/es5/日期格式化"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es5/日期格式化",
-              "id": "js&ts/es5/日期格式化",
-              "title": "日期格式化",
-              "description": "获取时间戳--",
-              "source": "@site/docs/02.js&ts/01.es5/02.日期格式化.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/日期格式化",
-              "permalink": "/docs/js&ts/es5/日期格式化",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/02.日期格式化.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "js中两个小数相减，出现多位小数",
-                "permalink": "/docs/js&ts/es5/精度丢失"
-              },
-              "next": {
-                "title": "事件",
-                "permalink": "/docs/js&ts/es5/事件"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es5/事件",
-              "id": "js&ts/es5/事件",
-              "title": "事件",
-              "description": "时间委托",
-              "source": "@site/docs/02.js&ts/01.es5/事件.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/事件",
-              "permalink": "/docs/js&ts/es5/事件",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/事件.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "日期格式化",
-                "permalink": "/docs/js&ts/es5/日期格式化"
-              },
-              "next": {
-                "title": "js之函数",
-                "permalink": "/docs/js&ts/es5/函数"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es5/xhr",
-              "id": "js&ts/es5/xhr",
-              "title": "xhr",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/01.es5/00.xhr.md",
-              "sourceDirName": "02.js&ts/01.es5",
-              "slug": "/js&ts/es5/xhr",
-              "permalink": "/docs/js&ts/es5/xhr",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/00.xhr.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "next": {
-                "title": "js中两个小数相减，出现多位小数",
-                "permalink": "/docs/js&ts/es5/精度丢失"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/迭代器与生成器",
-              "id": "js&ts/es6/迭代器与生成器",
-              "title": "迭代器与生成器",
-              "description": "集合引用类型",
-              "source": "@site/docs/02.js&ts/02.es6/07.迭代器与生成器.md",
-              "sourceDirName": "02.js&ts/02.es6",
-              "slug": "/js&ts/es6/迭代器与生成器",
-              "permalink": "/docs/js&ts/es6/迭代器与生成器",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/07.迭代器与生成器.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "本地存储",
-                "permalink": "/docs/js&ts/es5/本地存储"
-              },
-              "next": {
-                "title": "迭代器与生成器",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/疑惑",
-              "id": "js&ts/es6/疑惑",
-              "title": "疑惑",
-              "description": "从毕业到现在，已经很多年了，但是一直没能搞懂function与object之间的联系",
-              "source": "@site/docs/02.js&ts/02.es6/疑惑.md",
-              "sourceDirName": "02.js&ts/02.es6",
-              "slug": "/js&ts/es6/疑惑",
-              "permalink": "/docs/js&ts/es6/疑惑",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/疑惑.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "面向对象程序编程",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程"
-              },
-              "next": {
-                "title": "新要求",
-                "permalink": "/docs/js&ts/vue3/新要求"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
-              "id": "js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
-              "title": "什么是迭代",
-              "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
-              "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第四版)/07.迭代器与生成器.md",
-              "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第四版)",
-              "slug": "/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
-              "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第四版)/07.迭代器与生成器.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "02.",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/02."
-              },
-              "next": {
-                "title": "面向对象程序编程",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
-              "id": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
-              "title": "面向对象程序编程",
-              "description": "",
-              "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第四版)/08.面向对象程序编程.md",
-              "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第四版)",
-              "slug": "/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
-              "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第四版)/08.面向对象程序编程.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "什么是迭代",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器"
-              },
-              "next": {
-                "title": "疑惑",
-                "permalink": "/docs/js&ts/es6/疑惑"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/js高级程序设计(第五版)/01.",
-              "id": "js&ts/es6/js高级程序设计(第五版)/01.",
-              "title": "01.",
-              "description": "",
-              "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第五版)/01..md",
-              "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第五版)",
-              "slug": "/js&ts/es6/js高级程序设计(第五版)/01.",
-              "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/01.",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第五版)/01..md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "迭代器与生成器",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器"
-              },
-              "next": {
-                "title": "02.",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/02."
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/js高级程序设计(第五版)/02.",
-              "id": "js&ts/es6/js高级程序设计(第五版)/02.",
-              "title": "02.",
-              "description": "",
-              "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第五版)/02..md",
-              "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第五版)",
-              "slug": "/js&ts/es6/js高级程序设计(第五版)/02.",
-              "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/02.",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第五版)/02..md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "01.",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/01."
-              },
-              "next": {
-                "title": "什么是迭代",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器"
-              }
-            },
-            {
-              "unversionedId": "js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
-              "id": "js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
-              "title": "迭代器与生成器",
-              "description": "集合引用类型",
-              "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第五版)/07.迭代器与生成器.md",
-              "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第五版)",
-              "slug": "/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
-              "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第五版)/07.迭代器与生成器.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "迭代器与生成器",
-                "permalink": "/docs/js&ts/es6/迭代器与生成器"
-              },
-              "next": {
-                "title": "01.",
-                "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/01."
-              }
-            },
-            {
               "unversionedId": "js&ts/intro",
               "id": "js&ts/intro",
               "title": "intro",
@@ -1936,20 +1597,20 @@
               "id": "js&ts/js高级程序设计-第四版/迭代器与生成器",
               "title": "什么是迭代",
               "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/07.迭代器与生成器.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/07.迭代器与生成器.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版",
               "slug": "/js&ts/js高级程序设计-第四版/迭代器与生成器",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/迭代器与生成器",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/07.迭代器与生成器.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/07.迭代器与生成器.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "intro",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/intro"
+                "title": "本地存储",
+                "permalink": "/docs/js&ts/js学习经/本地存储"
               },
               "next": {
                 "title": "面向对象程序编程",
@@ -1961,12 +1622,12 @@
               "id": "js&ts/js高级程序设计-第四版/面向对象程序编程",
               "title": "面向对象程序编程",
               "description": "111",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/08.面向对象程序编程.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/08.面向对象程序编程.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版",
               "slug": "/js&ts/js高级程序设计-第四版/面向对象程序编程",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/面向对象程序编程",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/08.面向对象程序编程.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/08.面向对象程序编程.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -1986,12 +1647,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
               "title": "内置单例对象",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/04.内置单例对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域",
               "slug": "/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/04.内置单例对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/04.内置单例对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -2011,12 +1672,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
               "title": "原始值包装类型",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域",
               "slug": "/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -2036,12 +1697,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
               "title": "1211",
               "description": "ecmaScript变量可以分为两种不同的类型的数据：原始值和和引用类型",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/00.date对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域",
               "slug": "/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/00.date对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/00.date对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2061,12 +1722,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
               "title": "RegExp",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/00.RegExp.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域",
               "slug": "/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/00.RegExp.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap04.变量及作用域/00.RegExp.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2086,12 +1747,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
               "title": "内置单例对象",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/04.内置单例对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/04.内置单例对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/04.内置单例对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -2111,12 +1772,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
               "title": "原始值包装类型",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/03.原始值包装类型.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/03.原始值包装类型.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/03.原始值包装类型.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -2136,12 +1797,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
               "title": "date对象",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/00.date对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/00.date对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/00.date对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2161,12 +1822,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
               "title": "RegExp",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/00.RegExp.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap05.基本引用类型/00.RegExp.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap05.基本引用类型/00.RegExp.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2186,12 +1847,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
               "title": "内置单例对象",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/04.内置单例对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/04.内置单例对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/04.内置单例对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -2211,12 +1872,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
               "title": "原始值包装类型",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/03.原始值包装类型.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/03.原始值包装类型.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/03.原始值包装类型.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -2236,12 +1897,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
               "title": "date对象",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/00.date对象.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/00.date对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/00.date对象.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2261,12 +1922,12 @@
               "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
               "title": "RegExp",
               "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/00.RegExp.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型",
               "slug": "/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap06.集合引用类型/00.RegExp.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/chap06.集合引用类型/00.RegExp.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -2286,12 +1947,12 @@
               "id": "js&ts/js高级程序设计-第四版/intro",
               "title": "intro",
               "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/intro.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计-第四版",
+              "source": "@site/docs/02.js&ts/02.js高级程序设计-第四版/intro.md",
+              "sourceDirName": "02.js&ts/02.js高级程序设计-第四版",
               "slug": "/js&ts/js高级程序设计-第四版/intro",
               "permalink": "/docs/js&ts/js高级程序设计-第四版/intro",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.js高级程序设计-第四版/intro.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2301,378 +1962,178 @@
                 "permalink": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象"
               },
               "next": {
-                "title": "学习目标",
-                "permalink": "/docs/js&ts/常用算法/intro"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
-              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
-              "title": "内置单例对象",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存",
-              "slug": "/js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/04.内置单例对象.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型"
-              },
-              "next": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
-              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
-              "title": "原始值包装类型",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存",
-              "slug": "/js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/03.原始值包装类型.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "1211",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象"
-              },
-              "next": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
-              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
-              "title": "1211",
-              "description": "ecmaScript变量可以分为两种不同的类型的数据：原始值和和引用类型",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存",
-              "slug": "/js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/00.date对象.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp"
-              },
-              "next": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
-              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
-              "title": "RegExp",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存",
-              "slug": "/js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/04.变量，作用域和内存/00.RegExp.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "新要求",
-                "permalink": "/docs/js&ts/react/新要求"
-              },
-              "next": {
-                "title": "1211",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/迭代器与生成器",
-              "id": "js&ts/js高级程序设计(第四版)/迭代器与生成器",
-              "title": "什么是迭代",
-              "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/07.迭代器与生成器.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)",
-              "slug": "/js&ts/js高级程序设计(第四版)/迭代器与生成器",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/迭代器与生成器",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/07.迭代器与生成器.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象"
-              },
-              "next": {
-                "title": "面向对象程序编程",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/面向对象程序编程"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
-              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
-              "title": "内置单例对象",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型",
-              "slug": "/js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/04.内置单例对象.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型"
-              },
-              "next": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
-              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
-              "title": "原始值包装类型",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型",
-              "slug": "/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/03.原始值包装类型.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "date对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/date对象"
-              },
-              "next": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
-              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
-              "title": "date对象",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型",
-              "slug": "/js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.date对象.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp"
-              },
-              "next": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
-              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
-              "title": "RegExp",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型",
-              "slug": "/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.RegExp.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象"
-              },
-              "next": {
-                "title": "date对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/date对象"
-              }
-            },
-            {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
-              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
-              "title": "内置单例对象",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/04.内置单例对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本",
-              "slug": "/js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/04.内置单例对象.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {},
-              "sidebar": "ecma",
-              "previous": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型"
-              },
-              "next": {
                 "title": "什么是迭代",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/迭代器与生成器"
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/迭代器与生成器"
               }
             },
             {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
-              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
-              "title": "原始值包装类型",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/03.原始值包装类型.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本",
-              "slug": "/js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
+              "unversionedId": "js&ts/js数据结构与算法/查找",
+              "id": "js&ts/js数据结构与算法/查找",
+              "title": "查找",
+              "description": "",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/10.查找.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/查找",
+              "permalink": "/docs/js&ts/js数据结构与算法/查找",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/03.原始值包装类型.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/10.查找.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 10,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "date对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象"
+                "title": "快速排序",
+                "permalink": "/docs/js&ts/js数据结构与算法/快速排序"
               },
               "next": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象"
+                "title": "新要求",
+                "permalink": "/docs/js&ts/vue3/新要求"
               }
             },
             {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
-              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
-              "title": "date对象",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/00.date对象.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本",
-              "slug": "/js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
+              "unversionedId": "js&ts/js数据结构与算法/基础准备",
+              "id": "js&ts/js数据结构与算法/基础准备",
+              "title": "基础准备",
+              "description": "数组常用方法",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/01.基础准备.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/基础准备",
+              "permalink": "/docs/js&ts/js数据结构与算法/基础准备",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/00.date对象.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/01.基础准备.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 0,
+              "sidebarPosition": 1,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp"
+                "title": "学习目标",
+                "permalink": "/docs/js&ts/js数据结构与算法/intro"
               },
               "next": {
-                "title": "原始值包装类型",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型"
+                "title": "线性结构",
+                "permalink": "/docs/js&ts/js数据结构与算法/线性结构"
               }
             },
             {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
-              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
-              "title": "RegExp",
-              "description": "如何接收application/json",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/00.RegExp.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本",
-              "slug": "/js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+              "unversionedId": "js&ts/js数据结构与算法/快速排序",
+              "id": "js&ts/js数据结构与算法/快速排序",
+              "title": "快速排序",
+              "description": "希尔排序",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/09.快速排序.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/快速排序",
+              "permalink": "/docs/js&ts/js数据结构与算法/快速排序",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/06.集合引用类型副本/00.RegExp.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/09.快速排序.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 0,
+              "sidebarPosition": 9,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "内置单例对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象"
+                "title": "排序",
+                "permalink": "/docs/js&ts/js数据结构与算法/排序"
               },
               "next": {
-                "title": "date对象",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象"
+                "title": "查找",
+                "permalink": "/docs/js&ts/js数据结构与算法/查找"
               }
             },
             {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/面向对象程序编程",
-              "id": "js&ts/js高级程序设计(第四版)/面向对象程序编程",
-              "title": "面向对象程序编程",
-              "description": "111",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/08.面向对象程序编程.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)",
-              "slug": "/js&ts/js高级程序设计(第四版)/面向对象程序编程",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/面向对象程序编程",
+              "unversionedId": "js&ts/js数据结构与算法/排序",
+              "id": "js&ts/js数据结构与算法/排序",
+              "title": "排序",
+              "description": "",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/08.排序.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/排序",
+              "permalink": "/docs/js&ts/js数据结构与算法/排序",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/08.面向对象程序编程.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/08.排序.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "什么是迭代",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/迭代器与生成器"
+                "title": "线性结构",
+                "permalink": "/docs/js&ts/js数据结构与算法/线性结构"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/intro"
+                "title": "快速排序",
+                "permalink": "/docs/js&ts/js数据结构与算法/快速排序"
               }
             },
             {
-              "unversionedId": "js&ts/js高级程序设计(第四版)/intro",
-              "id": "js&ts/js高级程序设计(第四版)/intro",
-              "title": "intro",
-              "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
-              "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/intro.md",
-              "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)",
-              "slug": "/js&ts/js高级程序设计(第四版)/intro",
-              "permalink": "/docs/js&ts/js高级程序设计(第四版)/intro",
+              "unversionedId": "js&ts/js数据结构与算法/线性结构",
+              "id": "js&ts/js数据结构与算法/线性结构",
+              "title": "线性结构",
+              "description": "",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/02.线性结构.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/线性结构",
+              "permalink": "/docs/js&ts/js数据结构与算法/线性结构",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/02.线性结构.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "基础准备",
+                "permalink": "/docs/js&ts/js数据结构与算法/基础准备"
+              },
+              "next": {
+                "title": "排序",
+                "permalink": "/docs/js&ts/js数据结构与算法/排序"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js数据结构与算法/intro",
+              "id": "js&ts/js数据结构与算法/intro",
+              "title": "学习目标",
+              "description": "线性结构",
+              "source": "@site/docs/02.js&ts/04.js数据结构与算法/00.intro.md",
+              "sourceDirName": "02.js&ts/04.js数据结构与算法",
+              "slug": "/js&ts/js数据结构与算法/intro",
+              "permalink": "/docs/js&ts/js数据结构与算法/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.js数据结构与算法/00.intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "疑惑",
+                "permalink": "/docs/js&ts/标准阮一峰es6入门/疑惑"
+              },
+              "next": {
+                "title": "基础准备",
+                "permalink": "/docs/js&ts/js数据结构与算法/基础准备"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js学习经/本地存储",
+              "id": "js&ts/js学习经/本地存储",
+              "title": "本地存储",
+              "description": "cookie",
+              "source": "@site/docs/02.js&ts/01.js学习经/本地存储.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/本地存储",
+              "permalink": "/docs/js&ts/js学习经/本地存储",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/本地存储.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "面向对象程序编程",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/面向对象程序编程"
+                "title": "js之函数",
+                "permalink": "/docs/js&ts/js学习经/函数"
               },
               "next": {
                 "title": "什么是迭代",
@@ -2680,16 +2141,135 @@
               }
             },
             {
+              "unversionedId": "js&ts/js学习经/函数",
+              "id": "js&ts/js学习经/函数",
+              "title": "js之函数",
+              "description": "函数的定义",
+              "source": "@site/docs/02.js&ts/01.js学习经/函数.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/函数",
+              "permalink": "/docs/js&ts/js学习经/函数",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/函数.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "事件",
+                "permalink": "/docs/js&ts/js学习经/事件"
+              },
+              "next": {
+                "title": "本地存储",
+                "permalink": "/docs/js&ts/js学习经/本地存储"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js学习经/精度丢失",
+              "id": "js&ts/js学习经/精度丢失",
+              "title": "js中两个小数相减，出现多位小数",
+              "description": "",
+              "source": "@site/docs/02.js&ts/01.js学习经/01.精度丢失.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/精度丢失",
+              "permalink": "/docs/js&ts/js学习经/精度丢失",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/01.精度丢失.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "xhr",
+                "permalink": "/docs/js&ts/js学习经/xhr"
+              },
+              "next": {
+                "title": "日期格式化",
+                "permalink": "/docs/js&ts/js学习经/日期格式化"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js学习经/日期格式化",
+              "id": "js&ts/js学习经/日期格式化",
+              "title": "日期格式化",
+              "description": "获取时间戳--",
+              "source": "@site/docs/02.js&ts/01.js学习经/02.日期格式化.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/日期格式化",
+              "permalink": "/docs/js&ts/js学习经/日期格式化",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/02.日期格式化.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "js中两个小数相减，出现多位小数",
+                "permalink": "/docs/js&ts/js学习经/精度丢失"
+              },
+              "next": {
+                "title": "事件",
+                "permalink": "/docs/js&ts/js学习经/事件"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js学习经/事件",
+              "id": "js&ts/js学习经/事件",
+              "title": "事件",
+              "description": "时间委托",
+              "source": "@site/docs/02.js&ts/01.js学习经/事件.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/事件",
+              "permalink": "/docs/js&ts/js学习经/事件",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/事件.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "日期格式化",
+                "permalink": "/docs/js&ts/js学习经/日期格式化"
+              },
+              "next": {
+                "title": "js之函数",
+                "permalink": "/docs/js&ts/js学习经/函数"
+              }
+            },
+            {
+              "unversionedId": "js&ts/js学习经/xhr",
+              "id": "js&ts/js学习经/xhr",
+              "title": "xhr",
+              "description": "如何接收application/json",
+              "source": "@site/docs/02.js&ts/01.js学习经/00.xhr.md",
+              "sourceDirName": "02.js&ts/01.js学习经",
+              "slug": "/js&ts/js学习经/xhr",
+              "permalink": "/docs/js&ts/js学习经/xhr",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.js学习经/00.xhr.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "next": {
+                "title": "js中两个小数相减，出现多位小数",
+                "permalink": "/docs/js&ts/js学习经/精度丢失"
+              }
+            },
+            {
               "unversionedId": "js&ts/react/新要求",
               "id": "js&ts/react/新要求",
               "title": "新要求",
               "description": "4月10日，",
-              "source": "@site/docs/02.js&ts/05.react/新要求.md",
-              "sourceDirName": "02.js&ts/05.react",
+              "source": "@site/docs/02.js&ts/13.react/新要求.md",
+              "sourceDirName": "02.js&ts/13.react",
               "slug": "/js&ts/react/新要求",
               "permalink": "/docs/js&ts/react/新要求",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/05.react/新要求.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/13.react/新要求.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -2699,8 +2279,8 @@
                 "permalink": "/docs/js&ts/vue3/新要求"
               },
               "next": {
-                "title": "RegExp",
-                "permalink": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp"
+                "title": "地图",
+                "permalink": "/docs/js&ts/小程序开发/地图"
               }
             },
             {
@@ -2795,8 +2375,8 @@
                 "permalink": "/docs/js&ts/uniapp/地图"
               },
               "next": {
-                "title": "常用ui",
-                "permalink": "/docs/js&ts/前端开发"
+                "title": "uniapp实现聊天功能",
+                "permalink": "/docs/js&ts/uniapp/聊天记录/发送语音"
               }
             },
             {
@@ -2821,6 +2401,31 @@
               "next": {
                 "title": "常见问题",
                 "permalink": "/docs/js&ts/uniapp/常见问题"
+              }
+            },
+            {
+              "unversionedId": "js&ts/uniapp/聊天记录/发送语音",
+              "id": "js&ts/uniapp/聊天记录/发送语音",
+              "title": "uniapp实现聊天功能",
+              "description": "uniapp如何发送语音数据",
+              "source": "@site/docs/02.js&ts/uniapp/聊天记录/02.发送语音.md",
+              "sourceDirName": "02.js&ts/uniapp/聊天记录",
+              "slug": "/js&ts/uniapp/聊天记录/发送语音",
+              "permalink": "/docs/js&ts/uniapp/聊天记录/发送语音",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/uniapp/聊天记录/02.发送语音.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "ecma",
+              "previous": {
+                "title": "常见问题",
+                "permalink": "/docs/js&ts/uniapp/常见问题"
+              },
+              "next": {
+                "title": "常用ui",
+                "permalink": "/docs/js&ts/前端开发"
               }
             },
             {
@@ -2901,23 +2506,48 @@
               "id": "js&ts/vue3/新要求",
               "title": "新要求",
               "description": "4月10日，",
-              "source": "@site/docs/02.js&ts/04.vue3/新要求.md",
-              "sourceDirName": "02.js&ts/04.vue3",
+              "source": "@site/docs/02.js&ts/12.vue3/新要求.md",
+              "sourceDirName": "02.js&ts/12.vue3",
               "slug": "/js&ts/vue3/新要求",
               "permalink": "/docs/js&ts/vue3/新要求",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/04.vue3/新要求.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/12.vue3/新要求.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "ecma",
               "previous": {
-                "title": "疑惑",
-                "permalink": "/docs/js&ts/es6/疑惑"
+                "title": "查找",
+                "permalink": "/docs/js&ts/js数据结构与算法/查找"
               },
               "next": {
                 "title": "新要求",
                 "permalink": "/docs/js&ts/react/新要求"
+              }
+            },
+            {
+              "unversionedId": "linux/解惑迷经/巧计易混淆点",
+              "id": "linux/解惑迷经/巧计易混淆点",
+              "title": "巧计易混淆点",
+              "description": "父级目录，-r还是-p",
+              "source": "@site/docs/21.linux/50.解惑迷经/01.巧计易混淆点.md",
+              "sourceDirName": "21.linux/50.解惑迷经",
+              "slug": "/linux/解惑迷经/巧计易混淆点",
+              "permalink": "/docs/linux/解惑迷经/巧计易混淆点",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/21.linux/50.解惑迷经/01.巧计易混淆点.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "2024-01-03",
+                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/linux/intro"
               }
             },
             {
@@ -2960,8 +2590,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "2024-01-03",
-                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+                "title": "巧计易混淆点",
+                "permalink": "/docs/linux/解惑迷经/巧计易混淆点"
               },
               "next": {
                 "title": "刷题必备",
@@ -3327,6 +2957,26 @@
                 "title": "java面向对象",
                 "permalink": "/docs/java/java-se/面向对象基础/java面向对象"
               }
+            },
+            {
+              "unversionedId": "win10系统/关于全角半角切换",
+              "id": "win10系统/关于全角半角切换",
+              "title": "关于全角半角切换",
+              "description": "全角半角",
+              "source": "@site/docs/80.win10系统/关于全角半角切换.md",
+              "sourceDirName": "80.win10系统",
+              "slug": "/win10系统/关于全角半角切换",
+              "permalink": "/docs/win10系统/关于全角半角切换",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/80.win10系统/关于全角半角切换.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "刷题必备",
+                "permalink": "/docs/docker/刷题必备"
+              }
             }
           ],
           "drafts": [],
@@ -3344,201 +2994,33 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "es5",
+                    "label": "js学习经",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/xhr"
+                        "id": "js&ts/js学习经/xhr"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/精度丢失"
+                        "id": "js&ts/js学习经/精度丢失"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/日期格式化"
+                        "id": "js&ts/js学习经/日期格式化"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/事件"
+                        "id": "js&ts/js学习经/事件"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/函数"
+                        "id": "js&ts/js学习经/函数"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/es5/本地存储"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "es6",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/迭代器与生成器"
-                      },
-                      {
-                        "type": "category",
-                        "label": "js高级程序设计(第五版)",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "js&ts/es6/js高级程序设计(第五版)/迭代器与生成器"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/es6/js高级程序设计(第五版)/01."
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/es6/js高级程序设计(第五版)/02."
-                          }
-                        ]
-                      },
-                      {
-                        "type": "category",
-                        "label": "js高级程序设计(第四版)",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "js&ts/es6/js高级程序设计(第四版)/迭代器与生成器"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/疑惑"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "vue3",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/vue3/新要求"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "react",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/react/新要求"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "js高级程序设计(第四版)",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "category",
-                        "label": "变量，作用域和内存",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "category",
-                        "label": "基本引用类型",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/基本引用类型/RegExp"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "category",
-                        "label": "集合引用类型副本",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/迭代器与生成器"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/面向对象程序编程"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/intro"
+                        "id": "js&ts/js学习经/本地存储"
                       }
                     ]
                   },
@@ -3636,33 +3118,85 @@
                   },
                   {
                     "type": "category",
-                    "label": "常用算法",
+                    "label": "标准阮一峰es6入门",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/intro"
+                        "id": "js&ts/标准阮一峰es6入门/迭代器与生成器"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/基础准备"
+                        "id": "js&ts/标准阮一峰es6入门/面向对象程序编程"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/线性结构"
+                        "id": "js&ts/标准阮一峰es6入门/01"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/排序"
+                        "id": "js&ts/标准阮一峰es6入门/02."
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/快速排序"
+                        "id": "js&ts/标准阮一峰es6入门/疑惑"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "js数据结构与算法",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "js&ts/js数据结构与算法/intro"
                       },
                       {
                         "type": "doc",
-                        "id": "js&ts/常用算法/查找"
+                        "id": "js&ts/js数据结构与算法/基础准备"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "js&ts/js数据结构与算法/线性结构"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "js&ts/js数据结构与算法/排序"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "js&ts/js数据结构与算法/快速排序"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "js&ts/js数据结构与算法/查找"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "vue3",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "js&ts/vue3/新要求"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "react",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "js&ts/react/新要求"
                       }
                     ]
                   },
@@ -3783,6 +3317,18 @@
                       {
                         "type": "doc",
                         "id": "js&ts/uniapp/常见问题"
+                      },
+                      {
+                        "type": "category",
+                        "label": "聊天记录",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "js&ts/uniapp/聊天记录/发送语音"
+                          }
+                        ]
                       }
                     ]
                   },
@@ -4243,6 +3789,18 @@
                 "collapsed": true,
                 "items": [
                   {
+                    "type": "category",
+                    "label": "解惑迷经",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "linux/解惑迷经/巧计易混淆点"
+                      }
+                    ]
+                  },
+                  {
                     "type": "doc",
                     "id": "linux/intro"
                   },
@@ -4315,206 +3873,50 @@
                     "id": "docker/刷题必备"
                   }
                 ]
+              },
+              {
+                "type": "category",
+                "label": "win10系统",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "win10系统/关于全角半角切换"
+                  }
+                ]
               }
             ],
             "ecma": [
               {
                 "type": "category",
-                "label": "es5",
+                "label": "js学习经",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/xhr"
+                    "id": "js&ts/js学习经/xhr"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/精度丢失"
+                    "id": "js&ts/js学习经/精度丢失"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/日期格式化"
+                    "id": "js&ts/js学习经/日期格式化"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/事件"
+                    "id": "js&ts/js学习经/事件"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/函数"
+                    "id": "js&ts/js学习经/函数"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/es5/本地存储"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "es6",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "js&ts/es6/迭代器与生成器"
-                  },
-                  {
-                    "type": "category",
-                    "label": "js高级程序设计(第五版)",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/js高级程序设计(第五版)/迭代器与生成器"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/js高级程序设计(第五版)/01."
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/js高级程序设计(第五版)/02."
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "js高级程序设计(第四版)",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/js高级程序设计(第四版)/迭代器与生成器"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "doc",
-                    "id": "js&ts/es6/疑惑"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "vue3",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "js&ts/vue3/新要求"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "react",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "js&ts/react/新要求"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "js高级程序设计(第四版)",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "变量，作用域和内存",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "基本引用类型",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/基本引用类型/RegExp"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "集合引用类型副本",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "doc",
-                    "id": "js&ts/js高级程序设计(第四版)/迭代器与生成器"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "js&ts/js高级程序设计(第四版)/面向对象程序编程"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "js&ts/js高级程序设计(第四版)/intro"
+                    "id": "js&ts/js学习经/本地存储"
                   }
                 ]
               },
@@ -4612,33 +4014,85 @@
               },
               {
                 "type": "category",
-                "label": "常用算法",
+                "label": "标准阮一峰es6入门",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/intro"
+                    "id": "js&ts/标准阮一峰es6入门/迭代器与生成器"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/基础准备"
+                    "id": "js&ts/标准阮一峰es6入门/面向对象程序编程"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/线性结构"
+                    "id": "js&ts/标准阮一峰es6入门/01"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/排序"
+                    "id": "js&ts/标准阮一峰es6入门/02."
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/快速排序"
+                    "id": "js&ts/标准阮一峰es6入门/疑惑"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "js数据结构与算法",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "js&ts/js数据结构与算法/intro"
                   },
                   {
                     "type": "doc",
-                    "id": "js&ts/常用算法/查找"
+                    "id": "js&ts/js数据结构与算法/基础准备"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "js&ts/js数据结构与算法/线性结构"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "js&ts/js数据结构与算法/排序"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "js&ts/js数据结构与算法/快速排序"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "js&ts/js数据结构与算法/查找"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "vue3",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "js&ts/vue3/新要求"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "react",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "js&ts/react/新要求"
                   }
                 ]
               },
@@ -4759,6 +4213,18 @@
                   {
                     "type": "doc",
                     "id": "js&ts/uniapp/常见问题"
+                  },
+                  {
+                    "type": "category",
+                    "label": "聊天记录",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "js&ts/uniapp/聊天记录/发送语音"
+                      }
+                    ]
                   }
                 ]
               },
@@ -5155,77 +4621,11 @@
               ]
             },
             "nextItem": {
-              "title": "Welcome221",
-              "permalink": "/blog/welcome221"
-            }
-          },
-          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
-        },
-        {
-          "id": "welcome221",
-          "metadata": {
-            "permalink": "/blog/welcome221",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/intro.md",
-            "source": "@site/blog/2024/intro.md",
-            "title": "Welcome221",
-            "description": "hello world",
-            "date": "2023-12-20T23:43:51.000Z",
-            "formattedDate": "December 20, 2023",
-            "tags": [
-              {
-                "label": "facebook",
-                "permalink": "/blog/tags/facebook"
-              },
-              {
-                "label": "hello",
-                "permalink": "/blog/tags/hello"
-              },
-              {
-                "label": "docusaurus",
-                "permalink": "/blog/tags/docusaurus"
-              }
-            ],
-            "readingTime": 0.01,
-            "hasTruncateMarker": false,
-            "authors": [
-              {
-                "name": "Sébastien Lorber",
-                "title": "Docusaurus maintainer",
-                "url": "https://sebastienlorber.com",
-                "imageURL": "https://github.com/slorber.png",
-                "key": "slorber"
-              },
-              {
-                "name": "Yangshun Tay",
-                "title": "Front End Engineer @ Facebook",
-                "url": "https://github.com/yangshun",
-                "imageURL": "https://github.com/yangshun.png",
-                "key": "yangshun"
-              }
-            ],
-            "frontMatter": {
-              "slug": "welcome221",
-              "title": "Welcome221",
-              "authors": [
-                "slorber",
-                "yangshun"
-              ],
-              "tags": [
-                "facebook",
-                "hello",
-                "docusaurus"
-              ]
-            },
-            "prevItem": {
-              "title": "We1lcome113",
-              "permalink": "/blog/we1lcome112"
-            },
-            "nextItem": {
               "title": "Welcome212",
               "permalink": "/blog/welcome212"
             }
           },
-          "content": "hello world"
+          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
         },
         {
           "id": "welcome212",
@@ -5283,8 +4683,74 @@
               ]
             },
             "prevItem": {
+              "title": "We1lcome113",
+              "permalink": "/blog/we1lcome112"
+            },
+            "nextItem": {
               "title": "Welcome221",
               "permalink": "/blog/welcome221"
+            }
+          },
+          "content": "hello world"
+        },
+        {
+          "id": "welcome221",
+          "metadata": {
+            "permalink": "/blog/welcome221",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/intro.md",
+            "source": "@site/blog/2024/intro.md",
+            "title": "Welcome221",
+            "description": "hello world",
+            "date": "2023-12-20T23:43:51.000Z",
+            "formattedDate": "December 20, 2023",
+            "tags": [
+              {
+                "label": "facebook",
+                "permalink": "/blog/tags/facebook"
+              },
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.01,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "Sébastien Lorber",
+                "title": "Docusaurus maintainer",
+                "url": "https://sebastienlorber.com",
+                "imageURL": "https://github.com/slorber.png",
+                "key": "slorber"
+              },
+              {
+                "name": "Yangshun Tay",
+                "title": "Front End Engineer @ Facebook",
+                "url": "https://github.com/yangshun",
+                "imageURL": "https://github.com/yangshun.png",
+                "key": "yangshun"
+              }
+            ],
+            "frontMatter": {
+              "slug": "welcome221",
+              "title": "Welcome221",
+              "authors": [
+                "slorber",
+                "yangshun"
+              ],
+              "tags": [
+                "facebook",
+                "hello",
+                "docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "Welcome212",
+              "permalink": "/blog/welcome212"
             },
             "nextItem": {
               "title": "java面向对象基础",
@@ -5312,8 +4778,8 @@
               "title": "java面向对象基础"
             },
             "prevItem": {
-              "title": "Welcome212",
-              "permalink": "/blog/welcome212"
+              "title": "Welcome221",
+              "permalink": "/blog/welcome221"
             },
             "nextItem": {
               "title": "Welcome",
@@ -5545,8 +5011,8 @@
         {
           "items": [
             "we1lcome112",
-            "welcome221",
             "welcome212",
+            "welcome221",
             "welcome111",
             "welcome",
             "mdx-blog-post",
@@ -5569,8 +5035,8 @@
           "label": "facebook",
           "items": [
             "we1lcome112",
-            "welcome221",
             "welcome212",
+            "welcome221",
             "welcome"
           ],
           "permalink": "/blog/tags/facebook",
@@ -5578,8 +5044,8 @@
             {
               "items": [
                 "we1lcome112",
-                "welcome221",
                 "welcome212",
+                "welcome221",
                 "welcome"
               ],
               "metadata": {
@@ -5598,8 +5064,8 @@
           "label": "hello",
           "items": [
             "we1lcome112",
-            "welcome221",
             "welcome212",
+            "welcome221",
             "welcome",
             "long-blog-post"
           ],
@@ -5608,8 +5074,8 @@
             {
               "items": [
                 "we1lcome112",
-                "welcome221",
                 "welcome212",
+                "welcome221",
                 "welcome",
                 "long-blog-post"
               ],
@@ -5629,8 +5095,8 @@
           "label": "docusaurus",
           "items": [
             "we1lcome112",
-            "welcome221",
             "welcome212",
+            "welcome221",
             "welcome",
             "mdx-blog-post",
             "long-blog-post",
@@ -5641,8 +5107,8 @@
             {
               "items": [
                 "we1lcome112",
-                "welcome221",
                 "welcome212",
+                "welcome221",
                 "welcome",
                 "mdx-blog-post",
                 "long-blog-post",

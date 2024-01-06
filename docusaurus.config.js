@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "liwuming的工程师之路",
+  title: "liwuming",
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -70,7 +70,7 @@ const config = {
 		 }
 	  },
       navbar: {
-        title: "liwuming'blog",
+        title: "爱编程",
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',

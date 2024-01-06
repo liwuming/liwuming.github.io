@@ -60,7 +60,7 @@ main>.container{margin:15px auto;padding:10px 30px 20px 30px;width:960px!importa
 
 
 .markdown>h1,
-.markdown>h1:first-child{margin:0.35rem 0;padding-bottom:0.75rem;font-size:2.1rem;position:relative;}
+.markdown>h1:first-child{margin:0.35rem 0 20px 0;padding-bottom:0.75rem;font-size:2.1rem;position:relative;}
 .markdown>h1:first-child:before{width:100%;content:"";border-bottom:3px solid #ddd;position:absolute;bottom:0;left:0;}
 
 
