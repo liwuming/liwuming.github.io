@@ -1,8 +1,8 @@
 {
   "unversionedId": "js&ts/es5/函数",
   "id": "js&ts/es5/函数",
-  "title": "函数的定义",
-  "description": "函数的表达式",
+  "title": "js之函数",
+  "description": "函数的定义",
   "source": "@site/docs/02.js&ts/01.es5/函数.md",
   "sourceDirName": "02.js&ts/01.es5",
   "slug": "/js&ts/es5/函数",

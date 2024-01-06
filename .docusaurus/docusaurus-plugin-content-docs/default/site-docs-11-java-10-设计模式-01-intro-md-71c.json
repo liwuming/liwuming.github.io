@@ -15,8 +15,8 @@
   "frontMatter": {},
   "sidebar": "java",
   "previous": {
-    "title": "排序基础篇",
-    "permalink": "/docs/java/算法与数据结构/排序算法"
+    "title": "查找算法",
+    "permalink": "/docs/java/算法与数据结构/查找算法"
   },
   "next": {
     "title": "单例设计模式",
