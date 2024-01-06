@@ -1,6 +1,10 @@
 # Dependencies
 /node_modules
-!/node_modules/@docusaurus/theme-classic/lib/theme/DocItem/*
+!/node_modules/@docusaurus/
+/node_modules/@docusaurus/theme-classic/
+!/node_modules/@docusaurus/theme-classic/lib/
+/node_modules/@docusaurus/theme-classic/lib/theme/
+!/node_modules/@docusaurus/theme-classic/lib/theme/DocItem/
 
 
 
