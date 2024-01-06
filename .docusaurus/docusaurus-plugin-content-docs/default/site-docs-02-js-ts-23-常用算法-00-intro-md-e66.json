@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/常用算法/intro",
+  "id": "js&ts/常用算法/intro",
+  "title": "学习目标",
+  "description": "线性结构",
+  "source": "@site/docs/02.js&ts/23.常用算法/00.intro.md",
+  "sourceDirName": "02.js&ts/23.常用算法",
+  "slug": "/js&ts/常用算法/intro",
+  "permalink": "/docs/js&ts/常用算法/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/23.常用算法/00.intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "学习如何开发npm包，使用es6语法，重写kity",
+    "permalink": "/docs/js&ts/实践经验/如何开发npm包"
+  },
+  "next": {
+    "title": "基础准备",
+    "permalink": "/docs/js&ts/常用算法/基础准备"
+  }
+}

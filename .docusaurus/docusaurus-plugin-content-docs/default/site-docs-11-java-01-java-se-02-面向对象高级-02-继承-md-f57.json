@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/java-se/面向对象高级/继承",
+  "id": "java/java-se/面向对象高级/继承",
+  "title": "继承",
+  "description": "java是面向对象的编程语言，面前对象编程的三个特征，封装，继承和多态",
+  "source": "@site/docs/11.java/01.java-se/02.面向对象高级/02.继承.md",
+  "sourceDirName": "11.java/01.java-se/02.面向对象高级",
+  "slug": "/java/java-se/面向对象高级/继承",
+  "permalink": "/docs/java/java-se/面向对象高级/继承",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/02.面向对象高级/02.继承.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "关于static关键字概述",
+    "permalink": "/docs/java/java-se/面向对象高级/static关键字"
+  },
+  "next": {
+    "title": "Object类",
+    "permalink": "/docs/java/java-se/面向对象高级/Object类"
+  }
+}

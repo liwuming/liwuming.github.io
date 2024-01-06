@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/java-se/面向对象高级/static关键字",
+  "id": "java/java-se/面向对象高级/static关键字",
+  "title": "关于static关键字概述",
+  "description": "static关键字，译为静态的，可用来修饰成员属性和成员方法",
+  "source": "@site/docs/11.java/01.java-se/02.面向对象高级/01.static关键字.md",
+  "sourceDirName": "11.java/01.java-se/02.面向对象高级",
+  "slug": "/java/java-se/面向对象高级/static关键字",
+  "permalink": "/docs/java/java-se/面向对象高级/static关键字",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/02.面向对象高级/01.static关键字.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/java/java-se/面向对象高级/intro"
+  },
+  "next": {
+    "title": "继承",
+    "permalink": "/docs/java/java-se/面向对象高级/继承"
+  }
+}

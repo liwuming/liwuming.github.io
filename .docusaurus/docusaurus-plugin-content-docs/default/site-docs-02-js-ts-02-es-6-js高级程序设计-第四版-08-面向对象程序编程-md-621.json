@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+  "id": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+  "title": "面向对象程序编程",
+  "description": "",
+  "source": "@site/docs/02.js&ts/02.es6/js高级程序设计(第四版)/08.面向对象程序编程.md",
+  "sourceDirName": "02.js&ts/02.es6/js高级程序设计(第四版)",
+  "slug": "/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+  "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/js高级程序设计(第四版)/08.面向对象程序编程.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "什么是迭代",
+    "permalink": "/docs/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器"
+  },
+  "next": {
+    "title": "疑惑",
+    "permalink": "/docs/js&ts/es6/疑惑"
+  }
+}

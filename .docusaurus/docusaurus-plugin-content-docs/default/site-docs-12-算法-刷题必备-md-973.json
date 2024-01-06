@@ -1,0 +1,24 @@
+{
+  "unversionedId": "算法/刷题必备",
+  "id": "算法/刷题必备",
+  "title": "刷题必备",
+  "description": "刷题必备",
+  "source": "@site/docs/12.算法/刷题必备.md",
+  "sourceDirName": "12.算法",
+  "slug": "/算法/刷题必备",
+  "permalink": "/docs/算法/刷题必备",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/12.算法/刷题必备.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "intro",
+    "permalink": "/docs/算法/intro"
+  },
+  "next": {
+    "title": "2024-01-03",
+    "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+  }
+}

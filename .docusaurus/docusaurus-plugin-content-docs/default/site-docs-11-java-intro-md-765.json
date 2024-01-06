@@ -1,0 +1,20 @@
+{
+  "unversionedId": "java/intro",
+  "id": "java/intro",
+  "title": "intro",
+  "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
+  "source": "@site/docs/11.java/intro.md",
+  "sourceDirName": "11.java",
+  "slug": "/java/intro",
+  "permalink": "/docs/java/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "idea",
+    "permalink": "/docs/java/ide使用技巧/idea"
+  }
+}

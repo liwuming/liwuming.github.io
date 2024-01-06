@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+  "id": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+  "title": "date对象",
+  "description": "如何接收application/json",
+  "source": "@site/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.date对象.md",
+  "sourceDirName": "02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型",
+  "slug": "/js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+  "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计(第四版)/05.基本引用类型/00.date对象.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "RegExp",
+    "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp"
+  },
+  "next": {
+    "title": "原始值包装类型",
+    "permalink": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型"
+  }
+}

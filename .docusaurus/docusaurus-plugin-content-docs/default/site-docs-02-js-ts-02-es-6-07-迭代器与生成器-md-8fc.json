@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/es6/迭代器与生成器",
+  "id": "js&ts/es6/迭代器与生成器",
+  "title": "迭代器与生成器",
+  "description": "集合引用类型",
+  "source": "@site/docs/02.js&ts/02.es6/07.迭代器与生成器.md",
+  "sourceDirName": "02.js&ts/02.es6",
+  "slug": "/js&ts/es6/迭代器与生成器",
+  "permalink": "/docs/js&ts/es6/迭代器与生成器",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/02.es6/07.迭代器与生成器.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "本地存储",
+    "permalink": "/docs/js&ts/es5/本地存储"
+  },
+  "next": {
+    "title": "迭代器与生成器",
+    "permalink": "/docs/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器"
+  }
+}

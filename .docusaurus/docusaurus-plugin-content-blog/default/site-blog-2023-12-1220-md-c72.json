@@ -1,0 +1,25 @@
+{
+  "permalink": "/blog/welcome111",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023/12/1220.md",
+  "source": "@site/blog/2023/12/1220.md",
+  "title": "java面向对象基础",
+  "description": "java面向对象基础",
+  "date": "2023-12-12T00:00:00.000Z",
+  "formattedDate": "December 12, 2023",
+  "tags": [],
+  "readingTime": 0.12,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "welcome111",
+    "title": "java面向对象基础"
+  },
+  "prevItem": {
+    "title": "Welcome221",
+    "permalink": "/blog/welcome221"
+  },
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
+  }
+}

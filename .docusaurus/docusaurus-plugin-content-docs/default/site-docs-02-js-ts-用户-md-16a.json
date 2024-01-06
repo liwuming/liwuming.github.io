@@ -1,0 +1,20 @@
+{
+  "unversionedId": "js&ts/用户",
+  "id": "js&ts/用户",
+  "title": "ant design pro安装及开发用户中心",
+  "description": "",
+  "source": "@site/docs/02.js&ts/用户.md",
+  "sourceDirName": "02.js&ts",
+  "slug": "/js&ts/用户",
+  "permalink": "/docs/js&ts/用户",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/用户.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "常用ui",
+    "permalink": "/docs/js&ts/前端开发"
+  }
+}

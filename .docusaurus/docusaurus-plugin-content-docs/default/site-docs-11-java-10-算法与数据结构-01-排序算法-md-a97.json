@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/算法与数据结构/排序算法",
+  "id": "java/算法与数据结构/排序算法",
+  "title": "排序基础篇",
+  "description": "冒泡排序",
+  "source": "@site/docs/11.java/10.算法与数据结构/01.排序算法.md",
+  "sourceDirName": "11.java/10.算法与数据结构",
+  "slug": "/java/算法与数据结构/排序算法",
+  "permalink": "/docs/java/算法与数据结构/排序算法",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/10.算法与数据结构/01.排序算法.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "算法概述",
+    "permalink": "/docs/java/算法与数据结构/intro"
+  },
+  "next": {
+    "title": "关于设计模式概述",
+    "permalink": "/docs/java/设计模式/intro"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "java/java-se/基础类库/时间和日期/Time类库",
+  "id": "java/java-se/基础类库/时间和日期/Time类库",
+  "title": "localDateTime",
+  "description": "get,获取指定的年月日时分秒字段",
+  "source": "@site/docs/11.java/01.java-se/10.基础类库/时间和日期/Time类库.md",
+  "sourceDirName": "11.java/01.java-se/10.基础类库/时间和日期",
+  "slug": "/java/java-se/基础类库/时间和日期/Time类库",
+  "permalink": "/docs/java/java-se/基础类库/时间和日期/Time类库",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.基础类库/时间和日期/Time类库.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "时间",
+    "permalink": "/docs/java/java-se/基础类库/时间和日期/"
+  },
+  "next": {
+    "title": "jdk8",
+    "permalink": "/docs/java/java-se/基础类库/时间和日期/jdk8"
+  }
+}

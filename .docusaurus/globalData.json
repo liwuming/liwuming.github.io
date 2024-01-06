@@ -1,0 +1,600 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "算法/刷题必备",
+              "path": "/docs/算法/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "算法/intro",
+              "path": "/docs/算法/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "算法/leecode/两数之和",
+              "path": "/docs/算法/leecode/两数之和",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "economist/year-2024/month01/2024-01-03",
+              "path": "/docs/economist/year-2024/month01/2024-01-03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/设计模式/单例模式",
+              "path": "/docs/java/设计模式/单例模式",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/设计模式/intro",
+              "path": "/docs/java/设计模式/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/排序算法",
+              "path": "/docs/java/算法与数据结构/排序算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/intro",
+              "path": "/docs/java/算法与数据结构/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/ide使用技巧/idea",
+              "path": "/docs/java/ide使用技巧/idea",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/intro",
+              "path": "/docs/java/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/jdk8",
+              "path": "/docs/java/java-se/基础类库/时间和日期/jdk8",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/readme",
+              "path": "/docs/java/java-se/基础类库/时间和日期/",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/Time类库",
+              "path": "/docs/java/java-se/基础类库/时间和日期/Time类库",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/system类库/readme",
+              "path": "/docs/java/java-se/基础类库/system类库/",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/utils/arrays",
+              "path": "/docs/java/java-se/基础类库/utils/arrays",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/泛型数组",
+              "path": "/docs/java/java-se/面向对象高级/泛型数组",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/继承",
+              "path": "/docs/java/java-se/面向对象高级/继承",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/接口",
+              "path": "/docs/java/java-se/面向对象高级/接口",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/内部类",
+              "path": "/docs/java/java-se/面向对象高级/内部类",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/intro",
+              "path": "/docs/java/java-se/面向对象高级/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/java生成随机数的方法",
+              "path": "/docs/java/java-se/面向对象高级/java生成随机数的方法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/Object类",
+              "path": "/docs/java/java-se/面向对象高级/Object类",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/static关键字",
+              "path": "/docs/java/java-se/面向对象高级/static关键字",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/this与super",
+              "path": "/docs/java/java-se/面向对象高级/this与super",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/访问权限控制",
+              "path": "/docs/java/java-se/面向对象基础/访问权限控制",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/新建 文本文档",
+              "path": "/docs/java/java-se/面向对象基础/新建 文本文档",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/java面向对象",
+              "path": "/docs/java/java-se/面向对象基础/java面向对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/数组/数组的遍历",
+              "path": "/docs/java/java-se/数组/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/java面向对象",
+              "path": "/docs/java/java-se/java面向对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/lambda",
+              "path": "/docs/java/java-se/lambda",
+              "sidebar": "java"
+            },
+            {
+              "id": "js&ts/2303/如何开发npm包",
+              "path": "/docs/js&ts/2303/如何开发npm包",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/2303/研究库",
+              "path": "/docs/js&ts/2303/研究库",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/2303/js精度丢失",
+              "path": "/docs/js&ts/2303/js精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/查找",
+              "path": "/docs/js&ts/常用算法/查找",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/基础准备",
+              "path": "/docs/js&ts/常用算法/基础准备",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/快速排序",
+              "path": "/docs/js&ts/常用算法/快速排序",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/排序",
+              "path": "/docs/js&ts/常用算法/排序",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/线性结构",
+              "path": "/docs/js&ts/常用算法/线性结构",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/常用算法/intro",
+              "path": "/docs/js&ts/常用算法/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/前端开发",
+              "path": "/docs/js&ts/前端开发",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/实践经验/前端常见问题汇总/如何开发npm包",
+              "path": "/docs/js&ts/实践经验/前端常见问题汇总/如何开发npm包",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/实践经验/前端常见问题汇总/js精度丢失",
+              "path": "/docs/js&ts/实践经验/前端常见问题汇总/js精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/实践经验/前端常见问题汇总/one",
+              "path": "/docs/js&ts/实践经验/前端常见问题汇总/one",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/小程序开发/常见问题",
+              "path": "/docs/js&ts/小程序开发/常见问题",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/小程序开发/地图",
+              "path": "/docs/js&ts/小程序开发/地图",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/小程序开发/如何查看小程序管理员",
+              "path": "/docs/js&ts/小程序开发/如何查看小程序管理员",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/用户",
+              "path": "/docs/js&ts/用户",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/本地存储",
+              "path": "/docs/js&ts/es5/本地存储",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/函数",
+              "path": "/docs/js&ts/es5/函数",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/精度丢失",
+              "path": "/docs/js&ts/es5/精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/日期格式化",
+              "path": "/docs/js&ts/es5/日期格式化",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/事件",
+              "path": "/docs/js&ts/es5/事件",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es5/xhr",
+              "path": "/docs/js&ts/es5/xhr",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/迭代器与生成器",
+              "path": "/docs/js&ts/es6/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/疑惑",
+              "path": "/docs/js&ts/es6/疑惑",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
+              "path": "/docs/js&ts/es6/js高级程序设计(第四版)/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+              "path": "/docs/js&ts/es6/js高级程序设计(第四版)/面向对象程序编程",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/js高级程序设计(第五版)/01.",
+              "path": "/docs/js&ts/es6/js高级程序设计(第五版)/01.",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/js高级程序设计(第五版)/02.",
+              "path": "/docs/js&ts/es6/js高级程序设计(第五版)/02.",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
+              "path": "/docs/js&ts/es6/js高级程序设计(第五版)/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/intro",
+              "path": "/docs/js&ts/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/迭代器与生成器",
+              "path": "/docs/js&ts/js高级程序设计-第四版/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/面向对象程序编程",
+              "path": "/docs/js&ts/js高级程序设计-第四版/面向对象程序编程",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+              "path": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计-第四版/intro",
+              "path": "/docs/js&ts/js高级程序设计-第四版/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/变量，作用域和内存/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/迭代器与生成器",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/基本引用类型/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/面向对象程序编程",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/面向对象程序编程",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/js高级程序设计(第四版)/intro",
+              "path": "/docs/js&ts/js高级程序设计(第四版)/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/react/新要求",
+              "path": "/docs/js&ts/react/新要求",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/ts/ts是什么",
+              "path": "/docs/js&ts/ts/ts是什么",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/02-27",
+              "path": "/docs/js&ts/uniapp/02-27",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/0728",
+              "path": "/docs/js&ts/uniapp/0728",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/常见问题",
+              "path": "/docs/js&ts/uniapp/常见问题",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/地图",
+              "path": "/docs/js&ts/uniapp/地图",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/如何实现导出excel",
+              "path": "/docs/js&ts/uniapp/如何实现导出excel",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/下拉加载更多",
+              "path": "/docs/js&ts/uniapp/下拉加载更多",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/uniapp/wifi调试",
+              "path": "/docs/js&ts/uniapp/wifi调试",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "js&ts/vue3/新要求",
+              "path": "/docs/js&ts/vue3/新要求",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            },
+            "ecma": {
+              "link": {
+                "path": "/docs/js&ts/es5/xhr",
+                "label": "js&ts/es5/xhr"
+              }
+            },
+            "java": {
+              "link": {
+                "path": "/docs/java/java-se/面向对象基础/java面向对象",
+                "label": "java/java-se/面向对象基础/java面向对象"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

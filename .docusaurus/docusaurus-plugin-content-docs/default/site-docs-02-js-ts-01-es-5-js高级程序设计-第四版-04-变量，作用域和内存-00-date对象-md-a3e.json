@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+  "id": "js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+  "title": "date对象",
+  "description": "ecmaScript变量可以分为两种不同的类型的数据：原始值和和引用类型",
+  "source": "@site/docs/02.js&ts/01.es5/js高级程序设计(第四版)/04.变量，作用域和内存/00.date对象.md",
+  "sourceDirName": "02.js&ts/01.es5/js高级程序设计(第四版)/04.变量，作用域和内存",
+  "slug": "/js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+  "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/date对象",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/js高级程序设计(第四版)/04.变量，作用域和内存/00.date对象.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "RegExp",
+    "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/RegExp"
+  },
+  "next": {
+    "title": "原始值包装类型",
+    "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/变量，作用域和内存/原始值包装类型"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/常用算法/快速排序",
+  "id": "js&ts/常用算法/快速排序",
+  "title": "快速排序",
+  "description": "希尔排序",
+  "source": "@site/docs/02.js&ts/23.常用算法/09.快速排序.md",
+  "sourceDirName": "02.js&ts/23.常用算法",
+  "slug": "/js&ts/常用算法/快速排序",
+  "permalink": "/docs/js&ts/常用算法/快速排序",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/23.常用算法/09.快速排序.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "排序",
+    "permalink": "/docs/js&ts/常用算法/排序"
+  },
+  "next": {
+    "title": "查找",
+    "permalink": "/docs/js&ts/常用算法/查找"
+  }
+}

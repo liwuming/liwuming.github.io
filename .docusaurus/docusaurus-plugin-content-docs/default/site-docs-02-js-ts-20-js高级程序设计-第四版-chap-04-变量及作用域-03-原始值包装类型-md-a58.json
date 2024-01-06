@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+  "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+  "title": "原始值包装类型",
+  "description": "如何接收application/json",
+  "source": "@site/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
+  "sourceDirName": "02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域",
+  "slug": "/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+  "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计-第四版/chap04.变量及作用域/03.原始值包装类型.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "1211",
+    "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象"
+  },
+  "next": {
+    "title": "内置单例对象",
+    "permalink": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象"
+  }
+}

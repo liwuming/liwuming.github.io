@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/es5/精度丢失",
+  "id": "js&ts/es5/精度丢失",
+  "title": "js中两个小数相减，出现多位小数",
+  "description": "",
+  "source": "@site/docs/02.js&ts/01.es5/01.精度丢失.md",
+  "sourceDirName": "02.js&ts/01.es5",
+  "slug": "/js&ts/es5/精度丢失",
+  "permalink": "/docs/js&ts/es5/精度丢失",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/01.精度丢失.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "xhr",
+    "permalink": "/docs/js&ts/es5/xhr"
+  },
+  "next": {
+    "title": "日期格式化",
+    "permalink": "/docs/js&ts/es5/日期格式化"
+  }
+}
