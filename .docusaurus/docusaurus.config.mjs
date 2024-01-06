@@ -7,26 +7,20 @@ export default {
   "title": "liwuming",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
-  "url": "https://your-docusaurus-test-site.com",
+  "url": "https://liwuming.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
-  "i18n": {
-    "defaultLocale": "en",
-    "locales": [
-      "en"
-    ],
-    "path": "i18n",
-    "localeConfigs": {}
-  },
+  "organizationName": "liwuming",
+  "projectName": "liwuming.github.io",
+  "deploymentBranch": "gh-pages",
+  "trailingSlash": false,
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\github.io\\sidebars.js",
+          "sidebarPath": "D:\\one\\sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,7 +28,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "D:\\github.io\\src\\css\\custom.css"
+          "customCss": "D:\\one\\src\\css\\custom.css"
         }
       }
     ]
@@ -309,6 +303,14 @@ export default {
     }
   },
   "baseUrlIssueBanner": true,
+  "i18n": {
+    "defaultLocale": "en",
+    "path": "i18n",
+    "locales": [
+      "en"
+    ],
+    "localeConfigs": {}
+  },
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
