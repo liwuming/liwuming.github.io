@@ -1,0 +1,24 @@
+{
+  "unversionedId": "java/ide使用技巧/idea",
+  "id": "java/ide使用技巧/idea",
+  "title": "idea",
+  "description": "IDEA中快速跳出引号，中括号，大括号的快捷方式",
+  "source": "@site/docs/11.java/30.ide使用技巧/idea.md",
+  "sourceDirName": "11.java/30.ide使用技巧",
+  "slug": "/java/ide使用技巧/idea",
+  "permalink": "/docs/java/ide使用技巧/idea",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/30.ide使用技巧/idea.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "单例设计模式",
+    "permalink": "/docs/java/设计模式/单例模式"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/java/intro"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "unversionedId": "js&ts/es5/xhr",
+  "id": "js&ts/es5/xhr",
+  "title": "xhr",
+  "description": "如何接收application/json",
+  "source": "@site/docs/02.js&ts/01.es5/00.xhr.md",
+  "sourceDirName": "02.js&ts/01.es5",
+  "slug": "/js&ts/es5/xhr",
+  "permalink": "/docs/js&ts/es5/xhr",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/00.xhr.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "next": {
+    "title": "js中两个小数相减，出现多位小数",
+    "permalink": "/docs/js&ts/es5/精度丢失"
+  }
+}

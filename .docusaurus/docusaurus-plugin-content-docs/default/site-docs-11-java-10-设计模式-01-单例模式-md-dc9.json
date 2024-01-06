@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/设计模式/单例模式",
+  "id": "java/设计模式/单例模式",
+  "title": "单例设计模式",
+  "description": "单例设计模式主要用于解决对象的实例有且只有一个的问题",
+  "source": "@site/docs/11.java/10.设计模式/01.单例模式.md",
+  "sourceDirName": "11.java/10.设计模式",
+  "slug": "/java/设计模式/单例模式",
+  "permalink": "/docs/java/设计模式/单例模式",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/10.设计模式/01.单例模式.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "关于设计模式概述",
+    "permalink": "/docs/java/设计模式/intro"
+  },
+  "next": {
+    "title": "idea",
+    "permalink": "/docs/java/ide使用技巧/idea"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "permalink": "/blog/welcome221",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/intro.md",
+  "source": "@site/blog/2024/intro.md",
+  "title": "Welcome221",
+  "description": "hello world",
+  "date": "2023-12-20T23:43:51.000Z",
+  "formattedDate": "December 20, 2023",
+  "tags": [
+    {
+      "label": "facebook",
+      "permalink": "/blog/tags/facebook"
+    },
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 0.01,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "Sébastien Lorber",
+      "title": "Docusaurus maintainer",
+      "url": "https://sebastienlorber.com",
+      "imageURL": "https://github.com/slorber.png",
+      "key": "slorber"
+    },
+    {
+      "name": "Yangshun Tay",
+      "title": "Front End Engineer @ Facebook",
+      "url": "https://github.com/yangshun",
+      "imageURL": "https://github.com/yangshun.png",
+      "key": "yangshun"
+    }
+  ],
+  "frontMatter": {
+    "slug": "welcome221",
+    "title": "Welcome221",
+    "authors": [
+      "slorber",
+      "yangshun"
+    ],
+    "tags": [
+      "facebook",
+      "hello",
+      "docusaurus"
+    ]
+  },
+  "prevItem": {
+    "title": "Welcome212",
+    "permalink": "/blog/welcome212"
+  },
+  "nextItem": {
+    "title": "java面向对象基础",
+    "permalink": "/blog/welcome111"
+  }
+}
