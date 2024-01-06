@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "ecma",
   "previous": {
-    "title": "常见问题",
-    "permalink": "/docs/js&ts/uniapp/常见问题"
+    "title": "uniapp实现聊天功能",
+    "permalink": "/docs/js&ts/uniapp/聊天记录/发送语音"
   },
   "next": {
     "title": "ant design pro安装及开发用户中心",

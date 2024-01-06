@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
+  "title": "liwuming",
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-test-site.com",
@@ -49,7 +49,7 @@ export default {
       "versionPersistence": "localStorage"
     },
     "navbar": {
-      "title": "liwuming'blog",
+      "title": "爱编程",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.svg"
