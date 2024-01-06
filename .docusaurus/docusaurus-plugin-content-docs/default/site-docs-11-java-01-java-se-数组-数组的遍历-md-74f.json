@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "java",
   "previous": {
-    "title": "lambda",
-    "permalink": "/docs/java/java-se/lambda"
+    "title": "如何求平均数",
+    "permalink": "/docs/java/java-se/如何求平均数"
   },
   "next": {
-    "title": "算法概述",
-    "permalink": "/docs/java/算法与数据结构/intro"
+    "title": "字符串函数",
+    "permalink": "/docs/java/java-se/正则表达式/字符串函数"
   }
 }

@@ -26,6 +26,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "docker/刷题必备",
+              "path": "/docs/docker/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "docker/intro",
+              "path": "/docs/docker/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "economist/year-2024/month01/2024-01-03",
               "path": "/docs/economist/year-2024/month01/2024-01-03",
               "sidebar": "tutorialSidebar"
@@ -43,6 +53,11 @@
             {
               "id": "java/设计模式/intro",
               "path": "/docs/java/设计模式/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/查找算法",
+              "path": "/docs/java/算法与数据结构/查找算法",
               "sidebar": "java"
             },
             {
@@ -66,6 +81,31 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/常用操作总结/基本类型-int/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/数组操作/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/数组操作/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/正则/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/正则/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/字符串/字符串对象",
+              "path": "/docs/java/java-se/常用操作总结/字符串/字符串对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/泛型程序设计/泛型升序设计",
+              "path": "/docs/java/java-se/泛型程序设计/泛型升序设计",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/基础类库/时间和日期/jdk8",
               "path": "/docs/java/java-se/基础类库/时间和日期/jdk8",
               "sidebar": "java"
@@ -81,6 +121,11 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/基础类库/ArrayList",
+              "path": "/docs/java/java-se/基础类库/ArrayList",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/基础类库/system类库/readme",
               "path": "/docs/java/java-se/基础类库/system类库/",
               "sidebar": "java"
@@ -88,6 +133,26 @@
             {
               "id": "java/java-se/基础类库/utils/arrays",
               "path": "/docs/java/java-se/基础类库/utils/arrays",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/ArrayList",
+              "path": "/docs/java/java-se/集合/ArrayList",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/collection",
+              "path": "/docs/java/java-se/集合/collection",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/intro",
+              "path": "/docs/java/java-se/集合/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/map",
+              "path": "/docs/java/java-se/集合/map",
               "sidebar": "java"
             },
             {
@@ -151,8 +216,28 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/如何求平均数",
+              "path": "/docs/java/java-se/如何求平均数",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/数组/数组的遍历",
               "path": "/docs/java/java-se/数组/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/异常，断言和日志/处理错误",
+              "path": "/docs/java/java-se/异常，断言和日志/处理错误",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/正则表达式/正则入门",
+              "path": "/docs/java/java-se/正则表达式/正则入门",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/正则表达式/字符串函数",
+              "path": "/docs/java/java-se/正则表达式/字符串函数",
               "sidebar": "java"
             },
             {
@@ -519,6 +604,46 @@
               "id": "js&ts/vue3/新要求",
               "path": "/docs/js&ts/vue3/新要求",
               "sidebar": "ecma"
+            },
+            {
+              "id": "linux/刷题必备",
+              "path": "/docs/linux/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "linux/intro",
+              "path": "/docs/linux/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mysql/刷题必备",
+              "path": "/docs/mysql/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "mysql/intro",
+              "path": "/docs/mysql/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nginx/刷题必备",
+              "path": "/docs/nginx/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nginx/intro",
+              "path": "/docs/nginx/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "redis/刷题必备",
+              "path": "/docs/redis/刷题必备",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "redis/intro",
+              "path": "/docs/redis/intro",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",

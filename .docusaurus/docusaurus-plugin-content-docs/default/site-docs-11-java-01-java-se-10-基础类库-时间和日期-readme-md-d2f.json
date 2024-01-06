@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "java",
   "previous": {
-    "title": "arrays",
-    "permalink": "/docs/java/java-se/基础类库/utils/arrays"
+    "title": "ArrayList",
+    "permalink": "/docs/java/java-se/基础类库/ArrayList"
   },
   "next": {
     "title": "localDateTime",

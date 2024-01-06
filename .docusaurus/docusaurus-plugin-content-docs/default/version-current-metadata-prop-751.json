@@ -53,7 +53,7 @@
               },
               {
                 "type": "link",
-                "label": "函数的定义",
+                "label": "js之函数",
                 "href": "/docs/js&ts/es5/函数",
                 "docId": "js&ts/es5/函数"
               },
@@ -784,6 +784,66 @@
                 ]
               },
               {
+                "type": "category",
+                "label": "异常，断言和日志",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "处理错误",
+                    "href": "/docs/java/java-se/异常，断言和日志/处理错误",
+                    "docId": "java/java-se/异常，断言和日志/处理错误"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "泛型程序设计",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "泛型程序设计",
+                    "href": "/docs/java/java-se/泛型程序设计/泛型升序设计",
+                    "docId": "java/java-se/泛型程序设计/泛型升序设计"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "集合",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "ArrayList",
+                    "href": "/docs/java/java-se/集合/ArrayList",
+                    "docId": "java/java-se/集合/ArrayList"
+                  },
+                  {
+                    "type": "link",
+                    "label": "intro",
+                    "href": "/docs/java/java-se/集合/intro",
+                    "docId": "java/java-se/集合/intro"
+                  },
+                  {
+                    "type": "link",
+                    "label": "collection系列单列集合",
+                    "href": "/docs/java/java-se/集合/collection",
+                    "docId": "java/java-se/集合/collection"
+                  },
+                  {
+                    "type": "link",
+                    "label": "map",
+                    "href": "/docs/java/java-se/集合/map",
+                    "docId": "java/java-se/集合/map"
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "label": "java面向对象",
                 "href": "/docs/java/java-se/java面向对象",
@@ -816,6 +876,12 @@
                     ]
                   },
                   {
+                    "type": "link",
+                    "label": "ArrayList",
+                    "href": "/docs/java/java-se/基础类库/ArrayList",
+                    "docId": "java/java-se/基础类库/ArrayList"
+                  },
+                  {
                     "type": "category",
                     "label": "时间",
                     "collapsible": true,
@@ -839,10 +905,80 @@
                 ]
               },
               {
+                "type": "category",
+                "label": "常用操作总结",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "基本类型-int",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "数组的遍历",
+                        "href": "/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历",
+                        "docId": "java/java-se/常用操作总结/基本类型-int/数组的遍历"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "字符串",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "字符串常用操作",
+                        "href": "/docs/java/java-se/常用操作总结/字符串/字符串对象",
+                        "docId": "java/java-se/常用操作总结/字符串/字符串对象"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "数组操作",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "数组的遍历",
+                        "href": "/docs/java/java-se/常用操作总结/数组操作/数组的遍历",
+                        "docId": "java/java-se/常用操作总结/数组操作/数组的遍历"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "正则",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "常用正则表达式汇总",
+                        "href": "/docs/java/java-se/常用操作总结/正则/数组的遍历",
+                        "docId": "java/java-se/常用操作总结/正则/数组的遍历"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "type": "link",
                 "label": "lambda",
                 "href": "/docs/java/java-se/lambda",
                 "docId": "java/java-se/lambda"
+              },
+              {
+                "type": "link",
+                "label": "如何求平均数",
+                "href": "/docs/java/java-se/如何求平均数",
+                "docId": "java/java-se/如何求平均数"
               },
               {
                 "type": "category",
@@ -855,6 +991,26 @@
                     "label": "数组的遍历",
                     "href": "/docs/java/java-se/数组/数组的遍历",
                     "docId": "java/java-se/数组/数组的遍历"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "正则表达式",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "字符串函数",
+                    "href": "/docs/java/java-se/正则表达式/字符串函数",
+                    "docId": "java/java-se/正则表达式/字符串函数"
+                  },
+                  {
+                    "type": "link",
+                    "label": "正则表达式",
+                    "href": "/docs/java/java-se/正则表达式/正则入门",
+                    "docId": "java/java-se/正则表达式/正则入门"
                   }
                 ]
               }
@@ -877,6 +1033,12 @@
                 "label": "排序基础篇",
                 "href": "/docs/java/算法与数据结构/排序算法",
                 "docId": "java/算法与数据结构/排序算法"
+              },
+              {
+                "type": "link",
+                "label": "查找算法",
+                "href": "/docs/java/算法与数据结构/查找算法",
+                "docId": "java/算法与数据结构/查找算法"
               }
             ]
           },
@@ -985,6 +1147,106 @@
             ]
           }
         ]
+      },
+      {
+        "type": "category",
+        "label": "linux",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/linux/intro",
+            "docId": "linux/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/linux/刷题必备",
+            "docId": "linux/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "nginx",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/nginx/intro",
+            "docId": "nginx/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/nginx/刷题必备",
+            "docId": "nginx/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "mysql",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/mysql/intro",
+            "docId": "mysql/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/mysql/刷题必备",
+            "docId": "mysql/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "redis",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/redis/intro",
+            "docId": "redis/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/redis/刷题必备",
+            "docId": "redis/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "docker",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/docker/intro",
+            "docId": "docker/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/docker/刷题必备",
+            "docId": "docker/刷题必备"
+          }
+        ]
       }
     ],
     "ecma": [
@@ -1020,7 +1282,7 @@
           },
           {
             "type": "link",
-            "label": "函数的定义",
+            "label": "js之函数",
             "href": "/docs/js&ts/es5/函数",
             "docId": "js&ts/es5/函数"
           },
@@ -1679,6 +1941,66 @@
             ]
           },
           {
+            "type": "category",
+            "label": "异常，断言和日志",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "处理错误",
+                "href": "/docs/java/java-se/异常，断言和日志/处理错误",
+                "docId": "java/java-se/异常，断言和日志/处理错误"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "泛型程序设计",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "泛型程序设计",
+                "href": "/docs/java/java-se/泛型程序设计/泛型升序设计",
+                "docId": "java/java-se/泛型程序设计/泛型升序设计"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "集合",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "ArrayList",
+                "href": "/docs/java/java-se/集合/ArrayList",
+                "docId": "java/java-se/集合/ArrayList"
+              },
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/java/java-se/集合/intro",
+                "docId": "java/java-se/集合/intro"
+              },
+              {
+                "type": "link",
+                "label": "collection系列单列集合",
+                "href": "/docs/java/java-se/集合/collection",
+                "docId": "java/java-se/集合/collection"
+              },
+              {
+                "type": "link",
+                "label": "map",
+                "href": "/docs/java/java-se/集合/map",
+                "docId": "java/java-se/集合/map"
+              }
+            ]
+          },
+          {
             "type": "link",
             "label": "java面向对象",
             "href": "/docs/java/java-se/java面向对象",
@@ -1711,6 +2033,12 @@
                 ]
               },
               {
+                "type": "link",
+                "label": "ArrayList",
+                "href": "/docs/java/java-se/基础类库/ArrayList",
+                "docId": "java/java-se/基础类库/ArrayList"
+              },
+              {
                 "type": "category",
                 "label": "时间",
                 "collapsible": true,
@@ -1734,10 +2062,80 @@
             ]
           },
           {
+            "type": "category",
+            "label": "常用操作总结",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "基本类型-int",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "数组的遍历",
+                    "href": "/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历",
+                    "docId": "java/java-se/常用操作总结/基本类型-int/数组的遍历"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "字符串",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "字符串常用操作",
+                    "href": "/docs/java/java-se/常用操作总结/字符串/字符串对象",
+                    "docId": "java/java-se/常用操作总结/字符串/字符串对象"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "数组操作",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "数组的遍历",
+                    "href": "/docs/java/java-se/常用操作总结/数组操作/数组的遍历",
+                    "docId": "java/java-se/常用操作总结/数组操作/数组的遍历"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "正则",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "常用正则表达式汇总",
+                    "href": "/docs/java/java-se/常用操作总结/正则/数组的遍历",
+                    "docId": "java/java-se/常用操作总结/正则/数组的遍历"
+                  }
+                ]
+              }
+            ]
+          },
+          {
             "type": "link",
             "label": "lambda",
             "href": "/docs/java/java-se/lambda",
             "docId": "java/java-se/lambda"
+          },
+          {
+            "type": "link",
+            "label": "如何求平均数",
+            "href": "/docs/java/java-se/如何求平均数",
+            "docId": "java/java-se/如何求平均数"
           },
           {
             "type": "category",
@@ -1750,6 +2148,26 @@
                 "label": "数组的遍历",
                 "href": "/docs/java/java-se/数组/数组的遍历",
                 "docId": "java/java-se/数组/数组的遍历"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "正则表达式",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "字符串函数",
+                "href": "/docs/java/java-se/正则表达式/字符串函数",
+                "docId": "java/java-se/正则表达式/字符串函数"
+              },
+              {
+                "type": "link",
+                "label": "正则表达式",
+                "href": "/docs/java/java-se/正则表达式/正则入门",
+                "docId": "java/java-se/正则表达式/正则入门"
               }
             ]
           }
@@ -1772,6 +2190,12 @@
             "label": "排序基础篇",
             "href": "/docs/java/算法与数据结构/排序算法",
             "docId": "java/算法与数据结构/排序算法"
+          },
+          {
+            "type": "link",
+            "label": "查找算法",
+            "href": "/docs/java/算法与数据结构/查找算法",
+            "docId": "java/算法与数据结构/查找算法"
           }
         ]
       },
@@ -1836,6 +2260,18 @@
       "description": "题目描述",
       "sidebar": "tutorialSidebar"
     },
+    "docker/刷题必备": {
+      "id": "docker/刷题必备",
+      "title": "刷题必备",
+      "description": "刷题必备",
+      "sidebar": "tutorialSidebar"
+    },
+    "docker/intro": {
+      "id": "docker/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "tutorialSidebar"
+    },
     "economist/year-2024/month01/2024-01-03": {
       "id": "economist/year-2024/month01/2024-01-03",
       "title": "2024-01-03",
@@ -1858,6 +2294,12 @@
       "id": "java/设计模式/intro",
       "title": "关于设计模式概述",
       "description": "设计模式是什么，设计模式是针对特定问题的最优解，",
+      "sidebar": "java"
+    },
+    "java/算法与数据结构/查找算法": {
+      "id": "java/算法与数据结构/查找算法",
+      "title": "查找算法",
+      "description": "二分查找",
       "sidebar": "java"
     },
     "java/算法与数据结构/排序算法": {
@@ -1884,6 +2326,36 @@
       "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
       "sidebar": "java"
     },
+    "java/java-se/常用操作总结/基本类型-int/数组的遍历": {
+      "id": "java/java-se/常用操作总结/基本类型-int/数组的遍历",
+      "title": "数组的遍历",
+      "description": "foreach",
+      "sidebar": "java"
+    },
+    "java/java-se/常用操作总结/数组操作/数组的遍历": {
+      "id": "java/java-se/常用操作总结/数组操作/数组的遍历",
+      "title": "数组的遍历",
+      "description": "foreach",
+      "sidebar": "java"
+    },
+    "java/java-se/常用操作总结/正则/数组的遍历": {
+      "id": "java/java-se/常用操作总结/正则/数组的遍历",
+      "title": "常用正则表达式汇总",
+      "description": "手机号正则",
+      "sidebar": "java"
+    },
+    "java/java-se/常用操作总结/字符串/字符串对象": {
+      "id": "java/java-se/常用操作总结/字符串/字符串对象",
+      "title": "字符串常用操作",
+      "description": "字符串的定义",
+      "sidebar": "java"
+    },
+    "java/java-se/泛型程序设计/泛型升序设计": {
+      "id": "java/java-se/泛型程序设计/泛型升序设计",
+      "title": "泛型程序设计",
+      "description": "什么是泛型",
+      "sidebar": "java"
+    },
     "java/java-se/基础类库/时间和日期/jdk8": {
       "id": "java/java-se/基础类库/时间和日期/jdk8",
       "title": "jdk8",
@@ -1902,6 +2374,12 @@
       "description": "get,获取指定的年月日时分秒字段",
       "sidebar": "java"
     },
+    "java/java-se/基础类库/ArrayList": {
+      "id": "java/java-se/基础类库/ArrayList",
+      "title": "ArrayList",
+      "description": "add，在尾部追加元素，有可以在指定位置追加元素",
+      "sidebar": "java"
+    },
     "java/java-se/基础类库/system类库/readme": {
       "id": "java/java-se/基础类库/system类库/readme",
       "title": "readme",
@@ -1912,6 +2390,30 @@
       "id": "java/java-se/基础类库/utils/arrays",
       "title": "arrays",
       "description": "该类包含用于操作数组的各种方法，比如排序和搜索等，",
+      "sidebar": "java"
+    },
+    "java/java-se/集合/ArrayList": {
+      "id": "java/java-se/集合/ArrayList",
+      "title": "ArrayList",
+      "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
+      "sidebar": "java"
+    },
+    "java/java-se/集合/collection": {
+      "id": "java/java-se/集合/collection",
+      "title": "collection系列单列集合",
+      "description": "List集合",
+      "sidebar": "java"
+    },
+    "java/java-se/集合/intro": {
+      "id": "java/java-se/集合/intro",
+      "title": "intro",
+      "description": "集合，",
+      "sidebar": "java"
+    },
+    "java/java-se/集合/map": {
+      "id": "java/java-se/集合/map",
+      "title": "map",
+      "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
       "sidebar": "java"
     },
     "java/java-se/面向对象高级/泛型数组": {
@@ -1986,10 +2488,34 @@
       "description": "java是面向对象的开发语言",
       "sidebar": "java"
     },
+    "java/java-se/如何求平均数": {
+      "id": "java/java-se/如何求平均数",
+      "title": "如何求平均数",
+      "description": "最简单的方法",
+      "sidebar": "java"
+    },
     "java/java-se/数组/数组的遍历": {
       "id": "java/java-se/数组/数组的遍历",
       "title": "数组的遍历",
       "description": "foreach",
+      "sidebar": "java"
+    },
+    "java/java-se/异常，断言和日志/处理错误": {
+      "id": "java/java-se/异常，断言和日志/处理错误",
+      "title": "处理错误",
+      "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
+      "sidebar": "java"
+    },
+    "java/java-se/正则表达式/正则入门": {
+      "id": "java/java-se/正则表达式/正则入门",
+      "title": "正则表达式",
+      "description": "什么是正则表达式",
+      "sidebar": "java"
+    },
+    "java/java-se/正则表达式/字符串函数": {
+      "id": "java/java-se/正则表达式/字符串函数",
+      "title": "字符串函数",
+      "description": "字符串转大小写",
       "sidebar": "java"
     },
     "java/java-se/java面向对象": {
@@ -2114,8 +2640,8 @@
     },
     "js&ts/es5/函数": {
       "id": "js&ts/es5/函数",
-      "title": "函数的定义",
-      "description": "函数的表达式",
+      "title": "js之函数",
+      "description": "函数的定义",
       "sidebar": "ecma"
     },
     "js&ts/es5/精度丢失": {
@@ -2429,6 +2955,54 @@
       "title": "新要求",
       "description": "4月10日，",
       "sidebar": "ecma"
+    },
+    "linux/刷题必备": {
+      "id": "linux/刷题必备",
+      "title": "刷题必备",
+      "description": "刷题必备",
+      "sidebar": "tutorialSidebar"
+    },
+    "linux/intro": {
+      "id": "linux/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "tutorialSidebar"
+    },
+    "mysql/刷题必备": {
+      "id": "mysql/刷题必备",
+      "title": "刷题必备",
+      "description": "刷题必备",
+      "sidebar": "tutorialSidebar"
+    },
+    "mysql/intro": {
+      "id": "mysql/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "tutorialSidebar"
+    },
+    "nginx/刷题必备": {
+      "id": "nginx/刷题必备",
+      "title": "刷题必备",
+      "description": "刷题必备",
+      "sidebar": "tutorialSidebar"
+    },
+    "nginx/intro": {
+      "id": "nginx/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "tutorialSidebar"
+    },
+    "redis/刷题必备": {
+      "id": "redis/刷题必备",
+      "title": "刷题必备",
+      "description": "刷题必备",
+      "sidebar": "tutorialSidebar"
+    },
+    "redis/intro": {
+      "id": "redis/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",

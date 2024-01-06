@@ -39,7 +39,7 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '10f'),
+    component: ComponentCreator('/blog', '8d6'),
     exact: true
   },
   {
@@ -69,17 +69,17 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', 'c83'),
+    component: ComponentCreator('/blog/tags/docusaurus', '96c'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '520'),
+    component: ComponentCreator('/blog/tags/facebook', '9bc'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '038'),
+    component: ComponentCreator('/blog/tags/hello', 'f64'),
     exact: true
   },
   {
@@ -119,7 +119,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '3d6'),
+    component: ComponentCreator('/docs', '690'),
     routes: [
       {
         path: '/docs/算法/刷题必备',
@@ -152,6 +152,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/docker/刷题必备',
+        component: ComponentCreator('/docs/docker/刷题必备', '3f7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/docker/intro',
+        component: ComponentCreator('/docs/docker/intro', 'ce6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/economist/year-2024/month01/2024-01-03',
         component: ComponentCreator('/docs/economist/year-2024/month01/2024-01-03', '0c9'),
         exact: true,
@@ -172,6 +184,12 @@ export default [
       {
         path: '/docs/java/设计模式/intro',
         component: ComponentCreator('/docs/java/设计模式/intro', 'e28'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/算法与数据结构/查找算法',
+        component: ComponentCreator('/docs/java/算法与数据结构/查找算法', 'de4'),
         exact: true,
         sidebar: "java"
       },
@@ -200,6 +218,36 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历',
+        component: ComponentCreator('/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历', 'bbe'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/常用操作总结/数组操作/数组的遍历',
+        component: ComponentCreator('/docs/java/java-se/常用操作总结/数组操作/数组的遍历', 'e75'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/常用操作总结/正则/数组的遍历',
+        component: ComponentCreator('/docs/java/java-se/常用操作总结/正则/数组的遍历', 'bfe'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/常用操作总结/字符串/字符串对象',
+        component: ComponentCreator('/docs/java/java-se/常用操作总结/字符串/字符串对象', '3d3'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/泛型程序设计/泛型升序设计',
+        component: ComponentCreator('/docs/java/java-se/泛型程序设计/泛型升序设计', '3b1'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/基础类库/时间和日期/',
         component: ComponentCreator('/docs/java/java-se/基础类库/时间和日期/', '10f'),
         exact: true,
@@ -218,6 +266,12 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/基础类库/ArrayList',
+        component: ComponentCreator('/docs/java/java-se/基础类库/ArrayList', '786'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/基础类库/system类库/',
         component: ComponentCreator('/docs/java/java-se/基础类库/system类库/', '846'),
         exact: true,
@@ -226,6 +280,30 @@ export default [
       {
         path: '/docs/java/java-se/基础类库/utils/arrays',
         component: ComponentCreator('/docs/java/java-se/基础类库/utils/arrays', '939'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/ArrayList',
+        component: ComponentCreator('/docs/java/java-se/集合/ArrayList', '235'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/collection',
+        component: ComponentCreator('/docs/java/java-se/集合/collection', 'e97'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/intro',
+        component: ComponentCreator('/docs/java/java-se/集合/intro', '566'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/map',
+        component: ComponentCreator('/docs/java/java-se/集合/map', '7d0'),
         exact: true,
         sidebar: "java"
       },
@@ -302,8 +380,32 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/如何求平均数',
+        component: ComponentCreator('/docs/java/java-se/如何求平均数', 'c39'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/数组/数组的遍历',
         component: ComponentCreator('/docs/java/java-se/数组/数组的遍历', 'a80'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/异常，断言和日志/处理错误',
+        component: ComponentCreator('/docs/java/java-se/异常，断言和日志/处理错误', '794'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/正则表达式/正则入门',
+        component: ComponentCreator('/docs/java/java-se/正则表达式/正则入门', '5e8'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/正则表达式/字符串函数',
+        component: ComponentCreator('/docs/java/java-se/正则表达式/字符串函数', 'cfb'),
         exact: true,
         sidebar: "java"
       },
@@ -744,6 +846,54 @@ export default [
         component: ComponentCreator('/docs/js&ts/vue3/新要求', 'ea6'),
         exact: true,
         sidebar: "ecma"
+      },
+      {
+        path: '/docs/linux/刷题必备',
+        component: ComponentCreator('/docs/linux/刷题必备', 'a11'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/linux/intro',
+        component: ComponentCreator('/docs/linux/intro', '1e8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/mysql/刷题必备',
+        component: ComponentCreator('/docs/mysql/刷题必备', '64c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/mysql/intro',
+        component: ComponentCreator('/docs/mysql/intro', 'fd9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/nginx/刷题必备',
+        component: ComponentCreator('/docs/nginx/刷题必备', 'b0f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/nginx/intro',
+        component: ComponentCreator('/docs/nginx/intro', 'bce'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/redis/刷题必备',
+        component: ComponentCreator('/docs/redis/刷题必备', 'a27'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/redis/intro',
+        component: ComponentCreator('/docs/redis/intro', '37b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/tutorial-basics/congratulations',

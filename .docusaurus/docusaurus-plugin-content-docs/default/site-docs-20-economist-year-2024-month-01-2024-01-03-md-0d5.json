@@ -16,5 +16,9 @@
   "previous": {
     "title": "刷题必备",
     "permalink": "/docs/算法/刷题必备"
+  },
+  "next": {
+    "title": "intro",
+    "permalink": "/docs/linux/intro"
   }
 }
