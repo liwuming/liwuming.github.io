@@ -14,10 +14,5 @@
   "sidebarPosition": 1,
   "frontMatter": {
     "sidebar_position": 1
-  },
-  "sidebar": "tutorialSidebar",
-  "next": {
-    "title": "xhr",
-    "permalink": "/docs/js&ts/js学习经/xhr"
   }
 }

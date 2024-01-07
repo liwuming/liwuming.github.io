@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "java",
   "previous": {
-    "title": "常用正则表达式汇总",
-    "permalink": "/docs/java/java-se/常用操作总结/正则/数组的遍历"
+    "title": "生成随机数",
+    "permalink": "/docs/java/java-se/总结/生成随机数"
   },
   "next": {
     "title": "如何求平均数",

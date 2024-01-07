@@ -96,7 +96,7 @@ main>.container{margin:15px auto;padding:10px 30px 20px 30px;width:960px!importa
 
 .markdown > h2 {
   margin: 1.5rem 0 1rem 0;
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.35rem;
   font-size: 1.8rem;
 }
 .markdown > h3 {
@@ -133,6 +133,11 @@ main>.container{margin:15px auto;padding:10px 30px 20px 30px;width:960px!importa
   font-size: 2.3rem;
   font-weight: 500;
 }
+
+
+.markdown ul > li> p{margin: 0;}
+.markdown ol > li> p{margin: 0;}
+  
 
 #detail p {
   margin: 1rem 0;

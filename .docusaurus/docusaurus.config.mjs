@@ -50,14 +50,8 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
           "type": "doc",
-          "docId": "js&ts/intro",
+          "docId": "web/intro",
           "position": "left",
           "label": "ecma"
         },
@@ -66,6 +60,12 @@ export default {
           "docId": "java/intro",
           "position": "left",
           "label": "java"
+        },
+        {
+          "type": "doc",
+          "docId": "database/intro",
+          "position": "left",
+          "label": "数据库"
         },
         {
           "type": "doc",
@@ -95,15 +95,15 @@ export default {
           "items": [
             {
               "label": "es6",
-              "to": "/mysql-dba/"
+              "to": "/docs/web/es6入门到起飞/intro"
             },
             {
               "label": "vue3",
-              "to": "/redis/"
+              "to": "/docs/web/vue3学习手册/intro"
             },
             {
               "label": "react",
-              "to": "/redis/"
+              "to": "/docs/web/react学习手册/intro"
             }
           ]
         },

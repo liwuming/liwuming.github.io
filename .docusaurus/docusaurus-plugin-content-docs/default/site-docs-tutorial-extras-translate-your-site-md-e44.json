@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Manage Docs Versions",
-    "permalink": "/docs/tutorial-extras/manage-docs-versions"
-  },
-  "next": {
-    "title": "忽略文件夹，例外",
-    "permalink": "/docs/git/忽略文件"
   }
 }

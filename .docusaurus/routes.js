@@ -124,8 +124,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'bac'),
+    component: ComponentCreator('/docs', 'dcb'),
     routes: [
+      {
+        path: '/docs/algorithms/红黑树',
+        component: ComponentCreator('/docs/algorithms/红黑树', '374'),
+        exact: true,
+        sidebar: "算法与数据结构"
+      },
       {
         path: '/docs/algorithms/刷题必备',
         component: ComponentCreator('/docs/algorithms/刷题必备', '559'),
@@ -163,40 +169,32 @@ export default [
         sidebar: "books"
       },
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/database/intro',
-        component: ComponentCreator('/docs/database/intro', '3c4'),
+        component: ComponentCreator('/docs/database/intro', '694'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "database"
       },
       {
-        path: '/docs/database/redis/intro',
-        component: ComponentCreator('/docs/database/redis/intro', 'e77'),
+        path: '/docs/database/mysql学习手册/intro',
+        component: ComponentCreator('/docs/database/mysql学习手册/intro', '850'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "database"
+      },
+      {
+        path: '/docs/database/redis学习手册/intro',
+        component: ComponentCreator('/docs/database/redis学习手册/intro', '537'),
+        exact: true,
+        sidebar: "database"
       },
       {
         path: '/docs/docker/刷题必备',
-        component: ComponentCreator('/docs/docker/刷题必备', '3f7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/docker/刷题必备', 'ff4'),
+        exact: true
       },
       {
         path: '/docs/docker/intro',
-        component: ComponentCreator('/docs/docker/intro', 'ce6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/docker/intro', '013'),
+        exact: true
       },
       {
         path: '/docs/economist/intro',
@@ -218,9 +216,8 @@ export default [
       },
       {
         path: '/docs/git/忽略文件',
-        component: ComponentCreator('/docs/git/忽略文件', '0fa'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/git/忽略文件', '4d5'),
+        exact: true
       },
       {
         path: '/docs/go/intro',
@@ -230,9 +227,8 @@ export default [
       },
       {
         path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/intro', 'e84'),
+        exact: true
       },
       {
         path: '/docs/java/面试题/查找算法',
@@ -279,6 +275,24 @@ export default [
       {
         path: '/docs/java/算法与数据结构/intro',
         component: ComponentCreator('/docs/java/算法与数据结构/intro', '11a'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/位运算',
+        component: ComponentCreator('/docs/java/位运算', '3d0'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/ide使用技巧/错误集锦',
+        component: ComponentCreator('/docs/java/ide使用技巧/错误集锦', '205'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/ide使用技巧/各种快捷键',
+        component: ComponentCreator('/docs/java/ide使用技巧/各种快捷键', '5e0'),
         exact: true,
         sidebar: "java"
       },
@@ -361,8 +375,14 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/集合/可变参数细节',
+        component: ComponentCreator('/docs/java/java-se/集合/可变参数细节', 'add'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/集合/ArrayList',
-        component: ComponentCreator('/docs/java/java-se/集合/ArrayList', '235'),
+        component: ComponentCreator('/docs/java/java-se/集合/ArrayList', '3ee'),
         exact: true,
         sidebar: "java"
       },
@@ -373,14 +393,26 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/集合/collections',
+        component: ComponentCreator('/docs/java/java-se/集合/collections', '4d9'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/集合/intro',
-        component: ComponentCreator('/docs/java/java-se/集合/intro', '566'),
+        component: ComponentCreator('/docs/java/java-se/集合/intro', 'aa8'),
         exact: true,
         sidebar: "java"
       },
       {
         path: '/docs/java/java-se/集合/map',
-        component: ComponentCreator('/docs/java/java-se/集合/map', '7d0'),
+        component: ComponentCreator('/docs/java/java-se/集合/map', '7a3'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/set系列集合',
+        component: ComponentCreator('/docs/java/java-se/集合/set系列集合', 'b0d'),
         exact: true,
         sidebar: "java"
       },
@@ -487,6 +519,12 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/总结/生成随机数',
+        component: ComponentCreator('/docs/java/java-se/总结/生成随机数', 'eb5'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/java面向对象',
         component: ComponentCreator('/docs/java/java-se/java面向对象', 'd38'),
         exact: true,
@@ -497,336 +535,6 @@ export default [
         component: ComponentCreator('/docs/java/java-se/lambda', 'cf0'),
         exact: true,
         sidebar: "java"
-      },
-      {
-        path: '/docs/js&ts/2303/如何开发npm包',
-        component: ComponentCreator('/docs/js&ts/2303/如何开发npm包', '74a'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/2303/研究库',
-        component: ComponentCreator('/docs/js&ts/2303/研究库', '23a'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/2303/js精度丢失',
-        component: ComponentCreator('/docs/js&ts/2303/js精度丢失', '222'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/标准阮一峰es6入门/01',
-        component: ComponentCreator('/docs/js&ts/标准阮一峰es6入门/01', '060'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/标准阮一峰es6入门/02.',
-        component: ComponentCreator('/docs/js&ts/标准阮一峰es6入门/02.', '0e8'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/标准阮一峰es6入门/迭代器与生成器',
-        component: ComponentCreator('/docs/js&ts/标准阮一峰es6入门/迭代器与生成器', 'cfb'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/标准阮一峰es6入门/面向对象程序编程',
-        component: ComponentCreator('/docs/js&ts/标准阮一峰es6入门/面向对象程序编程', 'f97'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/标准阮一峰es6入门/疑惑',
-        component: ComponentCreator('/docs/js&ts/标准阮一峰es6入门/疑惑', 'bf2'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/前端开发',
-        component: ComponentCreator('/docs/js&ts/前端开发', 'ea2'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/实践经验/前端常见问题汇总/如何开发npm包',
-        component: ComponentCreator('/docs/js&ts/实践经验/前端常见问题汇总/如何开发npm包', '898'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/实践经验/前端常见问题汇总/js精度丢失',
-        component: ComponentCreator('/docs/js&ts/实践经验/前端常见问题汇总/js精度丢失', 'e59'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/实践经验/前端常见问题汇总/one',
-        component: ComponentCreator('/docs/js&ts/实践经验/前端常见问题汇总/one', '781'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/小程序开发/常见问题',
-        component: ComponentCreator('/docs/js&ts/小程序开发/常见问题', '357'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/小程序开发/地图',
-        component: ComponentCreator('/docs/js&ts/小程序开发/地图', 'c64'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/小程序开发/如何查看小程序管理员',
-        component: ComponentCreator('/docs/js&ts/小程序开发/如何查看小程序管理员', '67a'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/用户',
-        component: ComponentCreator('/docs/js&ts/用户', '186'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/intro',
-        component: ComponentCreator('/docs/js&ts/intro', '4fb'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/迭代器与生成器',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/迭代器与生成器', '7dc'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/面向对象程序编程',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/面向对象程序编程', '994'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象', '68c'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型', '542'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象', '00a'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp', 'af0'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象', 'ad4'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型', '30f'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象', '89e'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp', 'c87'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象', '870'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型', 'bcf'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象', '438'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp', '13f'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js高级程序设计-第四版/intro',
-        component: ComponentCreator('/docs/js&ts/js高级程序设计-第四版/intro', '785'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/查找',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/查找', 'ca7'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/基础准备',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/基础准备', 'b13'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/快速排序',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/快速排序', 'e68'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/排序',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/排序', '572'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/线性结构',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/线性结构', '5d2'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js数据结构与算法/intro',
-        component: ComponentCreator('/docs/js&ts/js数据结构与算法/intro', '867'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/本地存储',
-        component: ComponentCreator('/docs/js&ts/js学习经/本地存储', '25a'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/函数',
-        component: ComponentCreator('/docs/js&ts/js学习经/函数', '53c'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/精度丢失',
-        component: ComponentCreator('/docs/js&ts/js学习经/精度丢失', '50c'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/日期格式化',
-        component: ComponentCreator('/docs/js&ts/js学习经/日期格式化', '7c4'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/事件',
-        component: ComponentCreator('/docs/js&ts/js学习经/事件', '5ab'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/js学习经/xhr',
-        component: ComponentCreator('/docs/js&ts/js学习经/xhr', '98f'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/react/新要求',
-        component: ComponentCreator('/docs/js&ts/react/新要求', '438'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/ts/ts是什么',
-        component: ComponentCreator('/docs/js&ts/ts/ts是什么', '019'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/02-27',
-        component: ComponentCreator('/docs/js&ts/uniapp/02-27', '0fc'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/0728',
-        component: ComponentCreator('/docs/js&ts/uniapp/0728', 'dba'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/常见问题',
-        component: ComponentCreator('/docs/js&ts/uniapp/常见问题', '08f'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/地图',
-        component: ComponentCreator('/docs/js&ts/uniapp/地图', '1da'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/聊天记录/发送语音',
-        component: ComponentCreator('/docs/js&ts/uniapp/聊天记录/发送语音', '039'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/如何实现导出excel',
-        component: ComponentCreator('/docs/js&ts/uniapp/如何实现导出excel', '337'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/下拉加载更多',
-        component: ComponentCreator('/docs/js&ts/uniapp/下拉加载更多', '8d8'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/uniapp/wifi调试',
-        component: ComponentCreator('/docs/js&ts/uniapp/wifi调试', '4bd'),
-        exact: true,
-        sidebar: "ecma"
-      },
-      {
-        path: '/docs/js&ts/vue3/新要求',
-        component: ComponentCreator('/docs/js&ts/vue3/新要求', 'f12'),
-        exact: true,
-        sidebar: "ecma"
       },
       {
         path: '/docs/linux/解惑迷经/巧计易混淆点',
@@ -860,57 +568,378 @@ export default [
       },
       {
         path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/congratulations', '7ef'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '2c8'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'f0d'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'ca5'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '508'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'f90'),
+        exact: true
       },
       {
         path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'd64'),
+        exact: true
       },
       {
         path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '16a'),
+        exact: true
+      },
+      {
+        path: '/docs/web/前端错误集锦/如何开发npm包',
+        component: ComponentCreator('/docs/web/前端错误集锦/如何开发npm包', '667'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端错误集锦/研究库',
+        component: ComponentCreator('/docs/web/前端错误集锦/研究库', 'dc2'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端错误集锦/js精度丢失',
+        component: ComponentCreator('/docs/web/前端错误集锦/js精度丢失', 'bd8'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/阮一峰es6入门标准/01',
+        component: ComponentCreator('/docs/web/前端圣经书籍/阮一峰es6入门标准/01', '0cf'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/阮一峰es6入门标准/02.',
+        component: ComponentCreator('/docs/web/前端圣经书籍/阮一峰es6入门标准/02.', '104'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器',
+        component: ComponentCreator('/docs/web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器', 'd35'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程',
+        component: ComponentCreator('/docs/web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程', '16f'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/阮一峰es6入门标准/疑惑',
+        component: ComponentCreator('/docs/web/前端圣经书籍/阮一峰es6入门标准/疑惑', '79a'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器', 'fd7'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程', 'c41'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象', 'bf1'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型', 'e89'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象', '79e'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp', '1e9'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象', 'e50'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型', '595'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象', '786'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp', '989'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象', 'e3a'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型', '0fc'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象', '725'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp', 'c4e'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js高级程序设计-第四版/intro',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js高级程序设计-第四版/intro', '1b1'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/查找',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/查找', '339'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/基础准备',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/基础准备', '5b2'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/快速排序',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/快速排序', 'c55'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/排序',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/排序', 'd39'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/线性结构',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/线性结构', '8ef'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端圣经书籍/js数据结构与算法/intro',
+        component: ComponentCreator('/docs/web/前端圣经书籍/js数据结构与算法/intro', 'eb3'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端优秀库集锦/如何开发npm包',
+        component: ComponentCreator('/docs/web/前端优秀库集锦/如何开发npm包', '681'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端优秀库集锦/研究库',
+        component: ComponentCreator('/docs/web/前端优秀库集锦/研究库', '96d'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/前端优秀库集锦/js精度丢失',
+        component: ComponentCreator('/docs/web/前端优秀库集锦/js精度丢失', '7e2'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/实践经验/前端常见问题汇总/如何开发npm包',
+        component: ComponentCreator('/docs/web/实践经验/前端常见问题汇总/如何开发npm包', '434'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/实践经验/前端常见问题汇总/js精度丢失',
+        component: ComponentCreator('/docs/web/实践经验/前端常见问题汇总/js精度丢失', '189'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/实践经验/前端常见问题汇总/one',
+        component: ComponentCreator('/docs/web/实践经验/前端常见问题汇总/one', '52f'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/实践经验/前端开发',
+        component: ComponentCreator('/docs/web/实践经验/前端开发', 'e35'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/实践经验/用户',
+        component: ComponentCreator('/docs/web/实践经验/用户', '2af'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/小程序开发/常见问题',
+        component: ComponentCreator('/docs/web/小程序开发/常见问题', '7b4'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/小程序开发/地图',
+        component: ComponentCreator('/docs/web/小程序开发/地图', '41f'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/小程序开发/如何查看小程序管理员',
+        component: ComponentCreator('/docs/web/小程序开发/如何查看小程序管理员', '482'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/es5入门到起飞/intro',
+        component: ComponentCreator('/docs/web/es5入门到起飞/intro', '600'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/es6入门到起飞/intro',
+        component: ComponentCreator('/docs/web/es6入门到起飞/intro', '074'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/html5&css3/intro',
+        component: ComponentCreator('/docs/web/html5&css3/intro', 'c8e'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/intro',
+        component: ComponentCreator('/docs/web/intro', '0e7'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/react学习手册/intro',
+        component: ComponentCreator('/docs/web/react学习手册/intro', '62a'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/ts入门到起飞/intro',
+        component: ComponentCreator('/docs/web/ts入门到起飞/intro', '9d3'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/02-27',
+        component: ComponentCreator('/docs/web/uniapp学习文档/02-27', '467'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/0728',
+        component: ComponentCreator('/docs/web/uniapp学习文档/0728', '2c4'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/常见问题',
+        component: ComponentCreator('/docs/web/uniapp学习文档/常见问题', '4c1'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/地图',
+        component: ComponentCreator('/docs/web/uniapp学习文档/地图', 'edf'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/聊天记录/发送语音',
+        component: ComponentCreator('/docs/web/uniapp学习文档/聊天记录/发送语音', 'd7d'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/如何实现导出excel',
+        component: ComponentCreator('/docs/web/uniapp学习文档/如何实现导出excel', '803'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/下拉加载更多',
+        component: ComponentCreator('/docs/web/uniapp学习文档/下拉加载更多', '237'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/uniapp学习文档/wifi调试',
+        component: ComponentCreator('/docs/web/uniapp学习文档/wifi调试', 'c17'),
+        exact: true,
+        sidebar: "ecma"
+      },
+      {
+        path: '/docs/web/vue3学习手册/intro',
+        component: ComponentCreator('/docs/web/vue3学习手册/intro', '945'),
+        exact: true,
+        sidebar: "ecma"
       },
       {
         path: '/docs/win10系统/关于全角半角切换',
-        component: ComponentCreator('/docs/win10系统/关于全角半角切换', 'bad'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        component: ComponentCreator('/docs/win10系统/关于全角半角切换', '8d9'),
+        exact: true
       }
     ]
   },
