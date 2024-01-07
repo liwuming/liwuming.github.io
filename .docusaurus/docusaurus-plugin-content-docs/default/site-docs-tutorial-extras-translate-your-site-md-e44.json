@@ -21,7 +21,7 @@
     "permalink": "/docs/tutorial-extras/manage-docs-versions"
   },
   "next": {
-    "title": "java面向对象",
-    "permalink": "/docs/java/java-se/面向对象基础/java面向对象"
+    "title": "忽略文件夹，例外",
+    "permalink": "/docs/git/忽略文件"
   }
 }

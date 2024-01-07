@@ -11,18 +11,43 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "算法/刷题必备",
-              "path": "/docs/算法/刷题必备",
+              "id": "algorithms/刷题必备",
+              "path": "/docs/algorithms/刷题必备",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "algorithms/intro",
+              "path": "/docs/algorithms/intro",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "algorithms/leecode/两数之和",
+              "path": "/docs/algorithms/leecode/两数之和",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "books/被讨厌的勇气/intro",
+              "path": "/docs/books/被讨厌的勇气/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "books/金字塔原理/intro",
+              "path": "/docs/books/金字塔原理/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "books/intro",
+              "path": "/docs/books/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "database/intro",
+              "path": "/docs/database/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "算法/intro",
-              "path": "/docs/算法/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "算法/leecode/两数之和",
-              "path": "/docs/算法/leecode/两数之和",
+              "id": "database/redis/intro",
+              "path": "/docs/database/redis/intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,14 +61,49 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "economist/intro",
+              "path": "/docs/economist/intro",
+              "sidebar": "economist"
+            },
+            {
               "id": "economist/year-2024/month01/2024-01-03",
               "path": "/docs/economist/year-2024/month01/2024-01-03",
+              "sidebar": "economist"
+            },
+            {
+              "id": "economist/year-2024/month01/2024-01-07",
+              "path": "/docs/economist/year-2024/month01/2024-01-07",
+              "sidebar": "economist"
+            },
+            {
+              "id": "git/忽略文件",
+              "path": "/docs/git/忽略文件",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "go/intro",
+              "path": "/docs/go/intro",
+              "sidebar": "go"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "java/面试题/查找算法",
+              "path": "/docs/java/面试题/查找算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/面试题/排序算法",
+              "path": "/docs/java/面试题/排序算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/面试题/intro",
+              "path": "/docs/java/面试题/intro",
+              "sidebar": "java"
             },
             {
               "id": "java/设计模式/单例模式",
@@ -528,47 +588,27 @@
             {
               "id": "linux/解惑迷经/巧计易混淆点",
               "path": "/docs/linux/解惑迷经/巧计易混淆点",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "linux"
             },
             {
               "id": "linux/刷题必备",
               "path": "/docs/linux/刷题必备",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "linux"
             },
             {
               "id": "linux/intro",
               "path": "/docs/linux/intro",
-              "sidebar": "tutorialSidebar"
+              "sidebar": "linux"
             },
             {
-              "id": "mysql/刷题必备",
-              "path": "/docs/mysql/刷题必备",
-              "sidebar": "tutorialSidebar"
+              "id": "linux/nginx/刷题必备",
+              "path": "/docs/linux/nginx/刷题必备",
+              "sidebar": "linux"
             },
             {
-              "id": "mysql/intro",
-              "path": "/docs/mysql/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nginx/刷题必备",
-              "path": "/docs/nginx/刷题必备",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "nginx/intro",
-              "path": "/docs/nginx/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "redis/刷题必备",
-              "path": "/docs/redis/刷题必备",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "redis/intro",
-              "path": "/docs/redis/intro",
-              "sidebar": "tutorialSidebar"
+              "id": "linux/nginx/intro",
+              "path": "/docs/linux/nginx/intro",
+              "sidebar": "linux"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -644,6 +684,37 @@
               "link": {
                 "path": "/docs/java/java-se/面向对象基础/java面向对象",
                 "label": "java/java-se/面向对象基础/java面向对象"
+              }
+            },
+            "go": {
+              "link": {
+                "path": "/docs/go/intro",
+                "label": "go/intro"
+              }
+            },
+            "linux": {
+              "link": {
+                "path": "/docs/linux/nginx/intro",
+                "label": "linux/nginx/intro"
+              }
+            },
+            "database": {},
+            "算法与数据结构": {
+              "link": {
+                "path": "/docs/algorithms/leecode/两数之和",
+                "label": "algorithms/leecode/两数之和"
+              }
+            },
+            "economist": {
+              "link": {
+                "path": "/docs/economist/intro",
+                "label": "economist/intro"
+              }
+            },
+            "books": {
+              "link": {
+                "path": "/docs/books/intro",
+                "label": "books/intro"
               }
             }
           }

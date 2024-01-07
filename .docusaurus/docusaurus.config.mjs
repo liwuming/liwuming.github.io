@@ -68,9 +68,59 @@ export default {
           "label": "java"
         },
         {
+          "type": "doc",
+          "docId": "algorithms/intro",
+          "position": "left",
+          "label": "数据结构与算法"
+        },
+        {
+          "type": "doc",
+          "docId": "economist/intro",
+          "position": "left",
+          "label": "英语学习"
+        },
+        {
           "to": "/blog",
           "label": "Blog",
           "position": "left"
+        },
+        {
+          "to": "/",
+          "label": "💼 首页",
+          "position": "right"
+        },
+        {
+          "position": "right",
+          "label": "💼 web前端",
+          "items": [
+            {
+              "label": "es6",
+              "to": "/mysql-dba/"
+            },
+            {
+              "label": "vue3",
+              "to": "/redis/"
+            },
+            {
+              "label": "react",
+              "to": "/redis/"
+            }
+          ]
+        },
+        {
+          "to": "/docs/books/intro",
+          "label": "💼 读过的书",
+          "items": [
+            {
+              "label": "被讨厌的勇气",
+              "to": "/docs/books/被讨厌的勇气/intro"
+            },
+            {
+              "label": "金字塔原理",
+              "to": "/docs/books/金字塔原理/intro"
+            }
+          ],
+          "position": "right"
         },
         {
           "href": "https://github.com/facebook/docusaurus",

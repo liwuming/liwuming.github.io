@@ -20,76 +20,189 @@
           "contentPathLocalized": "D:\\one\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "算法/刷题必备",
-              "id": "算法/刷题必备",
+              "unversionedId": "algorithms/刷题必备",
+              "id": "algorithms/刷题必备",
               "title": "刷题必备",
               "description": "刷题必备",
-              "source": "@site/docs/12.算法/刷题必备.md",
-              "sourceDirName": "12.算法",
-              "slug": "/算法/刷题必备",
-              "permalink": "/docs/算法/刷题必备",
+              "source": "@site/docs/31.algorithms/刷题必备.md",
+              "sourceDirName": "31.algorithms",
+              "slug": "/algorithms/刷题必备",
+              "permalink": "/docs/algorithms/刷题必备",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/12.算法/刷题必备.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/31.algorithms/刷题必备.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "算法与数据结构",
               "previous": {
                 "title": "intro",
-                "permalink": "/docs/算法/intro"
-              },
-              "next": {
-                "title": "2024-01-03",
-                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+                "permalink": "/docs/algorithms/intro"
               }
             },
             {
-              "unversionedId": "算法/intro",
-              "id": "算法/intro",
+              "unversionedId": "algorithms/intro",
+              "id": "algorithms/intro",
               "title": "intro",
               "description": "什么是算法",
-              "source": "@site/docs/12.算法/intro.md",
-              "sourceDirName": "12.算法",
-              "slug": "/算法/intro",
-              "permalink": "/docs/算法/intro",
+              "source": "@site/docs/31.algorithms/intro.md",
+              "sourceDirName": "31.algorithms",
+              "slug": "/algorithms/intro",
+              "permalink": "/docs/algorithms/intro",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/12.算法/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/31.algorithms/intro.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "算法与数据结构",
               "previous": {
                 "title": "两数之和",
-                "permalink": "/docs/算法/leecode/两数之和"
+                "permalink": "/docs/algorithms/leecode/两数之和"
               },
               "next": {
                 "title": "刷题必备",
-                "permalink": "/docs/算法/刷题必备"
+                "permalink": "/docs/algorithms/刷题必备"
               }
             },
             {
-              "unversionedId": "算法/leecode/两数之和",
-              "id": "算法/leecode/两数之和",
+              "unversionedId": "algorithms/leecode/两数之和",
+              "id": "algorithms/leecode/两数之和",
               "title": "两数之和",
               "description": "题目描述",
-              "source": "@site/docs/12.算法/20.leecode/01.两数之和.md",
-              "sourceDirName": "12.算法/20.leecode",
-              "slug": "/算法/leecode/两数之和",
-              "permalink": "/docs/算法/leecode/两数之和",
+              "source": "@site/docs/31.algorithms/20.leecode/01.两数之和.md",
+              "sourceDirName": "31.algorithms/20.leecode",
+              "slug": "/algorithms/leecode/两数之和",
+              "permalink": "/docs/algorithms/leecode/两数之和",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/12.算法/20.leecode/01.两数之和.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/31.algorithms/20.leecode/01.两数之和.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {},
+              "sidebar": "算法与数据结构",
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/algorithms/intro"
+              }
+            },
+            {
+              "unversionedId": "books/被讨厌的勇气/intro",
+              "id": "books/被讨厌的勇气/intro",
+              "title": "被讨厌的勇气",
+              "description": "情绪是武器",
+              "source": "@site/docs/42.books/01.被讨厌的勇气/intro.md",
+              "sourceDirName": "42.books/01.被讨厌的勇气",
+              "slug": "/books/被讨厌的勇气/intro",
+              "permalink": "/docs/books/被讨厌的勇气/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/42.books/01.被讨厌的勇气/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "books",
+              "previous": {
+                "title": "读过的书",
+                "permalink": "/docs/books/intro"
+              },
+              "next": {
+                "title": "金字塔原理",
+                "permalink": "/docs/books/金字塔原理/intro"
+              }
+            },
+            {
+              "unversionedId": "books/金字塔原理/intro",
+              "id": "books/金字塔原理/intro",
+              "title": "金字塔原理",
+              "description": "情绪是武器",
+              "source": "@site/docs/42.books/02.金字塔原理/intro.md",
+              "sourceDirName": "42.books/02.金字塔原理",
+              "slug": "/books/金字塔原理/intro",
+              "permalink": "/docs/books/金字塔原理/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/42.books/02.金字塔原理/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "books",
+              "previous": {
+                "title": "被讨厌的勇气",
+                "permalink": "/docs/books/被讨厌的勇气/intro"
+              }
+            },
+            {
+              "unversionedId": "books/intro",
+              "id": "books/intro",
+              "title": "读过的书",
+              "description": "2023年读过的书",
+              "source": "@site/docs/42.books/00.intro.md",
+              "sourceDirName": "42.books",
+              "slug": "/books/intro",
+              "permalink": "/docs/books/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/42.books/00.intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "books",
+              "next": {
+                "title": "被讨厌的勇气",
+                "permalink": "/docs/books/被讨厌的勇气/intro"
+              }
+            },
+            {
+              "unversionedId": "database/intro",
+              "id": "database/intro",
+              "title": "intro",
+              "description": "什么是算法",
+              "source": "@site/docs/23.database/intro.md",
+              "sourceDirName": "23.database",
+              "slug": "/database/intro",
+              "permalink": "/docs/database/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/23.database/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "intro",
-                "permalink": "/docs/java/intro"
+                "permalink": "/docs/database/redis/intro"
               },
               "next": {
                 "title": "intro",
-                "permalink": "/docs/算法/intro"
+                "permalink": "/docs/docker/intro"
+              }
+            },
+            {
+              "unversionedId": "database/redis/intro",
+              "id": "database/redis/intro",
+              "title": "intro",
+              "description": "什么是算法",
+              "source": "@site/docs/23.database/05.redis/intro.md",
+              "sourceDirName": "23.database/05.redis",
+              "slug": "/database/redis/intro",
+              "permalink": "/docs/database/redis/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/23.database/05.redis/intro.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "刷题必备",
+                "permalink": "/docs/linux/刷题必备"
+              },
+              "next": {
+                "title": "intro",
+                "permalink": "/docs/database/intro"
               }
             },
             {
@@ -112,8 +225,8 @@
                 "permalink": "/docs/docker/intro"
               },
               "next": {
-                "title": "关于全角半角切换",
-                "permalink": "/docs/win10系统/关于全角半角切换"
+                "title": "两数之和",
+                "permalink": "/docs/algorithms/leecode/两数之和"
               }
             },
             {
@@ -132,8 +245,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/redis/刷题必备"
+                "title": "intro",
+                "permalink": "/docs/database/intro"
               },
               "next": {
                 "title": "刷题必备",
@@ -141,28 +254,114 @@
               }
             },
             {
+              "unversionedId": "economist/intro",
+              "id": "economist/intro",
+              "title": "英语杂志--economist阅读记录",
+              "description": "",
+              "source": "@site/docs/41.economist/intro.md",
+              "sourceDirName": "41.economist",
+              "slug": "/economist/intro",
+              "permalink": "/docs/economist/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/41.economist/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "economist",
+              "next": {
+                "title": "2024-01-03",
+                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+              }
+            },
+            {
               "unversionedId": "economist/year-2024/month01/2024-01-03",
               "id": "economist/year-2024/month01/2024-01-03",
               "title": "2024-01-03",
               "description": "",
-              "source": "@site/docs/20.economist/year-2024/month01/2024-01-03.md",
-              "sourceDirName": "20.economist/year-2024/month01",
+              "source": "@site/docs/41.economist/year-2024/month01/2024-01-03.md",
+              "sourceDirName": "41.economist/year-2024/month01",
               "slug": "/economist/year-2024/month01/2024-01-03",
               "permalink": "/docs/economist/year-2024/month01/2024-01-03",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/20.economist/year-2024/month01/2024-01-03.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/41.economist/year-2024/month01/2024-01-03.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "economist",
+              "previous": {
+                "title": "英语杂志--economist阅读记录",
+                "permalink": "/docs/economist/intro"
+              },
+              "next": {
+                "title": "2024-01-07杂志阅读",
+                "permalink": "/docs/economist/year-2024/month01/2024-01-07"
+              }
+            },
+            {
+              "unversionedId": "economist/year-2024/month01/2024-01-07",
+              "id": "economist/year-2024/month01/2024-01-07",
+              "title": "2024-01-07杂志阅读",
+              "description": "学习笔记",
+              "source": "@site/docs/41.economist/year-2024/month01/2024-01-07.md",
+              "sourceDirName": "41.economist/year-2024/month01",
+              "slug": "/economist/year-2024/month01/2024-01-07",
+              "permalink": "/docs/economist/year-2024/month01/2024-01-07",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/41.economist/year-2024/month01/2024-01-07.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "economist",
+              "previous": {
+                "title": "2024-01-03",
+                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+              }
+            },
+            {
+              "unversionedId": "git/忽略文件",
+              "id": "git/忽略文件",
+              "title": "忽略文件夹，例外",
+              "description": "使用.gitignore文件的其他注意事项",
+              "source": "@site/docs/09.git/忽略文件.md",
+              "sourceDirName": "09.git",
+              "slug": "/git/忽略文件",
+              "permalink": "/docs/git/忽略文件",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/09.git/忽略文件.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/算法/刷题必备"
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
               },
               "next": {
-                "title": "巧计易混淆点",
-                "permalink": "/docs/linux/解惑迷经/巧计易混淆点"
+                "title": "java面向对象",
+                "permalink": "/docs/java/java-se/面向对象基础/java面向对象"
               }
+            },
+            {
+              "unversionedId": "go/intro",
+              "id": "go/intro",
+              "title": "go语言学习记录",
+              "description": "go项目",
+              "source": "@site/docs/12.go/intro.md",
+              "sourceDirName": "12.go",
+              "slug": "/go/intro",
+              "permalink": "/docs/go/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/12.go/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "go"
             },
             {
               "unversionedId": "intro",
@@ -188,6 +387,83 @@
               }
             },
             {
+              "unversionedId": "java/面试题/查找算法",
+              "id": "java/面试题/查找算法",
+              "title": "查找算法",
+              "description": "二分查找",
+              "source": "@site/docs/11.java/21.面试题/02.查找算法.md",
+              "sourceDirName": "11.java/21.面试题",
+              "slug": "/java/面试题/查找算法",
+              "permalink": "/docs/java/面试题/查找算法",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/21.面试题/02.查找算法.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "排序基础篇",
+                "permalink": "/docs/java/面试题/排序算法"
+              },
+              "next": {
+                "title": "idea",
+                "permalink": "/docs/java/ide使用技巧/idea"
+              }
+            },
+            {
+              "unversionedId": "java/面试题/排序算法",
+              "id": "java/面试题/排序算法",
+              "title": "排序基础篇",
+              "description": "冒泡排序",
+              "source": "@site/docs/11.java/21.面试题/01.排序算法.md",
+              "sourceDirName": "11.java/21.面试题",
+              "slug": "/java/面试题/排序算法",
+              "permalink": "/docs/java/面试题/排序算法",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/21.面试题/01.排序算法.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "算法概述",
+                "permalink": "/docs/java/面试题/intro"
+              },
+              "next": {
+                "title": "查找算法",
+                "permalink": "/docs/java/面试题/查找算法"
+              }
+            },
+            {
+              "unversionedId": "java/面试题/intro",
+              "id": "java/面试题/intro",
+              "title": "算法概述",
+              "description": "什么是算法",
+              "source": "@site/docs/11.java/21.面试题/01.intro.md",
+              "sourceDirName": "11.java/21.面试题",
+              "slug": "/java/面试题/intro",
+              "permalink": "/docs/java/面试题/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/21.面试题/01.intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "java",
+              "previous": {
+                "title": "单例设计模式",
+                "permalink": "/docs/java/设计模式/单例模式"
+              },
+              "next": {
+                "title": "排序基础篇",
+                "permalink": "/docs/java/面试题/排序算法"
+              }
+            },
+            {
               "unversionedId": "java/设计模式/单例模式",
               "id": "java/设计模式/单例模式",
               "title": "单例设计模式",
@@ -208,8 +484,8 @@
                 "permalink": "/docs/java/设计模式/intro"
               },
               "next": {
-                "title": "idea",
-                "permalink": "/docs/java/ide使用技巧/idea"
+                "title": "算法概述",
+                "permalink": "/docs/java/面试题/intro"
               }
             },
             {
@@ -330,8 +606,8 @@
               "frontMatter": {},
               "sidebar": "java",
               "previous": {
-                "title": "单例设计模式",
-                "permalink": "/docs/java/设计模式/单例模式"
+                "title": "查找算法",
+                "permalink": "/docs/java/面试题/查找算法"
               },
               "next": {
                 "title": "intro",
@@ -2540,10 +2816,10 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "linux",
               "previous": {
-                "title": "2024-01-03",
-                "permalink": "/docs/economist/year-2024/month01/2024-01-03"
+                "title": "刷题必备",
+                "permalink": "/docs/linux/nginx/刷题必备"
               },
               "next": {
                 "title": "intro",
@@ -2564,14 +2840,10 @@
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "linux",
               "previous": {
                 "title": "intro",
                 "permalink": "/docs/linux/intro"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/docs/nginx/intro"
               }
             },
             {
@@ -2588,7 +2860,7 @@
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "linux",
               "previous": {
                 "title": "巧计易混淆点",
                 "permalink": "/docs/linux/解惑迷经/巧计易混淆点"
@@ -2599,147 +2871,47 @@
               }
             },
             {
-              "unversionedId": "mysql/刷题必备",
-              "id": "mysql/刷题必备",
+              "unversionedId": "linux/nginx/刷题必备",
+              "id": "linux/nginx/刷题必备",
               "title": "刷题必备",
               "description": "刷题必备",
-              "source": "@site/docs/23.mysql/刷题必备.md",
-              "sourceDirName": "23.mysql",
-              "slug": "/mysql/刷题必备",
-              "permalink": "/docs/mysql/刷题必备",
+              "source": "@site/docs/21.linux/22.nginx/刷题必备.md",
+              "sourceDirName": "21.linux/22.nginx",
+              "slug": "/linux/nginx/刷题必备",
+              "permalink": "/docs/linux/nginx/刷题必备",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/23.mysql/刷题必备.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/21.linux/22.nginx/刷题必备.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
+              "sidebar": "linux",
               "previous": {
                 "title": "intro",
-                "permalink": "/docs/mysql/intro"
+                "permalink": "/docs/linux/nginx/intro"
               },
               "next": {
-                "title": "intro",
-                "permalink": "/docs/redis/intro"
+                "title": "巧计易混淆点",
+                "permalink": "/docs/linux/解惑迷经/巧计易混淆点"
               }
             },
             {
-              "unversionedId": "mysql/intro",
-              "id": "mysql/intro",
+              "unversionedId": "linux/nginx/intro",
+              "id": "linux/nginx/intro",
               "title": "intro",
               "description": "什么是算法",
-              "source": "@site/docs/23.mysql/intro.md",
-              "sourceDirName": "23.mysql",
-              "slug": "/mysql/intro",
-              "permalink": "/docs/mysql/intro",
+              "source": "@site/docs/21.linux/22.nginx/intro.md",
+              "sourceDirName": "21.linux/22.nginx",
+              "slug": "/linux/nginx/intro",
+              "permalink": "/docs/linux/nginx/intro",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/23.mysql/intro.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/21.linux/22.nginx/intro.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/nginx/刷题必备"
-              },
+              "sidebar": "linux",
               "next": {
                 "title": "刷题必备",
-                "permalink": "/docs/mysql/刷题必备"
-              }
-            },
-            {
-              "unversionedId": "nginx/刷题必备",
-              "id": "nginx/刷题必备",
-              "title": "刷题必备",
-              "description": "刷题必备",
-              "source": "@site/docs/22.nginx/刷题必备.md",
-              "sourceDirName": "22.nginx",
-              "slug": "/nginx/刷题必备",
-              "permalink": "/docs/nginx/刷题必备",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/22.nginx/刷题必备.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "intro",
-                "permalink": "/docs/nginx/intro"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/docs/mysql/intro"
-              }
-            },
-            {
-              "unversionedId": "nginx/intro",
-              "id": "nginx/intro",
-              "title": "intro",
-              "description": "什么是算法",
-              "source": "@site/docs/22.nginx/intro.md",
-              "sourceDirName": "22.nginx",
-              "slug": "/nginx/intro",
-              "permalink": "/docs/nginx/intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/22.nginx/intro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/linux/刷题必备"
-              },
-              "next": {
-                "title": "刷题必备",
-                "permalink": "/docs/nginx/刷题必备"
-              }
-            },
-            {
-              "unversionedId": "redis/刷题必备",
-              "id": "redis/刷题必备",
-              "title": "刷题必备",
-              "description": "刷题必备",
-              "source": "@site/docs/24.redis/刷题必备.md",
-              "sourceDirName": "24.redis",
-              "slug": "/redis/刷题必备",
-              "permalink": "/docs/redis/刷题必备",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/24.redis/刷题必备.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "intro",
-                "permalink": "/docs/redis/intro"
-              },
-              "next": {
-                "title": "intro",
-                "permalink": "/docs/docker/intro"
-              }
-            },
-            {
-              "unversionedId": "redis/intro",
-              "id": "redis/intro",
-              "title": "intro",
-              "description": "什么是算法",
-              "source": "@site/docs/24.redis/intro.md",
-              "sourceDirName": "24.redis",
-              "slug": "/redis/intro",
-              "permalink": "/docs/redis/intro",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/24.redis/intro.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/mysql/刷题必备"
-              },
-              "next": {
-                "title": "刷题必备",
-                "permalink": "/docs/redis/刷题必备"
+                "permalink": "/docs/linux/nginx/刷题必备"
               }
             },
             {
@@ -2954,8 +3126,8 @@
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
               },
               "next": {
-                "title": "java面向对象",
-                "permalink": "/docs/java/java-se/面向对象基础/java面向对象"
+                "title": "忽略文件夹，例外",
+                "permalink": "/docs/git/忽略文件"
               }
             },
             {
@@ -2974,8 +3146,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "刷题必备",
-                "permalink": "/docs/docker/刷题必备"
+                "title": "金字塔原理",
+                "permalink": "/docs/books/金字塔原理/intro"
               }
             }
           ],
@@ -3403,6 +3575,18 @@
               },
               {
                 "type": "category",
+                "label": "git",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "git/忽略文件"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "java",
                 "collapsible": true,
                 "collapsed": true,
@@ -3710,6 +3894,26 @@
                   },
                   {
                     "type": "category",
+                    "label": "面试题",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "java/面试题/intro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/面试题/排序算法"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/面试题/查找算法"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
                     "label": "ide使用技巧",
                     "collapsible": true,
                     "collapsed": true,
@@ -3728,57 +3932,13 @@
               },
               {
                 "type": "category",
-                "label": "算法",
+                "label": "go",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "leecode",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "算法/leecode/两数之和"
-                      }
-                    ]
-                  },
-                  {
                     "type": "doc",
-                    "id": "算法/intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "算法/刷题必备"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "economist",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "year-2024",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "category",
-                        "label": "month01",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "economist/year-2024/month01/2024-01-03"
-                          }
-                        ]
-                      }
-                    ]
+                    "id": "go/intro"
                   }
                 ]
               },
@@ -3788,6 +3948,22 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "category",
+                    "label": "nginx",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "linux/nginx/intro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "linux/nginx/刷题必备"
+                      }
+                    ]
+                  },
                   {
                     "type": "category",
                     "label": "解惑迷经",
@@ -3812,49 +3988,25 @@
               },
               {
                 "type": "category",
-                "label": "nginx",
+                "label": "database",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "nginx/intro"
+                    "type": "category",
+                    "label": "redis",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "database/redis/intro"
+                      }
+                    ]
                   },
                   {
                     "type": "doc",
-                    "id": "nginx/刷题必备"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "mysql",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "mysql/intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "mysql/刷题必备"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "redis",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "redis/intro"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "redis/刷题必备"
+                    "id": "database/intro"
                   }
                 ]
               },
@@ -3871,6 +4023,106 @@
                   {
                     "type": "doc",
                     "id": "docker/刷题必备"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "algorithms",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "leecode",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "algorithms/leecode/两数之和"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "algorithms/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "algorithms/刷题必备"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "economist",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "economist/intro"
+                  },
+                  {
+                    "type": "category",
+                    "label": "year-2024",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "category",
+                        "label": "month01",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "economist/year-2024/month01/2024-01-03"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "economist/year-2024/month01/2024-01-07"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "books",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "books/intro"
+                  },
+                  {
+                    "type": "category",
+                    "label": "被讨厌的勇气",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "books/被讨厌的勇气/intro"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "金字塔原理",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "books/金字塔原理/intro"
+                      }
+                    ]
                   }
                 ]
               },
@@ -4541,6 +4793,26 @@
               },
               {
                 "type": "category",
+                "label": "面试题",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "java/面试题/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "java/面试题/排序算法"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "java/面试题/查找算法"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "ide使用技巧",
                 "collapsible": true,
                 "collapsed": true,
@@ -4554,6 +4826,133 @@
               {
                 "type": "doc",
                 "id": "java/intro"
+              }
+            ],
+            "go": [
+              {
+                "type": "doc",
+                "id": "go/intro"
+              }
+            ],
+            "linux": [
+              {
+                "type": "category",
+                "label": "nginx",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "linux/nginx/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "linux/nginx/刷题必备"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "解惑迷经",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "linux/解惑迷经/巧计易混淆点"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "linux/intro"
+              },
+              {
+                "type": "doc",
+                "id": "linux/刷题必备"
+              }
+            ],
+            "database": [],
+            "算法与数据结构": [
+              {
+                "type": "category",
+                "label": "leecode",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "algorithms/leecode/两数之和"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "algorithms/intro"
+              },
+              {
+                "type": "doc",
+                "id": "algorithms/刷题必备"
+              }
+            ],
+            "economist": [
+              {
+                "type": "doc",
+                "id": "economist/intro"
+              },
+              {
+                "type": "category",
+                "label": "year-2024",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "month01",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "economist/year-2024/month01/2024-01-03"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "economist/year-2024/month01/2024-01-07"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "books": [
+              {
+                "type": "doc",
+                "id": "books/intro"
+              },
+              {
+                "type": "category",
+                "label": "被讨厌的勇气",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "books/被讨厌的勇气/intro"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "金字塔原理",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "books/金字塔原理/intro"
+                  }
+                ]
               }
             ]
           }
@@ -4569,12 +4968,12 @@
           "id": "we1lcome112",
           "metadata": {
             "permalink": "/blog/we1lcome112",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/1220.md",
-            "source": "@site/blog/2024/01/1220.md",
-            "title": "We1lcome113",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0106.md",
+            "source": "@site/blog/2024/01/0106.md",
+            "title": "2024-01-06-hello one",
             "description": "java面向对象基础",
-            "date": "2024-01-12T00:00:00.000Z",
-            "formattedDate": "January 12, 2024",
+            "date": "2024-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2024",
             "tags": [
               {
                 "label": "facebook",
@@ -4609,7 +5008,7 @@
             ],
             "frontMatter": {
               "slug": "we1lcome112",
-              "title": "We1lcome113",
+              "title": "2024-01-06-hello one",
               "authors": [
                 "slorber",
                 "yangshun"
@@ -4619,6 +5018,35 @@
                 "hello",
                 "docusaurus"
               ]
+            },
+            "nextItem": {
+              "title": "2024-01-07--hello one",
+              "permalink": "/blog/20240107"
+            }
+          },
+          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
+        },
+        {
+          "id": "20240107",
+          "metadata": {
+            "permalink": "/blog/20240107",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0107.md",
+            "source": "@site/blog/2024/01/0107.md",
+            "title": "2024-01-07--hello one",
+            "description": "java面向对象基础",
+            "date": "2024-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2024",
+            "tags": [],
+            "readingTime": 0.12,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "20240107",
+              "title": "2024-01-07--hello one"
+            },
+            "prevItem": {
+              "title": "2024-01-06-hello one",
+              "permalink": "/blog/we1lcome112"
             },
             "nextItem": {
               "title": "Welcome212",
@@ -4683,8 +5111,8 @@
               ]
             },
             "prevItem": {
-              "title": "We1lcome113",
-              "permalink": "/blog/we1lcome112"
+              "title": "2024-01-07--hello one",
+              "permalink": "/blog/20240107"
             },
             "nextItem": {
               "title": "Welcome221",
@@ -4753,7 +5181,7 @@
               "permalink": "/blog/welcome212"
             },
             "nextItem": {
-              "title": "java面向对象基础",
+              "title": "2023-12-26-hello one",
               "permalink": "/blog/welcome111"
             }
           },
@@ -4765,7 +5193,7 @@
             "permalink": "/blog/welcome111",
             "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023/12/1220.md",
             "source": "@site/blog/2023/12/1220.md",
-            "title": "java面向对象基础",
+            "title": "2023-12-26-hello one",
             "description": "java面向对象基础",
             "date": "2023-12-12T00:00:00.000Z",
             "formattedDate": "December 12, 2023",
@@ -4775,7 +5203,7 @@
             "authors": [],
             "frontMatter": {
               "slug": "welcome111",
-              "title": "java面向对象基础"
+              "title": "2023-12-26-hello one"
             },
             "prevItem": {
               "title": "Welcome221",
@@ -4844,7 +5272,7 @@
               ]
             },
             "prevItem": {
-              "title": "java面向对象基础",
+              "title": "2023-12-26-hello one",
               "permalink": "/blog/welcome111"
             },
             "nextItem": {
@@ -5011,6 +5439,7 @@
         {
           "items": [
             "we1lcome112",
+            "20240107",
             "welcome212",
             "welcome221",
             "welcome111",
@@ -5024,7 +5453,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 8,
+            "totalCount": 9,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }

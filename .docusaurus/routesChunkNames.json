@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugca-2-0ec"
     }
   },
-  "/blog-8c8": {
+  "/blog-d74": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blogfdc-7a3"
@@ -50,7 +50,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-92-a-15c"
+        "content": "content---blog-357-22b"
+      },
+      {
+        "content": "content---blog-3-b-5-ace"
       },
       {
         "content": "content---bloge-7-c-88a"
@@ -75,6 +78,14 @@
       }
     ],
     "metadata": "metadata---blogb-2-b-df1"
+  },
+  "/blog/20240107-b92": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blogfdc-7a3"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-20240107-c-41-7e8"
   },
   "/blog/archive-e7f": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
@@ -115,7 +126,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/docusaurus-179": {
+  "/blog/tags/docusaurus-29e": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blogfdc-7a3"
@@ -123,7 +134,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-92-a-15c"
+        "content": "content---blog-357-22b"
       },
       {
         "content": "content---bloge-7-c-88a"
@@ -147,7 +158,7 @@
     "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/facebook-994": {
+  "/blog/tags/facebook-ac4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blogfdc-7a3"
@@ -155,7 +166,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-92-a-15c"
+        "content": "content---blog-357-22b"
       },
       {
         "content": "content---bloge-7-c-88a"
@@ -170,7 +181,7 @@
     "tag": "tag---blog-tags-facebook-031-c52",
     "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
   },
-  "/blog/tags/hello-9b6": {
+  "/blog/tags/hello-929": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {
       "plugin": "plugin---blogfdc-7a3"
@@ -178,7 +189,7 @@
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "content---blog-92-a-15c"
+        "content": "content---blog-357-22b"
       },
       {
         "content": "content---bloge-7-c-88a"
@@ -210,13 +221,13 @@
     "tag": "tag---blog-tags-holae-16-18a",
     "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24"
   },
-  "/blog/we1lcome112-e03": {
+  "/blog/we1lcome112-266": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
       "plugin": "plugin---blogfdc-7a3"
     },
     "sidebar": "sidebar---blog-814-8ac",
-    "content": "content---blog-we-1-lcome-112490-bc2"
+    "content": "content---blog-we-1-lcome-112-a-52-88e"
   },
   "/blog/welcome-322": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
@@ -257,24 +268,36 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-e30": {
+  "/docs-bac": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-fe-9be"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
-  "/docs/算法/刷题必备-123": {
+  "/docs/algorithms/刷题必备-559": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-算法-刷题必备-973-03b"
+    "content": "content---docs-algorithms-刷题必备-315-0dc"
   },
-  "/docs/算法/intro-7fb": {
+  "/docs/algorithms/intro-e06": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-算法-introa-58-f39"
+    "content": "content---docs-algorithms-intro-79-a-0fd"
   },
-  "/docs/算法/leecode/两数之和-a85": {
+  "/docs/algorithms/leecode/两数之和-a21": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-算法-leecode-两数之和e-33-3de"
+    "content": "content---docs-algorithms-leecode-两数之和e-52-c4a"
+  },
+  "/docs/books/被讨厌的勇气/intro-a74": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-被讨厌的勇气-intro-38-a-e40"
+  },
+  "/docs/books/金字塔原理/intro-5e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-金字塔原理-introc-24-3bb"
+  },
+  "/docs/books/intro-fe8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-books-intro-4-ea-275"
   },
   "/docs/category/tutorial---basics-d44": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -284,6 +307,14 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-extrasc-84-abc"
   },
+  "/docs/database/intro-3c4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-intro-17-e-657"
+  },
+  "/docs/database/redis/intro-e77": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-database-redis-intro-0-da-628"
+  },
   "/docs/docker/刷题必备-3f7": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docker-刷题必备c-22-e05"
@@ -292,13 +323,41 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-docker-intro-4-b-1-afb"
   },
-  "/docs/economist/year-2024/month01/2024-01-03-0c9": {
+  "/docs/economist/intro-269": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-economist-year-2024-month-01-2024-01-030-d-5-71e"
+    "content": "content---docs-economist-intro-1-aa-fd3"
+  },
+  "/docs/economist/year-2024/month01/2024-01-03-ae3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-economist-year-2024-month-01-2024-01-03408-638"
+  },
+  "/docs/economist/year-2024/month01/2024-01-07-cff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-economist-year-2024-month-01-2024-01-07-ed-9-526"
+  },
+  "/docs/git/忽略文件-0fa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-git-忽略文件-36-d-674"
+  },
+  "/docs/go/intro-d8a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-go-intro-194-9de"
   },
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/java/面试题/查找算法-f87": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-面试题-查找算法-0-a-0-ecc"
+  },
+  "/docs/java/面试题/排序算法-3d0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-面试题-排序算法bf-6-1d1"
+  },
+  "/docs/java/面试题/intro-e70": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-面试题-intro-2-c-0-080"
   },
   "/docs/java/设计模式/单例模式-9eb": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -684,41 +743,25 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-js-ts-vue-3-新要求a-8-b-776"
   },
-  "/docs/linux/解惑迷经/巧计易混淆点-fb8": {
+  "/docs/linux/解惑迷经/巧计易混淆点-72c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-解惑迷经-巧计易混淆点-96-d-39b"
   },
-  "/docs/linux/刷题必备-a11": {
+  "/docs/linux/刷题必备-dc3": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-刷题必备d-35-219"
   },
-  "/docs/linux/intro-1e8": {
+  "/docs/linux/intro-2fa": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-linux-introeec-59c"
   },
-  "/docs/mysql/刷题必备-64c": {
+  "/docs/linux/nginx/刷题必备-201": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mysql-刷题必备-776-cc8"
+    "content": "content---docs-linux-nginx-刷题必备db-4-1d7"
   },
-  "/docs/mysql/intro-fd9": {
+  "/docs/linux/nginx/intro-bbc": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-mysql-introd-9-d-367"
-  },
-  "/docs/nginx/刷题必备-b0f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-nginx-刷题必备b-54-a9a"
-  },
-  "/docs/nginx/intro-bce": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-nginx-introcc-3-679"
-  },
-  "/docs/redis/刷题必备-a27": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-redis-刷题必备-77-d-3d9"
-  },
-  "/docs/redis/intro-37b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-redis-intro-21-a-d4c"
+    "content": "content---docs-linux-nginx-intro-761-682"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",
