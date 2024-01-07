@@ -4,15 +4,15 @@
         <title>liwuming Blog</title>
         <link>https://liwuming.github.io/blog</link>
         <description>liwuming Blog</description>
-        <lastBuildDate>Fri, 12 Jan 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jan 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[We1lcome113]]></title>
+            <title><![CDATA[2024-01-06-hello one]]></title>
             <link>https://liwuming.github.io/blog/we1lcome112</link>
             <guid>https://liwuming.github.io/blog/we1lcome112</guid>
-            <pubDate>Fri, 12 Jan 2024 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[java面向对象基础]]></description>
             <content:encoded><![CDATA[<p>java面向对象基础</p><p>final关键字</p><p>继承和多态</p><p>内部类，
 抽象类
@@ -20,6 +20,16 @@
             <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[2024-01-07--hello one]]></title>
+            <link>https://liwuming.github.io/blog/20240107</link>
+            <guid>https://liwuming.github.io/blog/20240107</guid>
+            <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[java面向对象基础]]></description>
+            <content:encoded><![CDATA[<p>java面向对象基础</p><p>final关键字</p><p>继承和多态</p><p>内部类，
+抽象类
+接口</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Welcome212]]></title>
@@ -44,7 +54,7 @@
             <category>docusaurus</category>
         </item>
         <item>
-            <title><![CDATA[java面向对象基础]]></title>
+            <title><![CDATA[2023-12-26-hello one]]></title>
             <link>https://liwuming.github.io/blog/welcome111</link>
             <guid>https://liwuming.github.io/blog/welcome111</guid>
             <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
