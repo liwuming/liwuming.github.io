@@ -4,12 +4,12 @@
       "id": "we1lcome112",
       "metadata": {
         "permalink": "/blog/we1lcome112",
-        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/1220.md",
-        "source": "@site/blog/2024/01/1220.md",
-        "title": "We1lcome113",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0106.md",
+        "source": "@site/blog/2024/01/0106.md",
+        "title": "2024-01-06-hello one",
         "description": "java面向对象基础",
-        "date": "2024-01-12T00:00:00.000Z",
-        "formattedDate": "January 12, 2024",
+        "date": "2024-01-01T00:00:00.000Z",
+        "formattedDate": "January 1, 2024",
         "tags": [
           {
             "label": "facebook",
@@ -44,7 +44,7 @@
         ],
         "frontMatter": {
           "slug": "we1lcome112",
-          "title": "We1lcome113",
+          "title": "2024-01-06-hello one",
           "authors": [
             "slorber",
             "yangshun"
@@ -54,6 +54,35 @@
             "hello",
             "docusaurus"
           ]
+        },
+        "nextItem": {
+          "title": "2024-01-07--hello one",
+          "permalink": "/blog/20240107"
+        }
+      },
+      "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
+    },
+    {
+      "id": "20240107",
+      "metadata": {
+        "permalink": "/blog/20240107",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0107.md",
+        "source": "@site/blog/2024/01/0107.md",
+        "title": "2024-01-07--hello one",
+        "description": "java面向对象基础",
+        "date": "2024-01-01T00:00:00.000Z",
+        "formattedDate": "January 1, 2024",
+        "tags": [],
+        "readingTime": 0.12,
+        "hasTruncateMarker": false,
+        "authors": [],
+        "frontMatter": {
+          "slug": "20240107",
+          "title": "2024-01-07--hello one"
+        },
+        "prevItem": {
+          "title": "2024-01-06-hello one",
+          "permalink": "/blog/we1lcome112"
         },
         "nextItem": {
           "title": "Welcome212",
@@ -118,8 +147,8 @@
           ]
         },
         "prevItem": {
-          "title": "We1lcome113",
-          "permalink": "/blog/we1lcome112"
+          "title": "2024-01-07--hello one",
+          "permalink": "/blog/20240107"
         },
         "nextItem": {
           "title": "Welcome221",
@@ -188,7 +217,7 @@
           "permalink": "/blog/welcome212"
         },
         "nextItem": {
-          "title": "java面向对象基础",
+          "title": "2023-12-26-hello one",
           "permalink": "/blog/welcome111"
         }
       },
@@ -200,7 +229,7 @@
         "permalink": "/blog/welcome111",
         "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2023/12/1220.md",
         "source": "@site/blog/2023/12/1220.md",
-        "title": "java面向对象基础",
+        "title": "2023-12-26-hello one",
         "description": "java面向对象基础",
         "date": "2023-12-12T00:00:00.000Z",
         "formattedDate": "December 12, 2023",
@@ -210,7 +239,7 @@
         "authors": [],
         "frontMatter": {
           "slug": "welcome111",
-          "title": "java面向对象基础"
+          "title": "2023-12-26-hello one"
         },
         "prevItem": {
           "title": "Welcome221",
@@ -279,7 +308,7 @@
           ]
         },
         "prevItem": {
-          "title": "java面向对象基础",
+          "title": "2023-12-26-hello one",
           "permalink": "/blog/welcome111"
         },
         "nextItem": {

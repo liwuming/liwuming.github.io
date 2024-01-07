@@ -549,6 +549,20 @@
       },
       {
         "type": "category",
+        "label": "git",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "忽略文件夹，例外",
+            "href": "/docs/git/忽略文件",
+            "docId": "git/忽略文件"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "java",
         "collapsible": true,
         "collapsed": true,
@@ -928,6 +942,32 @@
           },
           {
             "type": "category",
+            "label": "面试题",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "算法概述",
+                "href": "/docs/java/面试题/intro",
+                "docId": "java/面试题/intro"
+              },
+              {
+                "type": "link",
+                "label": "排序基础篇",
+                "href": "/docs/java/面试题/排序算法",
+                "docId": "java/面试题/排序算法"
+              },
+              {
+                "type": "link",
+                "label": "查找算法",
+                "href": "/docs/java/面试题/查找算法",
+                "docId": "java/面试题/查找算法"
+              }
+            ]
+          },
+          {
+            "type": "category",
             "label": "ide使用技巧",
             "collapsible": true,
             "collapsed": true,
@@ -950,65 +990,15 @@
       },
       {
         "type": "category",
-        "label": "算法",
+        "label": "go",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "category",
-            "label": "leecode",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "两数之和",
-                "href": "/docs/算法/leecode/两数之和",
-                "docId": "算法/leecode/两数之和"
-              }
-            ]
-          },
-          {
             "type": "link",
-            "label": "intro",
-            "href": "/docs/算法/intro",
-            "docId": "算法/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/算法/刷题必备",
-            "docId": "算法/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "economist",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "year-2024",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "category",
-                "label": "month01",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "2024-01-03",
-                    "href": "/docs/economist/year-2024/month01/2024-01-03",
-                    "docId": "economist/year-2024/month01/2024-01-03"
-                  }
-                ]
-              }
-            ]
+            "label": "go语言学习记录",
+            "href": "/docs/go/intro",
+            "docId": "go/intro"
           }
         ]
       },
@@ -1018,6 +1008,26 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "category",
+            "label": "nginx",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/linux/nginx/intro",
+                "docId": "linux/nginx/intro"
+              },
+              {
+                "type": "link",
+                "label": "刷题必备",
+                "href": "/docs/linux/nginx/刷题必备",
+                "docId": "linux/nginx/刷题必备"
+              }
+            ]
+          },
           {
             "type": "category",
             "label": "解惑迷经",
@@ -1048,61 +1058,29 @@
       },
       {
         "type": "category",
-        "label": "nginx",
+        "label": "database",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/nginx/intro",
-            "docId": "nginx/intro"
+            "type": "category",
+            "label": "redis",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/database/redis/intro",
+                "docId": "database/redis/intro"
+              }
+            ]
           },
           {
             "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/nginx/刷题必备",
-            "docId": "nginx/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "mysql",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
             "label": "intro",
-            "href": "/docs/mysql/intro",
-            "docId": "mysql/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/mysql/刷题必备",
-            "docId": "mysql/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "redis",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/redis/intro",
-            "docId": "redis/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/redis/刷题必备",
-            "docId": "redis/刷题必备"
+            "href": "/docs/database/intro",
+            "docId": "database/intro"
           }
         ]
       },
@@ -1123,6 +1101,124 @@
             "label": "刷题必备",
             "href": "/docs/docker/刷题必备",
             "docId": "docker/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "algorithms",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "leecode",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "两数之和",
+                "href": "/docs/algorithms/leecode/两数之和",
+                "docId": "algorithms/leecode/两数之和"
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/algorithms/intro",
+            "docId": "algorithms/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/algorithms/刷题必备",
+            "docId": "algorithms/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "economist",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "英语杂志--economist阅读记录",
+            "href": "/docs/economist/intro",
+            "docId": "economist/intro"
+          },
+          {
+            "type": "category",
+            "label": "year-2024",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "month01",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "2024-01-03",
+                    "href": "/docs/economist/year-2024/month01/2024-01-03",
+                    "docId": "economist/year-2024/month01/2024-01-03"
+                  },
+                  {
+                    "type": "link",
+                    "label": "2024-01-07杂志阅读",
+                    "href": "/docs/economist/year-2024/month01/2024-01-07",
+                    "docId": "economist/year-2024/month01/2024-01-07"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "books",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "读过的书",
+            "href": "/docs/books/intro",
+            "docId": "books/intro"
+          },
+          {
+            "type": "category",
+            "label": "被讨厌的勇气",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "被讨厌的勇气",
+                "href": "/docs/books/被讨厌的勇气/intro",
+                "docId": "books/被讨厌的勇气/intro"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "金字塔原理",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "金字塔原理",
+                "href": "/docs/books/金字塔原理/intro",
+                "docId": "books/金字塔原理/intro"
+              }
+            ]
           }
         ]
       },
@@ -1977,6 +2073,32 @@
       },
       {
         "type": "category",
+        "label": "面试题",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "算法概述",
+            "href": "/docs/java/面试题/intro",
+            "docId": "java/面试题/intro"
+          },
+          {
+            "type": "link",
+            "label": "排序基础篇",
+            "href": "/docs/java/面试题/排序算法",
+            "docId": "java/面试题/排序算法"
+          },
+          {
+            "type": "link",
+            "label": "查找算法",
+            "href": "/docs/java/面试题/查找算法",
+            "docId": "java/面试题/查找算法"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "ide使用技巧",
         "collapsible": true,
         "collapsed": true,
@@ -1995,25 +2117,212 @@
         "href": "/docs/java/intro",
         "docId": "java/intro"
       }
+    ],
+    "go": [
+      {
+        "type": "link",
+        "label": "go语言学习记录",
+        "href": "/docs/go/intro",
+        "docId": "go/intro"
+      }
+    ],
+    "linux": [
+      {
+        "type": "category",
+        "label": "nginx",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/linux/nginx/intro",
+            "docId": "linux/nginx/intro"
+          },
+          {
+            "type": "link",
+            "label": "刷题必备",
+            "href": "/docs/linux/nginx/刷题必备",
+            "docId": "linux/nginx/刷题必备"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "解惑迷经",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "巧计易混淆点",
+            "href": "/docs/linux/解惑迷经/巧计易混淆点",
+            "docId": "linux/解惑迷经/巧计易混淆点"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/linux/intro",
+        "docId": "linux/intro"
+      },
+      {
+        "type": "link",
+        "label": "刷题必备",
+        "href": "/docs/linux/刷题必备",
+        "docId": "linux/刷题必备"
+      }
+    ],
+    "database": [],
+    "算法与数据结构": [
+      {
+        "type": "category",
+        "label": "leecode",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "两数之和",
+            "href": "/docs/algorithms/leecode/两数之和",
+            "docId": "algorithms/leecode/两数之和"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/algorithms/intro",
+        "docId": "algorithms/intro"
+      },
+      {
+        "type": "link",
+        "label": "刷题必备",
+        "href": "/docs/algorithms/刷题必备",
+        "docId": "algorithms/刷题必备"
+      }
+    ],
+    "economist": [
+      {
+        "type": "link",
+        "label": "英语杂志--economist阅读记录",
+        "href": "/docs/economist/intro",
+        "docId": "economist/intro"
+      },
+      {
+        "type": "category",
+        "label": "year-2024",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "month01",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "2024-01-03",
+                "href": "/docs/economist/year-2024/month01/2024-01-03",
+                "docId": "economist/year-2024/month01/2024-01-03"
+              },
+              {
+                "type": "link",
+                "label": "2024-01-07杂志阅读",
+                "href": "/docs/economist/year-2024/month01/2024-01-07",
+                "docId": "economist/year-2024/month01/2024-01-07"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "books": [
+      {
+        "type": "link",
+        "label": "读过的书",
+        "href": "/docs/books/intro",
+        "docId": "books/intro"
+      },
+      {
+        "type": "category",
+        "label": "被讨厌的勇气",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "被讨厌的勇气",
+            "href": "/docs/books/被讨厌的勇气/intro",
+            "docId": "books/被讨厌的勇气/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "金字塔原理",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "金字塔原理",
+            "href": "/docs/books/金字塔原理/intro",
+            "docId": "books/金字塔原理/intro"
+          }
+        ]
+      }
     ]
   },
   "docs": {
-    "算法/刷题必备": {
-      "id": "算法/刷题必备",
+    "algorithms/刷题必备": {
+      "id": "algorithms/刷题必备",
       "title": "刷题必备",
       "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "算法与数据结构"
     },
-    "算法/intro": {
-      "id": "算法/intro",
+    "algorithms/intro": {
+      "id": "algorithms/intro",
+      "title": "intro",
+      "description": "什么是算法",
+      "sidebar": "算法与数据结构"
+    },
+    "algorithms/leecode/两数之和": {
+      "id": "algorithms/leecode/两数之和",
+      "title": "两数之和",
+      "description": "题目描述",
+      "sidebar": "算法与数据结构"
+    },
+    "books/被讨厌的勇气/intro": {
+      "id": "books/被讨厌的勇气/intro",
+      "title": "被讨厌的勇气",
+      "description": "情绪是武器",
+      "sidebar": "books"
+    },
+    "books/金字塔原理/intro": {
+      "id": "books/金字塔原理/intro",
+      "title": "金字塔原理",
+      "description": "情绪是武器",
+      "sidebar": "books"
+    },
+    "books/intro": {
+      "id": "books/intro",
+      "title": "读过的书",
+      "description": "2023年读过的书",
+      "sidebar": "books"
+    },
+    "database/intro": {
+      "id": "database/intro",
       "title": "intro",
       "description": "什么是算法",
       "sidebar": "tutorialSidebar"
     },
-    "算法/leecode/两数之和": {
-      "id": "算法/leecode/两数之和",
-      "title": "两数之和",
-      "description": "题目描述",
+    "database/redis/intro": {
+      "id": "database/redis/intro",
+      "title": "intro",
+      "description": "什么是算法",
       "sidebar": "tutorialSidebar"
     },
     "docker/刷题必备": {
@@ -2028,17 +2337,59 @@
       "description": "什么是算法",
       "sidebar": "tutorialSidebar"
     },
+    "economist/intro": {
+      "id": "economist/intro",
+      "title": "英语杂志--economist阅读记录",
+      "description": "",
+      "sidebar": "economist"
+    },
     "economist/year-2024/month01/2024-01-03": {
       "id": "economist/year-2024/month01/2024-01-03",
       "title": "2024-01-03",
       "description": "",
+      "sidebar": "economist"
+    },
+    "economist/year-2024/month01/2024-01-07": {
+      "id": "economist/year-2024/month01/2024-01-07",
+      "title": "2024-01-07杂志阅读",
+      "description": "学习笔记",
+      "sidebar": "economist"
+    },
+    "git/忽略文件": {
+      "id": "git/忽略文件",
+      "title": "忽略文件夹，例外",
+      "description": "使用.gitignore文件的其他注意事项",
       "sidebar": "tutorialSidebar"
+    },
+    "go/intro": {
+      "id": "go/intro",
+      "title": "go语言学习记录",
+      "description": "go项目",
+      "sidebar": "go"
     },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
+    },
+    "java/面试题/查找算法": {
+      "id": "java/面试题/查找算法",
+      "title": "查找算法",
+      "description": "二分查找",
+      "sidebar": "java"
+    },
+    "java/面试题/排序算法": {
+      "id": "java/面试题/排序算法",
+      "title": "排序基础篇",
+      "description": "冒泡排序",
+      "sidebar": "java"
+    },
+    "java/面试题/intro": {
+      "id": "java/面试题/intro",
+      "title": "算法概述",
+      "description": "什么是算法",
+      "sidebar": "java"
     },
     "java/设计模式/单例模式": {
       "id": "java/设计模式/单例模式",
@@ -2620,55 +2971,31 @@
       "id": "linux/解惑迷经/巧计易混淆点",
       "title": "巧计易混淆点",
       "description": "父级目录，-r还是-p",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "linux"
     },
     "linux/刷题必备": {
       "id": "linux/刷题必备",
       "title": "刷题必备",
       "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "linux"
     },
     "linux/intro": {
       "id": "linux/intro",
       "title": "intro",
       "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "linux"
     },
-    "mysql/刷题必备": {
-      "id": "mysql/刷题必备",
+    "linux/nginx/刷题必备": {
+      "id": "linux/nginx/刷题必备",
       "title": "刷题必备",
       "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "linux"
     },
-    "mysql/intro": {
-      "id": "mysql/intro",
+    "linux/nginx/intro": {
+      "id": "linux/nginx/intro",
       "title": "intro",
       "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
-    },
-    "nginx/刷题必备": {
-      "id": "nginx/刷题必备",
-      "title": "刷题必备",
-      "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
-    },
-    "nginx/intro": {
-      "id": "nginx/intro",
-      "title": "intro",
-      "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
-    },
-    "redis/刷题必备": {
-      "id": "redis/刷题必备",
-      "title": "刷题必备",
-      "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
-    },
-    "redis/intro": {
-      "id": "redis/intro",
-      "title": "intro",
-      "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "linux"
     },
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",

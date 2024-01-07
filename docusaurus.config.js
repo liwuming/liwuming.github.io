@@ -1,9 +1,26 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+
+/*
+D:\ONE\NODE_MODULES\PRISM-REACT-RENDERER\THEMES
+├─dracula
+├─duotoneDark
+├─duotoneLight
+├─github
+├─nightOwl
+├─nightOwlLight
+├─oceanicNext
+├─okaidia
+├─palenight
+├─shadesOfPurple
+├─synthwave84
+├─ultramin
+├─vsDark
+└─vsLight
+*/
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "liwuming",
@@ -24,8 +41,6 @@ const config = {
   deploymentBranch:'gh-pages',
   trailingSlash:false,
   
-  
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -96,8 +111,60 @@ const config = {
             position: 'left',
             label: 'java',
           },
+		  {
+            type: 'doc',
+            docId: 'algorithms/intro',
+            position: 'left',
+            label: '数据结构与算法',
+          },
+		  {
+            type: 'doc',
+            docId: 'economist/intro',
+            position: 'left',
+            label: '英语学习',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
-          {
+		  
+		  
+		   {
+			to: '/',
+            label: "💼 首页",
+            position: "right",
+          },
+		  {
+            position: "right",
+            label: "💼 web前端",
+            items: [
+              {
+                label: "es6",
+                to: "/mysql-dba/",
+              },
+              {
+                label: "vue3",
+                to: "/redis/",
+              },
+              {
+                label: "react",
+                to: "/redis/",
+              }
+            ]
+          },
+		  {
+            to: '/docs/books/intro',
+            label: "💼 读过的书",
+			items: [
+              {
+                label: "被讨厌的勇气",
+                to: "/docs/books/被讨厌的勇气/intro",
+              },
+              {
+                label: "金字塔原理",
+                to: "/docs/books/金字塔原理/intro",
+              }
+            ],
+            position: "right",
+          },
+		  {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',

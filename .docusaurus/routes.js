@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '8c8'),
+    component: ComponentCreator('/blog', 'd74'),
+    exact: true
+  },
+  {
+    path: '/blog/20240107',
+    component: ComponentCreator('/blog/20240107', 'b92'),
     exact: true
   },
   {
@@ -69,17 +74,17 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '179'),
+    component: ComponentCreator('/blog/tags/docusaurus', '29e'),
     exact: true
   },
   {
     path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '994'),
+    component: ComponentCreator('/blog/tags/facebook', 'ac4'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '9b6'),
+    component: ComponentCreator('/blog/tags/hello', '929'),
     exact: true
   },
   {
@@ -89,7 +94,7 @@ export default [
   },
   {
     path: '/blog/we1lcome112',
-    component: ComponentCreator('/blog/we1lcome112', 'e03'),
+    component: ComponentCreator('/blog/we1lcome112', '266'),
     exact: true
   },
   {
@@ -119,25 +124,43 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e30'),
+    component: ComponentCreator('/docs', 'bac'),
     routes: [
       {
-        path: '/docs/算法/刷题必备',
-        component: ComponentCreator('/docs/算法/刷题必备', '123'),
+        path: '/docs/algorithms/刷题必备',
+        component: ComponentCreator('/docs/algorithms/刷题必备', '559'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "算法与数据结构"
       },
       {
-        path: '/docs/算法/intro',
-        component: ComponentCreator('/docs/算法/intro', '7fb'),
+        path: '/docs/algorithms/intro',
+        component: ComponentCreator('/docs/algorithms/intro', 'e06'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "算法与数据结构"
       },
       {
-        path: '/docs/算法/leecode/两数之和',
-        component: ComponentCreator('/docs/算法/leecode/两数之和', 'a85'),
+        path: '/docs/algorithms/leecode/两数之和',
+        component: ComponentCreator('/docs/algorithms/leecode/两数之和', 'a21'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "算法与数据结构"
+      },
+      {
+        path: '/docs/books/被讨厌的勇气/intro',
+        component: ComponentCreator('/docs/books/被讨厌的勇气/intro', 'a74'),
+        exact: true,
+        sidebar: "books"
+      },
+      {
+        path: '/docs/books/金字塔原理/intro',
+        component: ComponentCreator('/docs/books/金字塔原理/intro', '5e9'),
+        exact: true,
+        sidebar: "books"
+      },
+      {
+        path: '/docs/books/intro',
+        component: ComponentCreator('/docs/books/intro', 'fe8'),
+        exact: true,
+        sidebar: "books"
       },
       {
         path: '/docs/category/tutorial---basics',
@@ -148,6 +171,18 @@ export default [
       {
         path: '/docs/category/tutorial---extras',
         component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/database/intro',
+        component: ComponentCreator('/docs/database/intro', '3c4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/database/redis/intro',
+        component: ComponentCreator('/docs/database/redis/intro', 'e77'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -164,16 +199,58 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/economist/intro',
+        component: ComponentCreator('/docs/economist/intro', '269'),
+        exact: true,
+        sidebar: "economist"
+      },
+      {
         path: '/docs/economist/year-2024/month01/2024-01-03',
-        component: ComponentCreator('/docs/economist/year-2024/month01/2024-01-03', '0c9'),
+        component: ComponentCreator('/docs/economist/year-2024/month01/2024-01-03', 'ae3'),
+        exact: true,
+        sidebar: "economist"
+      },
+      {
+        path: '/docs/economist/year-2024/month01/2024-01-07',
+        component: ComponentCreator('/docs/economist/year-2024/month01/2024-01-07', 'cff'),
+        exact: true,
+        sidebar: "economist"
+      },
+      {
+        path: '/docs/git/忽略文件',
+        component: ComponentCreator('/docs/git/忽略文件', '0fa'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/go/intro',
+        component: ComponentCreator('/docs/go/intro', 'd8a'),
+        exact: true,
+        sidebar: "go"
       },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/java/面试题/查找算法',
+        component: ComponentCreator('/docs/java/面试题/查找算法', 'f87'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/面试题/排序算法',
+        component: ComponentCreator('/docs/java/面试题/排序算法', '3d0'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/面试题/intro',
+        component: ComponentCreator('/docs/java/面试题/intro', 'e70'),
+        exact: true,
+        sidebar: "java"
       },
       {
         path: '/docs/java/设计模式/单例模式',
@@ -753,57 +830,33 @@ export default [
       },
       {
         path: '/docs/linux/解惑迷经/巧计易混淆点',
-        component: ComponentCreator('/docs/linux/解惑迷经/巧计易混淆点', 'fb8'),
+        component: ComponentCreator('/docs/linux/解惑迷经/巧计易混淆点', '72c'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "linux"
       },
       {
         path: '/docs/linux/刷题必备',
-        component: ComponentCreator('/docs/linux/刷题必备', 'a11'),
+        component: ComponentCreator('/docs/linux/刷题必备', 'dc3'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "linux"
       },
       {
         path: '/docs/linux/intro',
-        component: ComponentCreator('/docs/linux/intro', '1e8'),
+        component: ComponentCreator('/docs/linux/intro', '2fa'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "linux"
       },
       {
-        path: '/docs/mysql/刷题必备',
-        component: ComponentCreator('/docs/mysql/刷题必备', '64c'),
+        path: '/docs/linux/nginx/刷题必备',
+        component: ComponentCreator('/docs/linux/nginx/刷题必备', '201'),
         exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "linux"
       },
       {
-        path: '/docs/mysql/intro',
-        component: ComponentCreator('/docs/mysql/intro', 'fd9'),
+        path: '/docs/linux/nginx/intro',
+        component: ComponentCreator('/docs/linux/nginx/intro', 'bbc'),
         exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/nginx/刷题必备',
-        component: ComponentCreator('/docs/nginx/刷题必备', 'b0f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/nginx/intro',
-        component: ComponentCreator('/docs/nginx/intro', 'bce'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/redis/刷题必备',
-        component: ComponentCreator('/docs/redis/刷题必备', 'a27'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/redis/intro',
-        component: ComponentCreator('/docs/redis/intro', '37b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
+        sidebar: "linux"
       },
       {
         path: '/docs/tutorial-basics/congratulations',
