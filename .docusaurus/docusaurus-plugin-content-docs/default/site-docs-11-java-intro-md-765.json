@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "java",
   "previous": {
-    "title": "idea",
-    "permalink": "/docs/java/ide使用技巧/idea"
+    "title": "启动时报错--Cannot connect to already running IDE instance.Exception: Process 1,180 is still running",
+    "permalink": "/docs/java/ide使用技巧/错误集锦"
+  },
+  "next": {
+    "title": "位运算",
+    "permalink": "/docs/java/位运算"
   }
 }

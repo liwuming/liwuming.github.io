@@ -8,1509 +8,158 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "tutorialSidebar": [
-      {
-        "type": "link",
-        "label": "Tutorial Intro",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
-      {
-        "type": "category",
-        "label": "js&ts",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "js学习经",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "xhr",
-                "href": "/docs/js&ts/js学习经/xhr",
-                "docId": "js&ts/js学习经/xhr"
-              },
-              {
-                "type": "link",
-                "label": "js中两个小数相减，出现多位小数",
-                "href": "/docs/js&ts/js学习经/精度丢失",
-                "docId": "js&ts/js学习经/精度丢失"
-              },
-              {
-                "type": "link",
-                "label": "日期格式化",
-                "href": "/docs/js&ts/js学习经/日期格式化",
-                "docId": "js&ts/js学习经/日期格式化"
-              },
-              {
-                "type": "link",
-                "label": "事件",
-                "href": "/docs/js&ts/js学习经/事件",
-                "docId": "js&ts/js学习经/事件"
-              },
-              {
-                "type": "link",
-                "label": "js之函数",
-                "href": "/docs/js&ts/js学习经/函数",
-                "docId": "js&ts/js学习经/函数"
-              },
-              {
-                "type": "link",
-                "label": "本地存储",
-                "href": "/docs/js&ts/js学习经/本地存储",
-                "docId": "js&ts/js学习经/本地存储"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "js高级程序设计-第四版",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "什么是迭代",
-                "href": "/docs/js&ts/js高级程序设计-第四版/迭代器与生成器",
-                "docId": "js&ts/js高级程序设计-第四版/迭代器与生成器"
-              },
-              {
-                "type": "link",
-                "label": "面向对象程序编程",
-                "href": "/docs/js&ts/js高级程序设计-第四版/面向对象程序编程",
-                "docId": "js&ts/js高级程序设计-第四版/面向对象程序编程"
-              },
-              {
-                "type": "category",
-                "label": "chap04.变量及作用域",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "RegExp",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
-                    "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp"
-                  },
-                  {
-                    "type": "link",
-                    "label": "1211",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象"
-                  },
-                  {
-                    "type": "link",
-                    "label": "原始值包装类型",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
-                    "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型"
-                  },
-                  {
-                    "type": "link",
-                    "label": "内置单例对象",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "chap05.基本引用类型",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "RegExp",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
-                    "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp"
-                  },
-                  {
-                    "type": "link",
-                    "label": "date对象",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象"
-                  },
-                  {
-                    "type": "link",
-                    "label": "原始值包装类型",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
-                    "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型"
-                  },
-                  {
-                    "type": "link",
-                    "label": "内置单例对象",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "chap06.集合引用类型",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "RegExp",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
-                    "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp"
-                  },
-                  {
-                    "type": "link",
-                    "label": "date对象",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象"
-                  },
-                  {
-                    "type": "link",
-                    "label": "原始值包装类型",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
-                    "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型"
-                  },
-                  {
-                    "type": "link",
-                    "label": "内置单例对象",
-                    "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
-                    "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象"
-                  }
-                ]
-              },
-              {
-                "type": "link",
-                "label": "intro",
-                "href": "/docs/js&ts/js高级程序设计-第四版/intro",
-                "docId": "js&ts/js高级程序设计-第四版/intro"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "标准阮一峰es6入门",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "什么是迭代",
-                "href": "/docs/js&ts/标准阮一峰es6入门/迭代器与生成器",
-                "docId": "js&ts/标准阮一峰es6入门/迭代器与生成器"
-              },
-              {
-                "type": "link",
-                "label": "面向对象程序编程",
-                "href": "/docs/js&ts/标准阮一峰es6入门/面向对象程序编程",
-                "docId": "js&ts/标准阮一峰es6入门/面向对象程序编程"
-              },
-              {
-                "type": "link",
-                "label": "01",
-                "href": "/docs/js&ts/标准阮一峰es6入门/01",
-                "docId": "js&ts/标准阮一峰es6入门/01"
-              },
-              {
-                "type": "link",
-                "label": "02.",
-                "href": "/docs/js&ts/标准阮一峰es6入门/02.",
-                "docId": "js&ts/标准阮一峰es6入门/02."
-              },
-              {
-                "type": "link",
-                "label": "疑惑",
-                "href": "/docs/js&ts/标准阮一峰es6入门/疑惑",
-                "docId": "js&ts/标准阮一峰es6入门/疑惑"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "js数据结构与算法",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "学习目标",
-                "href": "/docs/js&ts/js数据结构与算法/intro",
-                "docId": "js&ts/js数据结构与算法/intro"
-              },
-              {
-                "type": "link",
-                "label": "基础准备",
-                "href": "/docs/js&ts/js数据结构与算法/基础准备",
-                "docId": "js&ts/js数据结构与算法/基础准备"
-              },
-              {
-                "type": "link",
-                "label": "线性结构",
-                "href": "/docs/js&ts/js数据结构与算法/线性结构",
-                "docId": "js&ts/js数据结构与算法/线性结构"
-              },
-              {
-                "type": "link",
-                "label": "排序",
-                "href": "/docs/js&ts/js数据结构与算法/排序",
-                "docId": "js&ts/js数据结构与算法/排序"
-              },
-              {
-                "type": "link",
-                "label": "快速排序",
-                "href": "/docs/js&ts/js数据结构与算法/快速排序",
-                "docId": "js&ts/js数据结构与算法/快速排序"
-              },
-              {
-                "type": "link",
-                "label": "查找",
-                "href": "/docs/js&ts/js数据结构与算法/查找",
-                "docId": "js&ts/js数据结构与算法/查找"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "vue3",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "新要求",
-                "href": "/docs/js&ts/vue3/新要求",
-                "docId": "js&ts/vue3/新要求"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "react",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "新要求",
-                "href": "/docs/js&ts/react/新要求",
-                "docId": "js&ts/react/新要求"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "小程序开发",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "地图",
-                "href": "/docs/js&ts/小程序开发/地图",
-                "docId": "js&ts/小程序开发/地图"
-              },
-              {
-                "type": "link",
-                "label": "如何查看小程序管理员",
-                "href": "/docs/js&ts/小程序开发/如何查看小程序管理员",
-                "docId": "js&ts/小程序开发/如何查看小程序管理员"
-              },
-              {
-                "type": "link",
-                "label": "如何查看小程序的管理员账户，",
-                "href": "/docs/js&ts/小程序开发/常见问题",
-                "docId": "js&ts/小程序开发/常见问题"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "实践经验",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "category",
-                "label": "前端常见问题汇总",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "js精度丢失",
-                    "href": "/docs/js&ts/实践经验/前端常见问题汇总/js精度丢失",
-                    "docId": "js&ts/实践经验/前端常见问题汇总/js精度丢失"
-                  },
-                  {
-                    "type": "link",
-                    "label": "如何快速生成26个字母",
-                    "href": "/docs/js&ts/实践经验/前端常见问题汇总/one",
-                    "docId": "js&ts/实践经验/前端常见问题汇总/one"
-                  },
-                  {
-                    "type": "link",
-                    "label": "学习如何开发npm包，使用es6语法，重写kity",
-                    "href": "/docs/js&ts/实践经验/前端常见问题汇总/如何开发npm包",
-                    "docId": "js&ts/实践经验/前端常见问题汇总/如何开发npm包"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "2303",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "js精度丢失",
-                "href": "/docs/js&ts/2303/js精度丢失",
-                "docId": "js&ts/2303/js精度丢失"
-              },
-              {
-                "type": "link",
-                "label": "学习如何开发npm包，使用es6语法，重写kity",
-                "href": "/docs/js&ts/2303/如何开发npm包",
-                "docId": "js&ts/2303/如何开发npm包"
-              },
-              {
-                "type": "link",
-                "label": "object-hash",
-                "href": "/docs/js&ts/2303/研究库",
-                "docId": "js&ts/2303/研究库"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/js&ts/intro",
-            "docId": "js&ts/intro"
-          },
-          {
-            "type": "category",
-            "label": "ts",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "ts是什么",
-                "href": "/docs/js&ts/ts/ts是什么",
-                "docId": "js&ts/ts/ts是什么"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "uniapp",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "如何实现导出excel",
-                "href": "/docs/js&ts/uniapp/如何实现导出excel",
-                "docId": "js&ts/uniapp/如何实现导出excel"
-              },
-              {
-                "type": "link",
-                "label": "v-if与echarts不显示问题。",
-                "href": "/docs/js&ts/uniapp/02-27",
-                "docId": "js&ts/uniapp/02-27"
-              },
-              {
-                "type": "link",
-                "label": "生成二维码",
-                "href": "/docs/js&ts/uniapp/0728",
-                "docId": "js&ts/uniapp/0728"
-              },
-              {
-                "type": "link",
-                "label": "wifi调试",
-                "href": "/docs/js&ts/uniapp/wifi调试",
-                "docId": "js&ts/uniapp/wifi调试"
-              },
-              {
-                "type": "link",
-                "label": "下拉加载更多",
-                "href": "/docs/js&ts/uniapp/下拉加载更多",
-                "docId": "js&ts/uniapp/下拉加载更多"
-              },
-              {
-                "type": "link",
-                "label": "在小程序中地图",
-                "href": "/docs/js&ts/uniapp/地图",
-                "docId": "js&ts/uniapp/地图"
-              },
-              {
-                "type": "link",
-                "label": "常见问题",
-                "href": "/docs/js&ts/uniapp/常见问题",
-                "docId": "js&ts/uniapp/常见问题"
-              },
-              {
-                "type": "category",
-                "label": "聊天记录",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "uniapp实现聊天功能",
-                    "href": "/docs/js&ts/uniapp/聊天记录/发送语音",
-                    "docId": "js&ts/uniapp/聊天记录/发送语音"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "常用ui",
-            "href": "/docs/js&ts/前端开发",
-            "docId": "js&ts/前端开发"
-          },
-          {
-            "type": "link",
-            "label": "ant design pro安装及开发用户中心",
-            "href": "/docs/js&ts/用户",
-            "docId": "js&ts/用户"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Basics",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
-          },
-          {
-            "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
-          },
-          {
-            "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
-          },
-          {
-            "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
-          },
-          {
-            "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
-          },
-          {
-            "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
-          }
-        ],
-        "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
-      },
-      {
-        "type": "category",
-        "label": "git",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "忽略文件夹，例外",
-            "href": "/docs/git/忽略文件",
-            "docId": "git/忽略文件"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "java",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "java-se",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "category",
-                "label": "面向对象基础",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "java面向对象",
-                    "href": "/docs/java/java-se/面向对象基础/java面向对象",
-                    "docId": "java/java-se/面向对象基础/java面向对象"
-                  },
-                  {
-                    "type": "link",
-                    "label": "新建 文本文档",
-                    "href": "/docs/java/java-se/面向对象基础/新建 文本文档",
-                    "docId": "java/java-se/面向对象基础/新建 文本文档"
-                  },
-                  {
-                    "type": "link",
-                    "label": "访问权限控制",
-                    "href": "/docs/java/java-se/面向对象基础/访问权限控制",
-                    "docId": "java/java-se/面向对象基础/访问权限控制"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "面向对象高级",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "intro",
-                    "href": "/docs/java/java-se/面向对象高级/intro",
-                    "docId": "java/java-se/面向对象高级/intro"
-                  },
-                  {
-                    "type": "link",
-                    "label": "关于static关键字概述",
-                    "href": "/docs/java/java-se/面向对象高级/static关键字",
-                    "docId": "java/java-se/面向对象高级/static关键字"
-                  },
-                  {
-                    "type": "link",
-                    "label": "继承",
-                    "href": "/docs/java/java-se/面向对象高级/继承",
-                    "docId": "java/java-se/面向对象高级/继承"
-                  },
-                  {
-                    "type": "link",
-                    "label": "Object类",
-                    "href": "/docs/java/java-se/面向对象高级/Object类",
-                    "docId": "java/java-se/面向对象高级/Object类"
-                  },
-                  {
-                    "type": "link",
-                    "label": "java生成随机数的方法",
-                    "href": "/docs/java/java-se/面向对象高级/java生成随机数的方法",
-                    "docId": "java/java-se/面向对象高级/java生成随机数的方法"
-                  },
-                  {
-                    "type": "link",
-                    "label": "关于super与this关键字的区别",
-                    "href": "/docs/java/java-se/面向对象高级/this与super",
-                    "docId": "java/java-se/面向对象高级/this与super"
-                  },
-                  {
-                    "type": "link",
-                    "label": "内部类",
-                    "href": "/docs/java/java-se/面向对象高级/内部类",
-                    "docId": "java/java-se/面向对象高级/内部类"
-                  },
-                  {
-                    "type": "link",
-                    "label": "本章学习目标",
-                    "href": "/docs/java/java-se/面向对象高级/接口",
-                    "docId": "java/java-se/面向对象高级/接口"
-                  },
-                  {
-                    "type": "link",
-                    "label": "接口",
-                    "href": "/docs/java/java-se/面向对象高级/泛型数组",
-                    "docId": "java/java-se/面向对象高级/泛型数组"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "异常，断言和日志",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "处理错误",
-                    "href": "/docs/java/java-se/异常，断言和日志/处理错误",
-                    "docId": "java/java-se/异常，断言和日志/处理错误"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "泛型程序设计",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "泛型程序设计",
-                    "href": "/docs/java/java-se/泛型程序设计/泛型升序设计",
-                    "docId": "java/java-se/泛型程序设计/泛型升序设计"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "集合",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "ArrayList",
-                    "href": "/docs/java/java-se/集合/ArrayList",
-                    "docId": "java/java-se/集合/ArrayList"
-                  },
-                  {
-                    "type": "link",
-                    "label": "intro",
-                    "href": "/docs/java/java-se/集合/intro",
-                    "docId": "java/java-se/集合/intro"
-                  },
-                  {
-                    "type": "link",
-                    "label": "collection系列单列集合",
-                    "href": "/docs/java/java-se/集合/collection",
-                    "docId": "java/java-se/集合/collection"
-                  },
-                  {
-                    "type": "link",
-                    "label": "map",
-                    "href": "/docs/java/java-se/集合/map",
-                    "docId": "java/java-se/集合/map"
-                  }
-                ]
-              },
-              {
-                "type": "link",
-                "label": "java面向对象",
-                "href": "/docs/java/java-se/java面向对象",
-                "docId": "java/java-se/java面向对象"
-              },
-              {
-                "type": "category",
-                "label": "基础类库",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "readme",
-                    "href": "/docs/java/java-se/基础类库/system类库/",
-                    "docId": "java/java-se/基础类库/system类库/readme"
-                  },
-                  {
-                    "type": "category",
-                    "label": "utils",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "arrays",
-                        "href": "/docs/java/java-se/基础类库/utils/arrays",
-                        "docId": "java/java-se/基础类库/utils/arrays"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "link",
-                    "label": "ArrayList",
-                    "href": "/docs/java/java-se/基础类库/ArrayList",
-                    "docId": "java/java-se/基础类库/ArrayList"
-                  },
-                  {
-                    "type": "category",
-                    "label": "时间",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "localDateTime",
-                        "href": "/docs/java/java-se/基础类库/时间和日期/Time类库",
-                        "docId": "java/java-se/基础类库/时间和日期/Time类库"
-                      },
-                      {
-                        "type": "link",
-                        "label": "jdk8",
-                        "href": "/docs/java/java-se/基础类库/时间和日期/jdk8",
-                        "docId": "java/java-se/基础类库/时间和日期/jdk8"
-                      }
-                    ],
-                    "href": "/docs/java/java-se/基础类库/时间和日期/"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "常用操作总结",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "category",
-                    "label": "基本类型-int",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "数组的遍历",
-                        "href": "/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历",
-                        "docId": "java/java-se/常用操作总结/基本类型-int/数组的遍历"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "字符串",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "字符串常用操作",
-                        "href": "/docs/java/java-se/常用操作总结/字符串/字符串对象",
-                        "docId": "java/java-se/常用操作总结/字符串/字符串对象"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "数组操作",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "数组的遍历",
-                        "href": "/docs/java/java-se/常用操作总结/数组操作/数组的遍历",
-                        "docId": "java/java-se/常用操作总结/数组操作/数组的遍历"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "category",
-                    "label": "正则",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "link",
-                        "label": "常用正则表达式汇总",
-                        "href": "/docs/java/java-se/常用操作总结/正则/数组的遍历",
-                        "docId": "java/java-se/常用操作总结/正则/数组的遍历"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "type": "link",
-                "label": "lambda",
-                "href": "/docs/java/java-se/lambda",
-                "docId": "java/java-se/lambda"
-              },
-              {
-                "type": "link",
-                "label": "如何求平均数",
-                "href": "/docs/java/java-se/如何求平均数",
-                "docId": "java/java-se/如何求平均数"
-              },
-              {
-                "type": "category",
-                "label": "数组",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "数组的遍历",
-                    "href": "/docs/java/java-se/数组/数组的遍历",
-                    "docId": "java/java-se/数组/数组的遍历"
-                  }
-                ]
-              },
-              {
-                "type": "category",
-                "label": "正则表达式",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "字符串函数",
-                    "href": "/docs/java/java-se/正则表达式/字符串函数",
-                    "docId": "java/java-se/正则表达式/字符串函数"
-                  },
-                  {
-                    "type": "link",
-                    "label": "正则表达式",
-                    "href": "/docs/java/java-se/正则表达式/正则入门",
-                    "docId": "java/java-se/正则表达式/正则入门"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "算法与数据结构",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "算法概述",
-                "href": "/docs/java/算法与数据结构/intro",
-                "docId": "java/算法与数据结构/intro"
-              },
-              {
-                "type": "link",
-                "label": "排序基础篇",
-                "href": "/docs/java/算法与数据结构/排序算法",
-                "docId": "java/算法与数据结构/排序算法"
-              },
-              {
-                "type": "link",
-                "label": "查找算法",
-                "href": "/docs/java/算法与数据结构/查找算法",
-                "docId": "java/算法与数据结构/查找算法"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "设计模式",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "关于设计模式概述",
-                "href": "/docs/java/设计模式/intro",
-                "docId": "java/设计模式/intro"
-              },
-              {
-                "type": "link",
-                "label": "单例设计模式",
-                "href": "/docs/java/设计模式/单例模式",
-                "docId": "java/设计模式/单例模式"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "面试题",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "算法概述",
-                "href": "/docs/java/面试题/intro",
-                "docId": "java/面试题/intro"
-              },
-              {
-                "type": "link",
-                "label": "排序基础篇",
-                "href": "/docs/java/面试题/排序算法",
-                "docId": "java/面试题/排序算法"
-              },
-              {
-                "type": "link",
-                "label": "查找算法",
-                "href": "/docs/java/面试题/查找算法",
-                "docId": "java/面试题/查找算法"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "ide使用技巧",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "idea",
-                "href": "/docs/java/ide使用技巧/idea",
-                "docId": "java/ide使用技巧/idea"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/java/intro",
-            "docId": "java/intro"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "go",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "go语言学习记录",
-            "href": "/docs/go/intro",
-            "docId": "go/intro"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "linux",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "nginx",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "intro",
-                "href": "/docs/linux/nginx/intro",
-                "docId": "linux/nginx/intro"
-              },
-              {
-                "type": "link",
-                "label": "刷题必备",
-                "href": "/docs/linux/nginx/刷题必备",
-                "docId": "linux/nginx/刷题必备"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "解惑迷经",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "巧计易混淆点",
-                "href": "/docs/linux/解惑迷经/巧计易混淆点",
-                "docId": "linux/解惑迷经/巧计易混淆点"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/linux/intro",
-            "docId": "linux/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/linux/刷题必备",
-            "docId": "linux/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "database",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "redis",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "intro",
-                "href": "/docs/database/redis/intro",
-                "docId": "database/redis/intro"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/database/intro",
-            "docId": "database/intro"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "docker",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/docker/intro",
-            "docId": "docker/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/docker/刷题必备",
-            "docId": "docker/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "algorithms",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "category",
-            "label": "leecode",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "两数之和",
-                "href": "/docs/algorithms/leecode/两数之和",
-                "docId": "algorithms/leecode/两数之和"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "intro",
-            "href": "/docs/algorithms/intro",
-            "docId": "algorithms/intro"
-          },
-          {
-            "type": "link",
-            "label": "刷题必备",
-            "href": "/docs/algorithms/刷题必备",
-            "docId": "algorithms/刷题必备"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "economist",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "英语杂志--economist阅读记录",
-            "href": "/docs/economist/intro",
-            "docId": "economist/intro"
-          },
-          {
-            "type": "category",
-            "label": "year-2024",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "category",
-                "label": "month01",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "link",
-                    "label": "2024-01-03",
-                    "href": "/docs/economist/year-2024/month01/2024-01-03",
-                    "docId": "economist/year-2024/month01/2024-01-03"
-                  },
-                  {
-                    "type": "link",
-                    "label": "2024-01-07杂志阅读",
-                    "href": "/docs/economist/year-2024/month01/2024-01-07",
-                    "docId": "economist/year-2024/month01/2024-01-07"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "books",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "读过的书",
-            "href": "/docs/books/intro",
-            "docId": "books/intro"
-          },
-          {
-            "type": "category",
-            "label": "被讨厌的勇气",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "被讨厌的勇气",
-                "href": "/docs/books/被讨厌的勇气/intro",
-                "docId": "books/被讨厌的勇气/intro"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "金字塔原理",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "金字塔原理",
-                "href": "/docs/books/金字塔原理/intro",
-                "docId": "books/金字塔原理/intro"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "win10系统",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "关于全角半角切换",
-            "href": "/docs/win10系统/关于全角半角切换",
-            "docId": "win10系统/关于全角半角切换"
-          }
-        ]
-      }
-    ],
     "ecma": [
       {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/web/intro",
+        "docId": "web/intro"
+      },
+      {
         "type": "category",
-        "label": "js学习经",
+        "label": "html5&css3",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "xhr",
-            "href": "/docs/js&ts/js学习经/xhr",
-            "docId": "js&ts/js学习经/xhr"
-          },
-          {
-            "type": "link",
-            "label": "js中两个小数相减，出现多位小数",
-            "href": "/docs/js&ts/js学习经/精度丢失",
-            "docId": "js&ts/js学习经/精度丢失"
-          },
-          {
-            "type": "link",
-            "label": "日期格式化",
-            "href": "/docs/js&ts/js学习经/日期格式化",
-            "docId": "js&ts/js学习经/日期格式化"
-          },
-          {
-            "type": "link",
-            "label": "事件",
-            "href": "/docs/js&ts/js学习经/事件",
-            "docId": "js&ts/js学习经/事件"
-          },
-          {
-            "type": "link",
-            "label": "js之函数",
-            "href": "/docs/js&ts/js学习经/函数",
-            "docId": "js&ts/js学习经/函数"
-          },
-          {
-            "type": "link",
-            "label": "本地存储",
-            "href": "/docs/js&ts/js学习经/本地存储",
-            "docId": "js&ts/js学习经/本地存储"
+            "label": "html5和css3新变化",
+            "href": "/docs/web/html5&css3/intro",
+            "docId": "web/html5&css3/intro"
           }
         ]
       },
       {
         "type": "category",
-        "label": "js高级程序设计-第四版",
+        "label": "es5入门到起飞",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "什么是迭代",
-            "href": "/docs/js&ts/js高级程序设计-第四版/迭代器与生成器",
-            "docId": "js&ts/js高级程序设计-第四版/迭代器与生成器"
-          },
+            "label": "es6学习概要",
+            "href": "/docs/web/es5入门到起飞/intro",
+            "docId": "web/es5入门到起飞/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "es6入门到起飞",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
           {
             "type": "link",
-            "label": "面向对象程序编程",
-            "href": "/docs/js&ts/js高级程序设计-第四版/面向对象程序编程",
-            "docId": "js&ts/js高级程序设计-第四版/面向对象程序编程"
-          },
-          {
-            "type": "category",
-            "label": "chap04.变量及作用域",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "RegExp",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
-                "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp"
-              },
-              {
-                "type": "link",
-                "label": "1211",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象"
-              },
-              {
-                "type": "link",
-                "label": "原始值包装类型",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
-                "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型"
-              },
-              {
-                "type": "link",
-                "label": "内置单例对象",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "chap05.基本引用类型",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "RegExp",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
-                "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp"
-              },
-              {
-                "type": "link",
-                "label": "date对象",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象"
-              },
-              {
-                "type": "link",
-                "label": "原始值包装类型",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
-                "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型"
-              },
-              {
-                "type": "link",
-                "label": "内置单例对象",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象"
-              }
-            ]
-          },
-          {
-            "type": "category",
-            "label": "chap06.集合引用类型",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "RegExp",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
-                "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp"
-              },
-              {
-                "type": "link",
-                "label": "date对象",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象"
-              },
-              {
-                "type": "link",
-                "label": "原始值包装类型",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
-                "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型"
-              },
-              {
-                "type": "link",
-                "label": "内置单例对象",
-                "href": "/docs/js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
-                "docId": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象"
-              }
-            ]
-          },
+            "label": "es6学习概要",
+            "href": "/docs/web/es6入门到起飞/intro",
+            "docId": "web/es6入门到起飞/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "ts入门到起飞",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
           {
             "type": "link",
             "label": "intro",
-            "href": "/docs/js&ts/js高级程序设计-第四版/intro",
-            "docId": "js&ts/js高级程序设计-第四版/intro"
+            "href": "/docs/web/ts入门到起飞/intro",
+            "docId": "web/ts入门到起飞/intro"
           }
         ]
       },
       {
         "type": "category",
-        "label": "标准阮一峰es6入门",
+        "label": "vue3学习手册",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "什么是迭代",
-            "href": "/docs/js&ts/标准阮一峰es6入门/迭代器与生成器",
-            "docId": "js&ts/标准阮一峰es6入门/迭代器与生成器"
-          },
-          {
-            "type": "link",
-            "label": "面向对象程序编程",
-            "href": "/docs/js&ts/标准阮一峰es6入门/面向对象程序编程",
-            "docId": "js&ts/标准阮一峰es6入门/面向对象程序编程"
-          },
-          {
-            "type": "link",
-            "label": "01",
-            "href": "/docs/js&ts/标准阮一峰es6入门/01",
-            "docId": "js&ts/标准阮一峰es6入门/01"
-          },
-          {
-            "type": "link",
-            "label": "02.",
-            "href": "/docs/js&ts/标准阮一峰es6入门/02.",
-            "docId": "js&ts/标准阮一峰es6入门/02."
-          },
-          {
-            "type": "link",
-            "label": "疑惑",
-            "href": "/docs/js&ts/标准阮一峰es6入门/疑惑",
-            "docId": "js&ts/标准阮一峰es6入门/疑惑"
+            "label": "vue3概要",
+            "href": "/docs/web/vue3学习手册/intro",
+            "docId": "web/vue3学习手册/intro"
           }
         ]
       },
       {
         "type": "category",
-        "label": "js数据结构与算法",
+        "label": "react学习手册",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "学习目标",
-            "href": "/docs/js&ts/js数据结构与算法/intro",
-            "docId": "js&ts/js数据结构与算法/intro"
-          },
-          {
-            "type": "link",
-            "label": "基础准备",
-            "href": "/docs/js&ts/js数据结构与算法/基础准备",
-            "docId": "js&ts/js数据结构与算法/基础准备"
-          },
-          {
-            "type": "link",
-            "label": "线性结构",
-            "href": "/docs/js&ts/js数据结构与算法/线性结构",
-            "docId": "js&ts/js数据结构与算法/线性结构"
-          },
-          {
-            "type": "link",
-            "label": "排序",
-            "href": "/docs/js&ts/js数据结构与算法/排序",
-            "docId": "js&ts/js数据结构与算法/排序"
-          },
-          {
-            "type": "link",
-            "label": "快速排序",
-            "href": "/docs/js&ts/js数据结构与算法/快速排序",
-            "docId": "js&ts/js数据结构与算法/快速排序"
-          },
-          {
-            "type": "link",
-            "label": "查找",
-            "href": "/docs/js&ts/js数据结构与算法/查找",
-            "docId": "js&ts/js数据结构与算法/查找"
+            "label": "react概要",
+            "href": "/docs/web/react学习手册/intro",
+            "docId": "web/react学习手册/intro"
           }
         ]
       },
       {
         "type": "category",
-        "label": "vue3",
+        "label": "uniapp学习文档",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "新要求",
-            "href": "/docs/js&ts/vue3/新要求",
-            "docId": "js&ts/vue3/新要求"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "react",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
+            "label": "如何实现导出excel",
+            "href": "/docs/web/uniapp学习文档/如何实现导出excel",
+            "docId": "web/uniapp学习文档/如何实现导出excel"
+          },
           {
             "type": "link",
-            "label": "新要求",
-            "href": "/docs/js&ts/react/新要求",
-            "docId": "js&ts/react/新要求"
+            "label": "v-if与echarts不显示问题。",
+            "href": "/docs/web/uniapp学习文档/02-27",
+            "docId": "web/uniapp学习文档/02-27"
+          },
+          {
+            "type": "link",
+            "label": "生成二维码",
+            "href": "/docs/web/uniapp学习文档/0728",
+            "docId": "web/uniapp学习文档/0728"
+          },
+          {
+            "type": "link",
+            "label": "wifi调试",
+            "href": "/docs/web/uniapp学习文档/wifi调试",
+            "docId": "web/uniapp学习文档/wifi调试"
+          },
+          {
+            "type": "link",
+            "label": "下拉加载更多",
+            "href": "/docs/web/uniapp学习文档/下拉加载更多",
+            "docId": "web/uniapp学习文档/下拉加载更多"
+          },
+          {
+            "type": "link",
+            "label": "在小程序中地图",
+            "href": "/docs/web/uniapp学习文档/地图",
+            "docId": "web/uniapp学习文档/地图"
+          },
+          {
+            "type": "link",
+            "label": "常见问题",
+            "href": "/docs/web/uniapp学习文档/常见问题",
+            "docId": "web/uniapp学习文档/常见问题"
+          },
+          {
+            "type": "category",
+            "label": "聊天记录",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "uniapp实现聊天功能",
+                "href": "/docs/web/uniapp学习文档/聊天记录/发送语音",
+                "docId": "web/uniapp学习文档/聊天记录/发送语音"
+              }
+            ]
           }
         ]
       },
@@ -1523,20 +172,20 @@
           {
             "type": "link",
             "label": "地图",
-            "href": "/docs/js&ts/小程序开发/地图",
-            "docId": "js&ts/小程序开发/地图"
+            "href": "/docs/web/小程序开发/地图",
+            "docId": "web/小程序开发/地图"
           },
           {
             "type": "link",
             "label": "如何查看小程序管理员",
-            "href": "/docs/js&ts/小程序开发/如何查看小程序管理员",
-            "docId": "js&ts/小程序开发/如何查看小程序管理员"
+            "href": "/docs/web/小程序开发/如何查看小程序管理员",
+            "docId": "web/小程序开发/如何查看小程序管理员"
           },
           {
             "type": "link",
             "label": "如何查看小程序的管理员账户，",
-            "href": "/docs/js&ts/小程序开发/常见问题",
-            "docId": "js&ts/小程序开发/常见问题"
+            "href": "/docs/web/小程序开发/常见问题",
+            "docId": "web/小程序开发/常见问题"
           }
         ]
       },
@@ -1555,146 +204,300 @@
               {
                 "type": "link",
                 "label": "js精度丢失",
-                "href": "/docs/js&ts/实践经验/前端常见问题汇总/js精度丢失",
-                "docId": "js&ts/实践经验/前端常见问题汇总/js精度丢失"
+                "href": "/docs/web/实践经验/前端常见问题汇总/js精度丢失",
+                "docId": "web/实践经验/前端常见问题汇总/js精度丢失"
               },
               {
                 "type": "link",
                 "label": "如何快速生成26个字母",
-                "href": "/docs/js&ts/实践经验/前端常见问题汇总/one",
-                "docId": "js&ts/实践经验/前端常见问题汇总/one"
+                "href": "/docs/web/实践经验/前端常见问题汇总/one",
+                "docId": "web/实践经验/前端常见问题汇总/one"
               },
               {
                 "type": "link",
                 "label": "学习如何开发npm包，使用es6语法，重写kity",
-                "href": "/docs/js&ts/实践经验/前端常见问题汇总/如何开发npm包",
-                "docId": "js&ts/实践经验/前端常见问题汇总/如何开发npm包"
+                "href": "/docs/web/实践经验/前端常见问题汇总/如何开发npm包",
+                "docId": "web/实践经验/前端常见问题汇总/如何开发npm包"
               }
             ]
+          },
+          {
+            "type": "link",
+            "label": "常用ui",
+            "href": "/docs/web/实践经验/前端开发",
+            "docId": "web/实践经验/前端开发"
+          },
+          {
+            "type": "link",
+            "label": "ant design pro安装及开发用户中心",
+            "href": "/docs/web/实践经验/用户",
+            "docId": "web/实践经验/用户"
           }
         ]
       },
       {
         "type": "category",
-        "label": "2303",
+        "label": "前端优秀库集锦",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "js精度丢失",
-            "href": "/docs/js&ts/2303/js精度丢失",
-            "docId": "js&ts/2303/js精度丢失"
+            "href": "/docs/web/前端优秀库集锦/js精度丢失",
+            "docId": "web/前端优秀库集锦/js精度丢失"
           },
           {
             "type": "link",
             "label": "学习如何开发npm包，使用es6语法，重写kity",
-            "href": "/docs/js&ts/2303/如何开发npm包",
-            "docId": "js&ts/2303/如何开发npm包"
+            "href": "/docs/web/前端优秀库集锦/如何开发npm包",
+            "docId": "web/前端优秀库集锦/如何开发npm包"
           },
           {
             "type": "link",
             "label": "object-hash",
-            "href": "/docs/js&ts/2303/研究库",
-            "docId": "js&ts/2303/研究库"
-          }
-        ]
-      },
-      {
-        "type": "link",
-        "label": "intro",
-        "href": "/docs/js&ts/intro",
-        "docId": "js&ts/intro"
-      },
-      {
-        "type": "category",
-        "label": "ts",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "ts是什么",
-            "href": "/docs/js&ts/ts/ts是什么",
-            "docId": "js&ts/ts/ts是什么"
+            "href": "/docs/web/前端优秀库集锦/研究库",
+            "docId": "web/前端优秀库集锦/研究库"
           }
         ]
       },
       {
         "type": "category",
-        "label": "uniapp",
+        "label": "前端错误集锦",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "如何实现导出excel",
-            "href": "/docs/js&ts/uniapp/如何实现导出excel",
-            "docId": "js&ts/uniapp/如何实现导出excel"
+            "label": "js精度丢失",
+            "href": "/docs/web/前端错误集锦/js精度丢失",
+            "docId": "web/前端错误集锦/js精度丢失"
           },
           {
             "type": "link",
-            "label": "v-if与echarts不显示问题。",
-            "href": "/docs/js&ts/uniapp/02-27",
-            "docId": "js&ts/uniapp/02-27"
+            "label": "学习如何开发npm包，使用es6语法，重写kity",
+            "href": "/docs/web/前端错误集锦/如何开发npm包",
+            "docId": "web/前端错误集锦/如何开发npm包"
           },
           {
             "type": "link",
-            "label": "生成二维码",
-            "href": "/docs/js&ts/uniapp/0728",
-            "docId": "js&ts/uniapp/0728"
-          },
-          {
-            "type": "link",
-            "label": "wifi调试",
-            "href": "/docs/js&ts/uniapp/wifi调试",
-            "docId": "js&ts/uniapp/wifi调试"
-          },
-          {
-            "type": "link",
-            "label": "下拉加载更多",
-            "href": "/docs/js&ts/uniapp/下拉加载更多",
-            "docId": "js&ts/uniapp/下拉加载更多"
-          },
-          {
-            "type": "link",
-            "label": "在小程序中地图",
-            "href": "/docs/js&ts/uniapp/地图",
-            "docId": "js&ts/uniapp/地图"
-          },
-          {
-            "type": "link",
-            "label": "常见问题",
-            "href": "/docs/js&ts/uniapp/常见问题",
-            "docId": "js&ts/uniapp/常见问题"
-          },
+            "label": "object-hash",
+            "href": "/docs/web/前端错误集锦/研究库",
+            "docId": "web/前端错误集锦/研究库"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "前端圣经书籍",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
           {
             "type": "category",
-            "label": "聊天记录",
+            "label": "js高级程序设计-第四版",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
-                "label": "uniapp实现聊天功能",
-                "href": "/docs/js&ts/uniapp/聊天记录/发送语音",
-                "docId": "js&ts/uniapp/聊天记录/发送语音"
+                "label": "什么是迭代",
+                "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器",
+                "docId": "web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器"
+              },
+              {
+                "type": "link",
+                "label": "面向对象程序编程",
+                "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程",
+                "docId": "web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程"
+              },
+              {
+                "type": "category",
+                "label": "chap04.变量及作用域",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "RegExp",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp"
+                  },
+                  {
+                    "type": "link",
+                    "label": "1211",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象"
+                  },
+                  {
+                    "type": "link",
+                    "label": "原始值包装类型",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型"
+                  },
+                  {
+                    "type": "link",
+                    "label": "内置单例对象",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "chap05.基本引用类型",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "RegExp",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp"
+                  },
+                  {
+                    "type": "link",
+                    "label": "date对象",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象"
+                  },
+                  {
+                    "type": "link",
+                    "label": "原始值包装类型",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型"
+                  },
+                  {
+                    "type": "link",
+                    "label": "内置单例对象",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "chap06.集合引用类型",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "RegExp",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp"
+                  },
+                  {
+                    "type": "link",
+                    "label": "date对象",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象"
+                  },
+                  {
+                    "type": "link",
+                    "label": "原始值包装类型",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型"
+                  },
+                  {
+                    "type": "link",
+                    "label": "内置单例对象",
+                    "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+                    "docId": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "intro",
+                "href": "/docs/web/前端圣经书籍/js高级程序设计-第四版/intro",
+                "docId": "web/前端圣经书籍/js高级程序设计-第四版/intro"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "阮一峰es6入门标准",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "什么是迭代",
+                "href": "/docs/web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器",
+                "docId": "web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器"
+              },
+              {
+                "type": "link",
+                "label": "面向对象程序编程",
+                "href": "/docs/web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程",
+                "docId": "web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程"
+              },
+              {
+                "type": "link",
+                "label": "01",
+                "href": "/docs/web/前端圣经书籍/阮一峰es6入门标准/01",
+                "docId": "web/前端圣经书籍/阮一峰es6入门标准/01"
+              },
+              {
+                "type": "link",
+                "label": "02.",
+                "href": "/docs/web/前端圣经书籍/阮一峰es6入门标准/02.",
+                "docId": "web/前端圣经书籍/阮一峰es6入门标准/02."
+              },
+              {
+                "type": "link",
+                "label": "疑惑",
+                "href": "/docs/web/前端圣经书籍/阮一峰es6入门标准/疑惑",
+                "docId": "web/前端圣经书籍/阮一峰es6入门标准/疑惑"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "js数据结构与算法",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "学习目标",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/intro",
+                "docId": "web/前端圣经书籍/js数据结构与算法/intro"
+              },
+              {
+                "type": "link",
+                "label": "基础准备",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/基础准备",
+                "docId": "web/前端圣经书籍/js数据结构与算法/基础准备"
+              },
+              {
+                "type": "link",
+                "label": "线性结构",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/线性结构",
+                "docId": "web/前端圣经书籍/js数据结构与算法/线性结构"
+              },
+              {
+                "type": "link",
+                "label": "排序",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/排序",
+                "docId": "web/前端圣经书籍/js数据结构与算法/排序"
+              },
+              {
+                "type": "link",
+                "label": "快速排序",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/快速排序",
+                "docId": "web/前端圣经书籍/js数据结构与算法/快速排序"
+              },
+              {
+                "type": "link",
+                "label": "查找",
+                "href": "/docs/web/前端圣经书籍/js数据结构与算法/查找",
+                "docId": "web/前端圣经书籍/js数据结构与算法/查找"
               }
             ]
           }
         ]
-      },
-      {
-        "type": "link",
-        "label": "常用ui",
-        "href": "/docs/js&ts/前端开发",
-        "docId": "js&ts/前端开发"
-      },
-      {
-        "type": "link",
-        "label": "ant design pro安装及开发用户中心",
-        "href": "/docs/js&ts/用户",
-        "docId": "js&ts/用户"
       }
     ],
     "java": [
@@ -1828,13 +631,7 @@
             "items": [
               {
                 "type": "link",
-                "label": "ArrayList",
-                "href": "/docs/java/java-se/集合/ArrayList",
-                "docId": "java/java-se/集合/ArrayList"
-              },
-              {
-                "type": "link",
-                "label": "intro",
+                "label": "集合概述",
                 "href": "/docs/java/java-se/集合/intro",
                 "docId": "java/java-se/集合/intro"
               },
@@ -1846,9 +643,33 @@
               },
               {
                 "type": "link",
+                "label": "collections工具类",
+                "href": "/docs/java/java-se/集合/collections",
+                "docId": "java/java-se/集合/collections"
+              },
+              {
+                "type": "link",
+                "label": "ArrayList",
+                "href": "/docs/java/java-se/集合/ArrayList",
+                "docId": "java/java-se/集合/ArrayList"
+              },
+              {
+                "type": "link",
+                "label": "set系列集合",
+                "href": "/docs/java/java-se/集合/set系列集合",
+                "docId": "java/java-se/集合/set系列集合"
+              },
+              {
+                "type": "link",
                 "label": "map",
                 "href": "/docs/java/java-se/集合/map",
                 "docId": "java/java-se/集合/map"
+              },
+              {
+                "type": "link",
+                "label": "可变参数细节",
+                "href": "/docs/java/java-se/集合/可变参数细节",
+                "docId": "java/java-se/集合/可变参数细节"
               }
             ]
           },
@@ -1974,6 +795,20 @@
                     "docId": "java/java-se/常用操作总结/正则/数组的遍历"
                   }
                 ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "总结",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "生成随机数",
+                "href": "/docs/java/java-se/总结/生成随机数",
+                "docId": "java/java-se/总结/生成随机数"
               }
             ]
           },
@@ -2108,6 +943,18 @@
             "label": "idea",
             "href": "/docs/java/ide使用技巧/idea",
             "docId": "java/ide使用技巧/idea"
+          },
+          {
+            "type": "link",
+            "label": "idea各种快捷键汇总",
+            "href": "/docs/java/ide使用技巧/各种快捷键",
+            "docId": "java/ide使用技巧/各种快捷键"
+          },
+          {
+            "type": "link",
+            "label": "启动时报错--Cannot connect to already running IDE instance.Exception: Process 1,180 is still running",
+            "href": "/docs/java/ide使用技巧/错误集锦",
+            "docId": "java/ide使用技巧/错误集锦"
           }
         ]
       },
@@ -2116,6 +963,12 @@
         "label": "intro",
         "href": "/docs/java/intro",
         "docId": "java/intro"
+      },
+      {
+        "type": "link",
+        "label": "位运算",
+        "href": "/docs/java/位运算",
+        "docId": "java/位运算"
       }
     ],
     "go": [
@@ -2174,7 +1027,42 @@
         "docId": "linux/刷题必备"
       }
     ],
-    "database": [],
+    "database": [
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/database/intro",
+        "docId": "database/intro"
+      },
+      {
+        "type": "category",
+        "label": "mysql学习手册",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "mysql概述",
+            "href": "/docs/database/mysql学习手册/intro",
+            "docId": "database/mysql学习手册/intro"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "redis学习手册",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/database/redis学习手册/intro",
+            "docId": "database/redis学习手册/intro"
+          }
+        ]
+      }
+    ],
     "算法与数据结构": [
       {
         "type": "category",
@@ -2201,6 +1089,12 @@
         "label": "刷题必备",
         "href": "/docs/algorithms/刷题必备",
         "docId": "algorithms/刷题必备"
+      },
+      {
+        "type": "link",
+        "label": "红黑树",
+        "href": "/docs/algorithms/红黑树",
+        "docId": "algorithms/红黑树"
       }
     ],
     "economist": [
@@ -2277,6 +1171,12 @@
     ]
   },
   "docs": {
+    "algorithms/红黑树": {
+      "id": "algorithms/红黑树",
+      "title": "红黑树",
+      "description": "",
+      "sidebar": "算法与数据结构"
+    },
     "algorithms/刷题必备": {
       "id": "algorithms/刷题必备",
       "title": "刷题必备",
@@ -2317,25 +1217,29 @@
       "id": "database/intro",
       "title": "intro",
       "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "database"
     },
-    "database/redis/intro": {
-      "id": "database/redis/intro",
+    "database/mysql学习手册/intro": {
+      "id": "database/mysql学习手册/intro",
+      "title": "mysql概述",
+      "description": "什么是算法",
+      "sidebar": "database"
+    },
+    "database/redis学习手册/intro": {
+      "id": "database/redis学习手册/intro",
       "title": "intro",
       "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
+      "sidebar": "database"
     },
     "docker/刷题必备": {
       "id": "docker/刷题必备",
       "title": "刷题必备",
-      "description": "刷题必备",
-      "sidebar": "tutorialSidebar"
+      "description": "刷题必备"
     },
     "docker/intro": {
       "id": "docker/intro",
       "title": "intro",
-      "description": "什么是算法",
-      "sidebar": "tutorialSidebar"
+      "description": "什么是算法"
     },
     "economist/intro": {
       "id": "economist/intro",
@@ -2358,8 +1262,7 @@
     "git/忽略文件": {
       "id": "git/忽略文件",
       "title": "忽略文件夹，例外",
-      "description": "使用.gitignore文件的其他注意事项",
-      "sidebar": "tutorialSidebar"
+      "description": "使用.gitignore文件的其他注意事项"
     },
     "go/intro": {
       "id": "go/intro",
@@ -2370,8 +1273,7 @@
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
+      "description": "Let's discover Docusaurus in less than 5 minutes."
     },
     "java/面试题/查找算法": {
       "id": "java/面试题/查找算法",
@@ -2419,6 +1321,24 @@
       "id": "java/算法与数据结构/intro",
       "title": "算法概述",
       "description": "什么是算法",
+      "sidebar": "java"
+    },
+    "java/位运算": {
+      "id": "java/位运算",
+      "title": "位运算",
+      "description": "在通过变长参数，批量向集合中添加元素时，结果返回一个boolean，表示是否添加元素成功，会如何实现？",
+      "sidebar": "java"
+    },
+    "java/ide使用技巧/错误集锦": {
+      "id": "java/ide使用技巧/错误集锦",
+      "title": "启动时报错--Cannot connect to already running IDE instance.Exception: Process 1,180 is still running",
+      "description": "",
+      "sidebar": "java"
+    },
+    "java/ide使用技巧/各种快捷键": {
+      "id": "java/ide使用技巧/各种快捷键",
+      "title": "idea各种快捷键汇总",
+      "description": "快捷键生成循环",
       "sidebar": "java"
     },
     "java/ide使用技巧/idea": {
@@ -2499,6 +1419,12 @@
       "description": "该类包含用于操作数组的各种方法，比如排序和搜索等，",
       "sidebar": "java"
     },
+    "java/java-se/集合/可变参数细节": {
+      "id": "java/java-se/集合/可变参数细节",
+      "title": "可变参数细节",
+      "description": "变长参数是jdk1.5新增的功能，因此可以放心大胆的用。",
+      "sidebar": "java"
+    },
     "java/java-se/集合/ArrayList": {
       "id": "java/java-se/集合/ArrayList",
       "title": "ArrayList",
@@ -2511,9 +1437,15 @@
       "description": "List集合",
       "sidebar": "java"
     },
+    "java/java-se/集合/collections": {
+      "id": "java/java-se/集合/collections",
+      "title": "collections工具类",
+      "description": "addAll，批量添加元素",
+      "sidebar": "java"
+    },
     "java/java-se/集合/intro": {
       "id": "java/java-se/集合/intro",
-      "title": "intro",
+      "title": "集合概述",
       "description": "集合，",
       "sidebar": "java"
     },
@@ -2521,6 +1453,12 @@
       "id": "java/java-se/集合/map",
       "title": "map",
       "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
+      "sidebar": "java"
+    },
+    "java/java-se/集合/set系列集合": {
+      "id": "java/java-se/集合/set系列集合",
+      "title": "set系列集合",
+      "description": "TreeSet",
       "sidebar": "java"
     },
     "java/java-se/面向对象高级/泛型数组": {
@@ -2625,6 +1563,12 @@
       "description": "字符串转大小写",
       "sidebar": "java"
     },
+    "java/java-se/总结/生成随机数": {
+      "id": "java/java-se/总结/生成随机数",
+      "title": "生成随机数",
+      "description": "在java中生成随机数的主要有三种方法",
+      "sidebar": "java"
+    },
     "java/java-se/java面向对象": {
       "id": "java/java-se/java面向对象",
       "title": "java面向对象",
@@ -2636,336 +1580,6 @@
       "title": "lambda",
       "description": "lambda表达式是jkd8开始新增的一种语法形式，能够以一种简洁的方式传递代码块",
       "sidebar": "java"
-    },
-    "js&ts/2303/如何开发npm包": {
-      "id": "js&ts/2303/如何开发npm包",
-      "title": "学习如何开发npm包，使用es6语法，重写kity",
-      "description": "如何在nodejs中使用es6的export/import导出导入模块呢？",
-      "sidebar": "ecma"
-    },
-    "js&ts/2303/研究库": {
-      "id": "js&ts/2303/研究库",
-      "title": "object-hash",
-      "description": "''=>270,",
-      "sidebar": "ecma"
-    },
-    "js&ts/2303/js精度丢失": {
-      "id": "js&ts/2303/js精度丢失",
-      "title": "js精度丢失",
-      "description": "有这样一个json字符串，",
-      "sidebar": "ecma"
-    },
-    "js&ts/标准阮一峰es6入门/01": {
-      "id": "js&ts/标准阮一峰es6入门/01",
-      "title": "01",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/标准阮一峰es6入门/02.": {
-      "id": "js&ts/标准阮一峰es6入门/02.",
-      "title": "02.",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/标准阮一峰es6入门/迭代器与生成器": {
-      "id": "js&ts/标准阮一峰es6入门/迭代器与生成器",
-      "title": "什么是迭代",
-      "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
-      "sidebar": "ecma"
-    },
-    "js&ts/标准阮一峰es6入门/面向对象程序编程": {
-      "id": "js&ts/标准阮一峰es6入门/面向对象程序编程",
-      "title": "面向对象程序编程",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/标准阮一峰es6入门/疑惑": {
-      "id": "js&ts/标准阮一峰es6入门/疑惑",
-      "title": "疑惑",
-      "description": "从毕业到现在，已经很多年了，但是一直没能搞懂function与object之间的联系",
-      "sidebar": "ecma"
-    },
-    "js&ts/前端开发": {
-      "id": "js&ts/前端开发",
-      "title": "常用ui",
-      "description": "单页面应用，刷新之后，页面404",
-      "sidebar": "ecma"
-    },
-    "js&ts/实践经验/前端常见问题汇总/如何开发npm包": {
-      "id": "js&ts/实践经验/前端常见问题汇总/如何开发npm包",
-      "title": "学习如何开发npm包，使用es6语法，重写kity",
-      "description": "如何在nodejs中使用es6的export/import导出导入模块呢？",
-      "sidebar": "ecma"
-    },
-    "js&ts/实践经验/前端常见问题汇总/js精度丢失": {
-      "id": "js&ts/实践经验/前端常见问题汇总/js精度丢失",
-      "title": "js精度丢失",
-      "description": "有这样一个json字符串，",
-      "sidebar": "ecma"
-    },
-    "js&ts/实践经验/前端常见问题汇总/one": {
-      "id": "js&ts/实践经验/前端常见问题汇总/one",
-      "title": "如何快速生成26个字母",
-      "description": "0-9的ascii，48，",
-      "sidebar": "ecma"
-    },
-    "js&ts/小程序开发/常见问题": {
-      "id": "js&ts/小程序开发/常见问题",
-      "title": "如何查看小程序的管理员账户，",
-      "description": "可以到成员管理-->管理员",
-      "sidebar": "ecma"
-    },
-    "js&ts/小程序开发/地图": {
-      "id": "js&ts/小程序开发/地图",
-      "title": "地图",
-      "description": "获取账户信息",
-      "sidebar": "ecma"
-    },
-    "js&ts/小程序开发/如何查看小程序管理员": {
-      "id": "js&ts/小程序开发/如何查看小程序管理员",
-      "title": "如何查看小程序管理员",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/用户": {
-      "id": "js&ts/用户",
-      "title": "ant design pro安装及开发用户中心",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/intro": {
-      "id": "js&ts/intro",
-      "title": "intro",
-      "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/迭代器与生成器": {
-      "id": "js&ts/js高级程序设计-第四版/迭代器与生成器",
-      "title": "什么是迭代",
-      "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/面向对象程序编程": {
-      "id": "js&ts/js高级程序设计-第四版/面向对象程序编程",
-      "title": "面向对象程序编程",
-      "description": "111",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
-      "title": "内置单例对象",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型": {
-      "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
-      "title": "原始值包装类型",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/date对象",
-      "title": "1211",
-      "description": "ecmaScript变量可以分为两种不同的类型的数据：原始值和和引用类型",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp": {
-      "id": "js&ts/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
-      "title": "RegExp",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
-      "title": "内置单例对象",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型": {
-      "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
-      "title": "原始值包装类型",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/date对象",
-      "title": "date对象",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp": {
-      "id": "js&ts/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
-      "title": "RegExp",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
-      "title": "内置单例对象",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型": {
-      "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
-      "title": "原始值包装类型",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象": {
-      "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/date对象",
-      "title": "date对象",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp": {
-      "id": "js&ts/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
-      "title": "RegExp",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/js高级程序设计-第四版/intro": {
-      "id": "js&ts/js高级程序设计-第四版/intro",
-      "title": "intro",
-      "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/查找": {
-      "id": "js&ts/js数据结构与算法/查找",
-      "title": "查找",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/基础准备": {
-      "id": "js&ts/js数据结构与算法/基础准备",
-      "title": "基础准备",
-      "description": "数组常用方法",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/快速排序": {
-      "id": "js&ts/js数据结构与算法/快速排序",
-      "title": "快速排序",
-      "description": "希尔排序",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/排序": {
-      "id": "js&ts/js数据结构与算法/排序",
-      "title": "排序",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/线性结构": {
-      "id": "js&ts/js数据结构与算法/线性结构",
-      "title": "线性结构",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/js数据结构与算法/intro": {
-      "id": "js&ts/js数据结构与算法/intro",
-      "title": "学习目标",
-      "description": "线性结构",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/本地存储": {
-      "id": "js&ts/js学习经/本地存储",
-      "title": "本地存储",
-      "description": "cookie",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/函数": {
-      "id": "js&ts/js学习经/函数",
-      "title": "js之函数",
-      "description": "函数的定义",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/精度丢失": {
-      "id": "js&ts/js学习经/精度丢失",
-      "title": "js中两个小数相减，出现多位小数",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/日期格式化": {
-      "id": "js&ts/js学习经/日期格式化",
-      "title": "日期格式化",
-      "description": "获取时间戳--",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/事件": {
-      "id": "js&ts/js学习经/事件",
-      "title": "事件",
-      "description": "时间委托",
-      "sidebar": "ecma"
-    },
-    "js&ts/js学习经/xhr": {
-      "id": "js&ts/js学习经/xhr",
-      "title": "xhr",
-      "description": "如何接收application/json",
-      "sidebar": "ecma"
-    },
-    "js&ts/react/新要求": {
-      "id": "js&ts/react/新要求",
-      "title": "新要求",
-      "description": "4月10日，",
-      "sidebar": "ecma"
-    },
-    "js&ts/ts/ts是什么": {
-      "id": "js&ts/ts/ts是什么",
-      "title": "ts是什么",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/02-27": {
-      "id": "js&ts/uniapp/02-27",
-      "title": "v-if与echarts不显示问题。",
-      "description": "为什么会出现这个问题呢？",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/0728": {
-      "id": "js&ts/uniapp/0728",
-      "title": "生成二维码",
-      "description": "\"app-plus\":{",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/常见问题": {
-      "id": "js&ts/uniapp/常见问题",
-      "title": "常见问题",
-      "description": "nvue如何展示字体图表",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/地图": {
-      "id": "js&ts/uniapp/地图",
-      "title": "在小程序中地图",
-      "description": "getLocation:fail the api need to be declared in the requiredPrivateInfos field in app.json/ext.json",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/聊天记录/发送语音": {
-      "id": "js&ts/uniapp/聊天记录/发送语音",
-      "title": "uniapp实现聊天功能",
-      "description": "uniapp如何发送语音数据",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/如何实现导出excel": {
-      "id": "js&ts/uniapp/如何实现导出excel",
-      "title": "如何实现导出excel",
-      "description": "",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/下拉加载更多": {
-      "id": "js&ts/uniapp/下拉加载更多",
-      "title": "下拉加载更多",
-      "description": "下拉加载更多",
-      "sidebar": "ecma"
-    },
-    "js&ts/uniapp/wifi调试": {
-      "id": "js&ts/uniapp/wifi调试",
-      "title": "wifi调试",
-      "description": "1、 wifi调试uniapp",
-      "sidebar": "ecma"
-    },
-    "js&ts/vue3/新要求": {
-      "id": "js&ts/vue3/新要求",
-      "title": "新要求",
-      "description": "4月10日，",
-      "sidebar": "ecma"
     },
     "linux/解惑迷经/巧计易混淆点": {
       "id": "linux/解惑迷经/巧计易混淆点",
@@ -3000,56 +1614,377 @@
     "tutorial-basics/congratulations": {
       "id": "tutorial-basics/congratulations",
       "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template."
     },
     "tutorial-basics/create-a-blog-post": {
       "id": "tutorial-basics/create-a-blog-post",
       "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed..."
     },
     "tutorial-basics/create-a-document": {
       "id": "tutorial-basics/create-a-document",
       "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
+      "description": "Documents are groups of pages connected through:"
     },
     "tutorial-basics/create-a-page": {
       "id": "tutorial-basics/create-a-page",
       "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
+      "description": "Add Markdown or React files to src/pages to create a standalone page:"
     },
     "tutorial-basics/deploy-your-site": {
       "id": "tutorial-basics/deploy-your-site",
       "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
+      "description": "Docusaurus is a static-site-generator (also called Jamstack)."
     },
     "tutorial-basics/markdown-features": {
       "id": "tutorial-basics/markdown-features",
       "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
+      "description": "Docusaurus supports Markdown and a few additional features."
     },
     "tutorial-extras/manage-docs-versions": {
       "id": "tutorial-extras/manage-docs-versions",
       "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
+      "description": "Docusaurus can manage multiple versions of your docs."
     },
     "tutorial-extras/translate-your-site": {
       "id": "tutorial-extras/translate-your-site",
       "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
-      "sidebar": "tutorialSidebar"
+      "description": "Let's translate docs/intro.md to French."
+    },
+    "web/前端错误集锦/如何开发npm包": {
+      "id": "web/前端错误集锦/如何开发npm包",
+      "title": "学习如何开发npm包，使用es6语法，重写kity",
+      "description": "如何在nodejs中使用es6的export/import导出导入模块呢？",
+      "sidebar": "ecma"
+    },
+    "web/前端错误集锦/研究库": {
+      "id": "web/前端错误集锦/研究库",
+      "title": "object-hash",
+      "description": "''=>270,",
+      "sidebar": "ecma"
+    },
+    "web/前端错误集锦/js精度丢失": {
+      "id": "web/前端错误集锦/js精度丢失",
+      "title": "js精度丢失",
+      "description": "有这样一个json字符串，",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/阮一峰es6入门标准/01": {
+      "id": "web/前端圣经书籍/阮一峰es6入门标准/01",
+      "title": "01",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/阮一峰es6入门标准/02.": {
+      "id": "web/前端圣经书籍/阮一峰es6入门标准/02.",
+      "title": "02.",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器": {
+      "id": "web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器",
+      "title": "什么是迭代",
+      "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程": {
+      "id": "web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程",
+      "title": "面向对象程序编程",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/阮一峰es6入门标准/疑惑": {
+      "id": "web/前端圣经书籍/阮一峰es6入门标准/疑惑",
+      "title": "疑惑",
+      "description": "从毕业到现在，已经很多年了，但是一直没能搞懂function与object之间的联系",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器",
+      "title": "什么是迭代",
+      "description": "iteration，翻译为迭代，按照顺序反复多次执行一段程序，",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程",
+      "title": "面向对象程序编程",
+      "description": "111",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+      "title": "内置单例对象",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+      "title": "原始值包装类型",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+      "title": "1211",
+      "description": "ecmaScript变量可以分为两种不同的类型的数据：原始值和和引用类型",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+      "title": "RegExp",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+      "title": "内置单例对象",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+      "title": "原始值包装类型",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+      "title": "date对象",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+      "title": "RegExp",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+      "title": "内置单例对象",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+      "title": "原始值包装类型",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+      "title": "date对象",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+      "title": "RegExp",
+      "description": "如何接收application/json",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js高级程序设计-第四版/intro": {
+      "id": "web/前端圣经书籍/js高级程序设计-第四版/intro",
+      "title": "intro",
+      "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/查找": {
+      "id": "web/前端圣经书籍/js数据结构与算法/查找",
+      "title": "查找",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/基础准备": {
+      "id": "web/前端圣经书籍/js数据结构与算法/基础准备",
+      "title": "基础准备",
+      "description": "数组常用方法",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/快速排序": {
+      "id": "web/前端圣经书籍/js数据结构与算法/快速排序",
+      "title": "快速排序",
+      "description": "希尔排序",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/排序": {
+      "id": "web/前端圣经书籍/js数据结构与算法/排序",
+      "title": "排序",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/线性结构": {
+      "id": "web/前端圣经书籍/js数据结构与算法/线性结构",
+      "title": "线性结构",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/前端圣经书籍/js数据结构与算法/intro": {
+      "id": "web/前端圣经书籍/js数据结构与算法/intro",
+      "title": "学习目标",
+      "description": "线性结构",
+      "sidebar": "ecma"
+    },
+    "web/前端优秀库集锦/如何开发npm包": {
+      "id": "web/前端优秀库集锦/如何开发npm包",
+      "title": "学习如何开发npm包，使用es6语法，重写kity",
+      "description": "如何在nodejs中使用es6的export/import导出导入模块呢？",
+      "sidebar": "ecma"
+    },
+    "web/前端优秀库集锦/研究库": {
+      "id": "web/前端优秀库集锦/研究库",
+      "title": "object-hash",
+      "description": "''=>270,",
+      "sidebar": "ecma"
+    },
+    "web/前端优秀库集锦/js精度丢失": {
+      "id": "web/前端优秀库集锦/js精度丢失",
+      "title": "js精度丢失",
+      "description": "有这样一个json字符串，",
+      "sidebar": "ecma"
+    },
+    "web/实践经验/前端常见问题汇总/如何开发npm包": {
+      "id": "web/实践经验/前端常见问题汇总/如何开发npm包",
+      "title": "学习如何开发npm包，使用es6语法，重写kity",
+      "description": "如何在nodejs中使用es6的export/import导出导入模块呢？",
+      "sidebar": "ecma"
+    },
+    "web/实践经验/前端常见问题汇总/js精度丢失": {
+      "id": "web/实践经验/前端常见问题汇总/js精度丢失",
+      "title": "js精度丢失",
+      "description": "有这样一个json字符串，",
+      "sidebar": "ecma"
+    },
+    "web/实践经验/前端常见问题汇总/one": {
+      "id": "web/实践经验/前端常见问题汇总/one",
+      "title": "如何快速生成26个字母",
+      "description": "0-9的ascii，48，",
+      "sidebar": "ecma"
+    },
+    "web/实践经验/前端开发": {
+      "id": "web/实践经验/前端开发",
+      "title": "常用ui",
+      "description": "单页面应用，刷新之后，页面404",
+      "sidebar": "ecma"
+    },
+    "web/实践经验/用户": {
+      "id": "web/实践经验/用户",
+      "title": "ant design pro安装及开发用户中心",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/小程序开发/常见问题": {
+      "id": "web/小程序开发/常见问题",
+      "title": "如何查看小程序的管理员账户，",
+      "description": "可以到成员管理-->管理员",
+      "sidebar": "ecma"
+    },
+    "web/小程序开发/地图": {
+      "id": "web/小程序开发/地图",
+      "title": "地图",
+      "description": "获取账户信息",
+      "sidebar": "ecma"
+    },
+    "web/小程序开发/如何查看小程序管理员": {
+      "id": "web/小程序开发/如何查看小程序管理员",
+      "title": "如何查看小程序管理员",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/es5入门到起飞/intro": {
+      "id": "web/es5入门到起飞/intro",
+      "title": "es6学习概要",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/es6入门到起飞/intro": {
+      "id": "web/es6入门到起飞/intro",
+      "title": "es6学习概要",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/html5&css3/intro": {
+      "id": "web/html5&css3/intro",
+      "title": "html5和css3新变化",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/intro": {
+      "id": "web/intro",
+      "title": "intro",
+      "description": "acme.sh  --issue --dns dns_dp -d ibiancheng.net  -d '*.ibiancheng.net'",
+      "sidebar": "ecma"
+    },
+    "web/react学习手册/intro": {
+      "id": "web/react学习手册/intro",
+      "title": "react概要",
+      "description": "4月10日，",
+      "sidebar": "ecma"
+    },
+    "web/ts入门到起飞/intro": {
+      "id": "web/ts入门到起飞/intro",
+      "title": "intro",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/02-27": {
+      "id": "web/uniapp学习文档/02-27",
+      "title": "v-if与echarts不显示问题。",
+      "description": "为什么会出现这个问题呢？",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/0728": {
+      "id": "web/uniapp学习文档/0728",
+      "title": "生成二维码",
+      "description": "\"app-plus\":{",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/常见问题": {
+      "id": "web/uniapp学习文档/常见问题",
+      "title": "常见问题",
+      "description": "nvue如何展示字体图表",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/地图": {
+      "id": "web/uniapp学习文档/地图",
+      "title": "在小程序中地图",
+      "description": "getLocation:fail the api need to be declared in the requiredPrivateInfos field in app.json/ext.json",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/聊天记录/发送语音": {
+      "id": "web/uniapp学习文档/聊天记录/发送语音",
+      "title": "uniapp实现聊天功能",
+      "description": "uniapp如何发送语音数据",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/如何实现导出excel": {
+      "id": "web/uniapp学习文档/如何实现导出excel",
+      "title": "如何实现导出excel",
+      "description": "",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/下拉加载更多": {
+      "id": "web/uniapp学习文档/下拉加载更多",
+      "title": "下拉加载更多",
+      "description": "下拉加载更多",
+      "sidebar": "ecma"
+    },
+    "web/uniapp学习文档/wifi调试": {
+      "id": "web/uniapp学习文档/wifi调试",
+      "title": "wifi调试",
+      "description": "1、 wifi调试uniapp",
+      "sidebar": "ecma"
+    },
+    "web/vue3学习手册/intro": {
+      "id": "web/vue3学习手册/intro",
+      "title": "vue3概要",
+      "description": "4月10日，",
+      "sidebar": "ecma"
     },
     "win10系统/关于全角半角切换": {
       "id": "win10系统/关于全角半角切换",
       "title": "关于全角半角切换",
-      "description": "全角半角",
-      "sidebar": "tutorialSidebar"
+      "description": "全角半角"
     }
   }
 }
