@@ -268,7 +268,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-dcb": {
+  "/docs-211": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docs-7-fe-9be"
@@ -470,6 +470,10 @@
   "/docs/java/java-se/集合/set系列集合-b0d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-java-java-se-集合-set系列集合a-00-cbd"
+  },
+  "/docs/java/java-se/集合/WeakHashMap-546": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-java-java-se-集合-weak-hash-map-01-c-93b"
   },
   "/docs/java/java-se/面向对象高级/泛型数组-d96": {
     "__comp": "__comp---theme-doc-item-178-a40",

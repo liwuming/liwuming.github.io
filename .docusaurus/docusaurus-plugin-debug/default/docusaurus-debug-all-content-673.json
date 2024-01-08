@@ -997,8 +997,8 @@
               "frontMatter": {},
               "sidebar": "java",
               "previous": {
-                "title": "map",
-                "permalink": "/docs/java/java-se/集合/map"
+                "title": "关于WeekHashMap",
+                "permalink": "/docs/java/java-se/集合/WeakHashMap"
               },
               "next": {
                 "title": "java面向对象",
@@ -1108,8 +1108,8 @@
             {
               "unversionedId": "java/java-se/集合/map",
               "id": "java/java-se/集合/map",
-              "title": "map",
-              "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
+              "title": "map系列key/value集合",
+              "description": "map系列接口是key/value类型的集合，其特点是无序，无索引，key不可重复，value无所谓。",
               "source": "@site/docs/11.java/01.java-se/09.集合/05.map.md",
               "sourceDirName": "11.java/01.java-se/09.集合",
               "slug": "/java/java-se/集合/map",
@@ -1126,8 +1126,8 @@
                 "permalink": "/docs/java/java-se/集合/set系列集合"
               },
               "next": {
-                "title": "可变参数细节",
-                "permalink": "/docs/java/java-se/集合/可变参数细节"
+                "title": "关于WeekHashMap",
+                "permalink": "/docs/java/java-se/集合/WeakHashMap"
               }
             },
             {
@@ -1151,8 +1151,32 @@
                 "permalink": "/docs/java/java-se/集合/ArrayList"
               },
               "next": {
-                "title": "map",
+                "title": "map系列key/value集合",
                 "permalink": "/docs/java/java-se/集合/map"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/集合/WeakHashMap",
+              "id": "java/java-se/集合/WeakHashMap",
+              "title": "关于WeekHashMap",
+              "description": "引用相关",
+              "source": "@site/docs/11.java/01.java-se/09.集合/WeakHashMap.md",
+              "sourceDirName": "11.java/01.java-se/09.集合",
+              "slug": "/java/java-se/集合/WeakHashMap",
+              "permalink": "/docs/java/java-se/集合/WeakHashMap",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/09.集合/WeakHashMap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "map系列key/value集合",
+                "permalink": "/docs/java/java-se/集合/map"
+              },
+              "next": {
+                "title": "可变参数细节",
+                "permalink": "/docs/java/java-se/集合/可变参数细节"
               }
             },
             {
@@ -3774,6 +3798,10 @@
                       },
                       {
                         "type": "doc",
+                        "id": "java/java-se/集合/WeakHashMap"
+                      },
+                      {
+                        "type": "doc",
                         "id": "java/java-se/集合/可变参数细节"
                       }
                     ]
@@ -4264,7 +4292,7 @@
             "date": "2024-01-01T00:00:00.000Z",
             "formattedDate": "January 1, 2024",
             "tags": [],
-            "readingTime": 0.12,
+            "readingTime": 0.125,
             "hasTruncateMarker": false,
             "authors": [],
             "frontMatter": {
@@ -4280,7 +4308,7 @@
               "permalink": "/blog/welcome212"
             }
           },
-          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
+          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
         },
         {
           "id": "welcome212",

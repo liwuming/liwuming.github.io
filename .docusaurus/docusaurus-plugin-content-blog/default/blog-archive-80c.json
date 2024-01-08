@@ -73,7 +73,7 @@
         "date": "2024-01-01T00:00:00.000Z",
         "formattedDate": "January 1, 2024",
         "tags": [],
-        "readingTime": 0.12,
+        "readingTime": 0.125,
         "hasTruncateMarker": false,
         "authors": [],
         "frontMatter": {
@@ -89,7 +89,7 @@
           "permalink": "/blog/welcome212"
         }
       },
-      "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口"
+      "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
     },
     {
       "id": "welcome212",
