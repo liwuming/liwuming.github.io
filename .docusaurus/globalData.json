@@ -252,6 +252,11 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/集合/WeakHashMap",
+              "path": "/docs/java/java-se/集合/WeakHashMap",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/面向对象高级/泛型数组",
               "path": "/docs/java/java-se/面向对象高级/泛型数组",
               "sidebar": "java"

@@ -124,7 +124,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'dcb'),
+    component: ComponentCreator('/docs', '211'),
     routes: [
       {
         path: '/docs/algorithms/红黑树',
@@ -413,6 +413,12 @@ export default [
       {
         path: '/docs/java/java-se/集合/set系列集合',
         component: ComponentCreator('/docs/java/java-se/集合/set系列集合', 'b0d'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/WeakHashMap',
+        component: ComponentCreator('/docs/java/java-se/集合/WeakHashMap', '546'),
         exact: true,
         sidebar: "java"
       },
