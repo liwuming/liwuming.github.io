@@ -1,0 +1,96 @@
+
+
+
+什么是算法
+
+解决某个问题的过程和方法
+
+
+编程思维
+算法+数据结构
+
+
+
+
+# 排序算法
+
+
+找出最值
+
+
+冒泡排序
+
+```java
+public class demo01 {
+    public static void main(String[] args) {
+        var nums=new int[]{1,121,11,23,43,78,54,32};
+
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i+1; j <nums.length ; j++) {
+                if(nums[i]>nums[j]){
+                    nums[i] = nums[i]^nums[j];
+                    nums[j] = nums[j]^nums[i];
+                    nums[i] = nums[j]^nums[i];
+//                    int tmp = nums[i];
+//                    nums[i] = nums[j];
+//                    nums[j]=tmp;
+                }
+            }
+        }
+
+        System.out.println(Arrays.toString(nums));
+    }
+}
+```
+
+
+
+# 扩展运算交换
+
+1. 借助临时第三变量
+
+
+2. 依据异或位运算的自反律的特性，可不借助第三变量实现交换两个变量的值
+
+
+
+
+
+
+
+## 位运算
+
+符号位共同参与运算的运算
+
+`&`,与，两个位都为1时，结果才为1
+`|`,或，两个位都为0时，结果才为0
+
+`^`,异或，两个位相同为0，相异为1
+`~`,取反，0变1，1变0
+
+`<<`,左移，将二进制各位全部左移若干位，高位丢弃
+`>>`,右移，将二进制各位全部右移若干位，高
+
+
+
+
+按位运算是半加法，不进位的，
+
+01100111
+01010101
+--------
+00110010
+
+
+nums[i] = nums[i]^nums[j];
+
+
+nums[j] = nums[j]^nums[i]^nums[j];
+=nums[i]
+nums[i] = nums[j]^nums[i];
+
+
+
+# 查找算法
+
+
