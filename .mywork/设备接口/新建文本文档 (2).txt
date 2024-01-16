@@ -1,0 +1,100 @@
+
+
+http://www.ffmpeg.org/
+
+tar -xvf 
+
+tar -zxvf 
+
+
+## 安装yasm
+
+```bash
+tar -xvzf yasm-1.3.0.tar.gz
+cd yasm-1.3.0/
+./configure
+make && make install
+```
+
+```bash
+./configure --prefix=/usr/local/ffmpeg --enable-shared --enable-libmp3lame
+make && make install
+```
+
+./configure --enable-shared --enable-libmp3lame
+make
+make install
+
+
+
+ERROR: libmp3lame >= 3.98.3 not found
+
+tar -zxvf lame-3.100.tar.gz
+
+
+
+
+```bash
+ffmpeg -version
+
+vi /etc/ld.so.conf.d/ffmpeg.conf
+/usr/local/ffmpeg/lib
+#保存退出,执行ldconfig命令,使得配置文件生效,再次执行./ffmpeg -version显示正常
+
+[root@localhost bin]# ffmpeg -version
+ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
+built with gcc 4.8.5 (GCC) 20150623 (Red Hat 4.8.5-44)
+configuration: --prefix=/usr/local/ffmpeg --enable-shared
+libavutil      58.  2.100 / 58.  2.100
+libavcodec     60.  3.100 / 60.  3.100
+libavformat    60.  3.100 / 60.  3.100
+libavdevice    60.  1.100 / 60.  1.100
+libavfilter     9.  3.100 /  9.  3.100
+libswscale      7.  1.100 /  7.  1.100
+libswresample   4. 10.100 /  4. 10.100
+
+```
+
+
+
+# 关于ffmpeg命令得使用
+
+
+
+
+ league/flysystem 1.1.10 requires ext-fileinfo * -> it is missing from your system. Install or enable PHP's fileinfo extension.
+    - topthink/think-filesystem v1.0.1 requires league/flysystem ^1.1.4 -> satisfiable by league/flysystem[1.1.10].
+    - topthink/think-filesystem is locked to version v1.0.1 and an update of this package was not requested.
+
+
+
+composer require league/flysystem
+
+
+
+
+
+composer require symfony/process
+
+
+The Process class relies on proc_open
+
+
+Automatic encoder selection failed Default encoder for format mp3 (codec mp3) is probably disabled. Please choose an encoder manually.
+
+
+
+ffmpeg -i 1.amr out.mp3
+
+
+
+ffmpeg -i 1.amr -acodec aac 3.aac
+
+ffmpeg -i output.mp3 -acodec amr 2.amr
+ffmpeg -i 1.amr 1.mp3
+
+
+
+ffmpeg -i 1.amr 1.mp3
+
+ffmpeg -i output.mp3 -c:a libopencore_amrnb -ac 1 -ar 8000 -b:a 7.95K -y 2.amr
