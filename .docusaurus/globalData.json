@@ -56,6 +56,11 @@
               "sidebar": "database"
             },
             {
+              "id": "database/mysql学习手册/mysql基础/二进制字符",
+              "path": "/docs/database/mysql学习手册/mysql基础/二进制字符",
+              "sidebar": "database"
+            },
+            {
               "id": "database/redis学习手册/intro",
               "path": "/docs/database/redis学习手册/intro",
               "sidebar": "database"
@@ -182,6 +187,11 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/递归问题",
+              "path": "/docs/java/java-se/递归问题",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/泛型程序设计/泛型升序设计",
               "path": "/docs/java/java-se/泛型程序设计/泛型升序设计",
               "sidebar": "java"
@@ -237,6 +247,11 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/集合/hashmap",
+              "path": "/docs/java/java-se/集合/hashmap",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/集合/intro",
               "path": "/docs/java/java-se/集合/intro",
               "sidebar": "java"
@@ -244,6 +259,11 @@
             {
               "id": "java/java-se/集合/map",
               "path": "/docs/java/java-se/集合/map",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/map集合原理",
+              "path": "/docs/java/java-se/集合/map集合原理",
               "sidebar": "java"
             },
             {
@@ -347,6 +367,56 @@
               "sidebar": "java"
             },
             {
+              "id": "java/java-se/io流/可变参数细节",
+              "path": "/docs/java/java-se/io流/可变参数细节",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/ArrayList",
+              "path": "/docs/java/java-se/io流/ArrayList",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/collections",
+              "path": "/docs/java/java-se/io流/collections",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/hashmap",
+              "path": "/docs/java/java-se/io流/hashmap",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/intro",
+              "path": "/docs/java/java-se/io流/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/IO流",
+              "path": "/docs/java/java-se/io流/IO流",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/map",
+              "path": "/docs/java/java-se/io流/map",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/map集合原理",
+              "path": "/docs/java/java-se/io流/map集合原理",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/set系列集合",
+              "path": "/docs/java/java-se/io流/set系列集合",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/WeakHashMap",
+              "path": "/docs/java/java-se/io流/WeakHashMap",
+              "sidebar": "java"
+            },
+            {
               "id": "java/java-se/java面向对象",
               "path": "/docs/java/java-se/java面向对象",
               "sidebar": "java"
@@ -380,6 +450,18 @@
               "id": "linux/nginx/intro",
               "path": "/docs/linux/nginx/intro",
               "sidebar": "linux"
+            },
+            {
+              "id": "php/路径函数/仅获取",
+              "path": "/docs/php/路径函数/仅获取"
+            },
+            {
+              "id": "php/intro",
+              "path": "/docs/php/intro"
+            },
+            {
+              "id": "php/thinkphp/七牛",
+              "path": "/docs/php/thinkphp/七牛"
             },
             {
               "id": "tutorial-basics/congratulations",
@@ -691,6 +773,10 @@
             {
               "id": "win10系统/关于全角半角切换",
               "path": "/docs/win10系统/关于全角半角切换"
+            },
+            {
+              "id": "win10系统/关于全角半角切换 - 副本",
+              "path": "/docs/win10系统/关于全角半角切换 - 副本"
             }
           ],
           "draftIds": [],

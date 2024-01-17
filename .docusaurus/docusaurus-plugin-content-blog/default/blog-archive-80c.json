@@ -85,11 +85,40 @@
           "permalink": "/blog/we1lcome112"
         },
         "nextItem": {
+          "title": "2024-01-08--hello one",
+          "permalink": "/blog/20240108"
+        }
+      },
+      "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
+    },
+    {
+      "id": "20240108",
+      "metadata": {
+        "permalink": "/blog/20240108",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0108.md",
+        "source": "@site/blog/2024/01/0108.md",
+        "title": "2024-01-08--hello one",
+        "description": "java学习",
+        "date": "2024-01-01T00:00:00.000Z",
+        "formattedDate": "January 1, 2024",
+        "tags": [],
+        "readingTime": 0.285,
+        "hasTruncateMarker": false,
+        "authors": [],
+        "frontMatter": {
+          "slug": "20240108",
+          "title": "2024-01-08--hello one"
+        },
+        "prevItem": {
+          "title": "2024-01-07--hello one",
+          "permalink": "/blog/20240107"
+        },
+        "nextItem": {
           "title": "Welcome212",
           "permalink": "/blog/welcome212"
         }
       },
-      "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
+      "content": "java学习\r\n集合和线程并发\r\n网络编程\r\n\r\n\r\n\r\n本周任务，\r\n完成\r\n- js高级程序设计第四版\r\n- 阮一峰es入门标准\r\n- java高级程序设计\r\n\r\n视频教程，\r\n尚硅谷，js视频\r\n\r\n\r\nhttps://github.com/stepui/stepin-template\r\nhttp://dashboard-vben.yudao.iocoder.cn/http://static-vben.yudao.iocoder.cn/login?redirect=/dashboard"
     },
     {
       "id": "welcome212",
@@ -147,8 +176,8 @@
           ]
         },
         "prevItem": {
-          "title": "2024-01-07--hello one",
-          "permalink": "/blog/20240107"
+          "title": "2024-01-08--hello one",
+          "permalink": "/blog/20240108"
         },
         "nextItem": {
           "title": "Welcome221",
