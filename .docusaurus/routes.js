@@ -39,12 +39,17 @@ export default [
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'd74'),
+    component: ComponentCreator('/blog', '659'),
     exact: true
   },
   {
     path: '/blog/20240107',
     component: ComponentCreator('/blog/20240107', 'b92'),
+    exact: true
+  },
+  {
+    path: '/blog/20240108',
+    component: ComponentCreator('/blog/20240108', '53e'),
     exact: true
   },
   {
@@ -124,7 +129,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '211'),
+    component: ComponentCreator('/docs', 'cea'),
     routes: [
       {
         path: '/docs/algorithms/红黑树',
@@ -177,6 +182,12 @@ export default [
       {
         path: '/docs/database/mysql学习手册/intro',
         component: ComponentCreator('/docs/database/mysql学习手册/intro', '850'),
+        exact: true,
+        sidebar: "database"
+      },
+      {
+        path: '/docs/database/mysql学习手册/mysql基础/二进制字符',
+        component: ComponentCreator('/docs/database/mysql学习手册/mysql基础/二进制字符', 'd82'),
         exact: true,
         sidebar: "database"
       },
@@ -333,6 +344,12 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/递归问题',
+        component: ComponentCreator('/docs/java/java-se/递归问题', '932'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/泛型程序设计/泛型升序设计',
         component: ComponentCreator('/docs/java/java-se/泛型程序设计/泛型升序设计', '3b1'),
         exact: true,
@@ -399,6 +416,12 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/集合/hashmap',
+        component: ComponentCreator('/docs/java/java-se/集合/hashmap', 'bea'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/集合/intro',
         component: ComponentCreator('/docs/java/java-se/集合/intro', 'aa8'),
         exact: true,
@@ -407,6 +430,12 @@ export default [
       {
         path: '/docs/java/java-se/集合/map',
         component: ComponentCreator('/docs/java/java-se/集合/map', '7a3'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/集合/map集合原理',
+        component: ComponentCreator('/docs/java/java-se/集合/map集合原理', 'e3e'),
         exact: true,
         sidebar: "java"
       },
@@ -531,6 +560,66 @@ export default [
         sidebar: "java"
       },
       {
+        path: '/docs/java/java-se/io流/可变参数细节',
+        component: ComponentCreator('/docs/java/java-se/io流/可变参数细节', 'c63'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/ArrayList',
+        component: ComponentCreator('/docs/java/java-se/io流/ArrayList', 'e70'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/collections',
+        component: ComponentCreator('/docs/java/java-se/io流/collections', '0fa'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/hashmap',
+        component: ComponentCreator('/docs/java/java-se/io流/hashmap', '967'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/intro',
+        component: ComponentCreator('/docs/java/java-se/io流/intro', '996'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/IO流',
+        component: ComponentCreator('/docs/java/java-se/io流/IO流', 'd42'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/map',
+        component: ComponentCreator('/docs/java/java-se/io流/map', '33b'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/map集合原理',
+        component: ComponentCreator('/docs/java/java-se/io流/map集合原理', 'f2a'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/set系列集合',
+        component: ComponentCreator('/docs/java/java-se/io流/set系列集合', '27e'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
+        path: '/docs/java/java-se/io流/WeakHashMap',
+        component: ComponentCreator('/docs/java/java-se/io流/WeakHashMap', 'ee2'),
+        exact: true,
+        sidebar: "java"
+      },
+      {
         path: '/docs/java/java-se/java面向对象',
         component: ComponentCreator('/docs/java/java-se/java面向对象', 'd38'),
         exact: true,
@@ -571,6 +660,21 @@ export default [
         component: ComponentCreator('/docs/linux/nginx/intro', 'bbc'),
         exact: true,
         sidebar: "linux"
+      },
+      {
+        path: '/docs/php/路径函数/仅获取',
+        component: ComponentCreator('/docs/php/路径函数/仅获取', 'd15'),
+        exact: true
+      },
+      {
+        path: '/docs/php/intro',
+        component: ComponentCreator('/docs/php/intro', '917'),
+        exact: true
+      },
+      {
+        path: '/docs/php/thinkphp/七牛',
+        component: ComponentCreator('/docs/php/thinkphp/七牛', 'b3a'),
+        exact: true
       },
       {
         path: '/docs/tutorial-basics/congratulations',
@@ -945,6 +1049,11 @@ export default [
       {
         path: '/docs/win10系统/关于全角半角切换',
         component: ComponentCreator('/docs/win10系统/关于全角半角切换', '8d9'),
+        exact: true
+      },
+      {
+        path: '/docs/win10系统/关于全角半角切换 - 副本',
+        component: ComponentCreator('/docs/win10系统/关于全角半角切换 - 副本', '571'),
         exact: true
       }
     ]

@@ -223,6 +223,30 @@
                 "permalink": "/docs/database/intro"
               },
               "next": {
+                "title": "mysql是否可以存储二进制字符串",
+                "permalink": "/docs/database/mysql学习手册/mysql基础/二进制字符"
+              }
+            },
+            {
+              "unversionedId": "database/mysql学习手册/mysql基础/二进制字符",
+              "id": "database/mysql学习手册/mysql基础/二进制字符",
+              "title": "mysql是否可以存储二进制字符串",
+              "description": "",
+              "source": "@site/docs/23.database/01.mysql学习手册/01.mysql基础/二进制字符.md",
+              "sourceDirName": "23.database/01.mysql学习手册/01.mysql基础",
+              "slug": "/database/mysql学习手册/mysql基础/二进制字符",
+              "permalink": "/docs/database/mysql学习手册/mysql基础/二进制字符",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/23.database/01.mysql学习手册/01.mysql基础/二进制字符.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "database",
+              "previous": {
+                "title": "mysql概述",
+                "permalink": "/docs/database/mysql学习手册/intro"
+              },
+              "next": {
                 "title": "intro",
                 "permalink": "/docs/database/redis学习手册/intro"
               }
@@ -243,8 +267,8 @@
               "frontMatter": {},
               "sidebar": "database",
               "previous": {
-                "title": "mysql概述",
-                "permalink": "/docs/database/mysql学习手册/intro"
+                "title": "mysql是否可以存储二进制字符串",
+                "permalink": "/docs/database/mysql学习手册/mysql基础/二进制字符"
               }
             },
             {
@@ -592,8 +616,8 @@
               },
               "sidebar": "java",
               "previous": {
-                "title": "正则表达式",
-                "permalink": "/docs/java/java-se/正则表达式/正则入门"
+                "title": "递归问题",
+                "permalink": "/docs/java/java-se/递归问题"
               },
               "next": {
                 "title": "排序基础篇",
@@ -813,6 +837,30 @@
               }
             },
             {
+              "unversionedId": "java/java-se/递归问题",
+              "id": "java/java-se/递归问题",
+              "title": "递归问题",
+              "description": "酒瓶问题",
+              "source": "@site/docs/11.java/01.java-se/递归问题.md",
+              "sourceDirName": "11.java/01.java-se",
+              "slug": "/java/java-se/递归问题",
+              "permalink": "/docs/java/java-se/递归问题",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/递归问题.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "正则表达式",
+                "permalink": "/docs/java/java-se/正则表达式/正则入门"
+              },
+              "next": {
+                "title": "算法概述",
+                "permalink": "/docs/java/算法与数据结构/intro"
+              }
+            },
+            {
               "unversionedId": "java/java-se/泛型程序设计/泛型升序设计",
               "id": "java/java-se/泛型程序设计/泛型升序设计",
               "title": "泛型程序设计",
@@ -997,12 +1045,12 @@
               "frontMatter": {},
               "sidebar": "java",
               "previous": {
-                "title": "关于WeekHashMap",
-                "permalink": "/docs/java/java-se/集合/WeakHashMap"
+                "title": "map集合源码实现",
+                "permalink": "/docs/java/java-se/集合/map集合原理"
               },
               "next": {
-                "title": "java面向对象",
-                "permalink": "/docs/java/java-se/java面向对象"
+                "title": "IO流与File",
+                "permalink": "/docs/java/java-se/io流/intro"
               }
             },
             {
@@ -1081,6 +1129,30 @@
               }
             },
             {
+              "unversionedId": "java/java-se/集合/hashmap",
+              "id": "java/java-se/集合/hashmap",
+              "title": "hashmap",
+              "description": "练兵场",
+              "source": "@site/docs/11.java/01.java-se/09.集合/hashmap.md",
+              "sourceDirName": "11.java/01.java-se/09.集合",
+              "slug": "/java/java-se/集合/hashmap",
+              "permalink": "/docs/java/java-se/集合/hashmap",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/09.集合/hashmap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "关于WeekHashMap",
+                "permalink": "/docs/java/java-se/集合/WeakHashMap"
+              },
+              "next": {
+                "title": "map集合源码实现",
+                "permalink": "/docs/java/java-se/集合/map集合原理"
+              }
+            },
+            {
               "unversionedId": "java/java-se/集合/intro",
               "id": "java/java-se/集合/intro",
               "title": "集合概述",
@@ -1131,6 +1203,30 @@
               }
             },
             {
+              "unversionedId": "java/java-se/集合/map集合原理",
+              "id": "java/java-se/集合/map集合原理",
+              "title": "map集合源码实现",
+              "description": "hashmap",
+              "source": "@site/docs/11.java/01.java-se/09.集合/map集合原理.md",
+              "sourceDirName": "11.java/01.java-se/09.集合",
+              "slug": "/java/java-se/集合/map集合原理",
+              "permalink": "/docs/java/java-se/集合/map集合原理",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/09.集合/map集合原理.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "hashmap",
+                "permalink": "/docs/java/java-se/集合/hashmap"
+              },
+              "next": {
+                "title": "可变参数细节",
+                "permalink": "/docs/java/java-se/集合/可变参数细节"
+              }
+            },
+            {
               "unversionedId": "java/java-se/集合/set系列集合",
               "id": "java/java-se/集合/set系列集合",
               "title": "set系列集合",
@@ -1175,8 +1271,8 @@
                 "permalink": "/docs/java/java-se/集合/map"
               },
               "next": {
-                "title": "可变参数细节",
-                "permalink": "/docs/java/java-se/集合/可变参数细节"
+                "title": "hashmap",
+                "permalink": "/docs/java/java-se/集合/hashmap"
               }
             },
             {
@@ -1560,8 +1656,8 @@
                 "permalink": "/docs/java/java-se/正则表达式/字符串函数"
               },
               "next": {
-                "title": "算法概述",
-                "permalink": "/docs/java/算法与数据结构/intro"
+                "title": "递归问题",
+                "permalink": "/docs/java/java-se/递归问题"
               }
             },
             {
@@ -1613,6 +1709,252 @@
               }
             },
             {
+              "unversionedId": "java/java-se/io流/可变参数细节",
+              "id": "java/java-se/io流/可变参数细节",
+              "title": "可变参数细节",
+              "description": "变长参数是jdk1.5新增的功能，因此可以放心大胆的用。",
+              "source": "@site/docs/11.java/01.java-se/10.io流/可变参数细节.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/可变参数细节",
+              "permalink": "/docs/java/java-se/io流/可变参数细节",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/可变参数细节.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "map集合源码实现",
+                "permalink": "/docs/java/java-se/io流/map集合原理"
+              },
+              "next": {
+                "title": "java面向对象",
+                "permalink": "/docs/java/java-se/java面向对象"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/ArrayList",
+              "id": "java/java-se/io流/ArrayList",
+              "title": "ArrayList",
+              "description": "java语言规范将派生于error类或runtimeException类的所有异常成为非检查型异常，其他的异常成为检查型异常",
+              "source": "@site/docs/11.java/01.java-se/10.io流/03.ArrayList.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/ArrayList",
+              "permalink": "/docs/java/java-se/io流/ArrayList",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/03.ArrayList.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "collections工具类",
+                "permalink": "/docs/java/java-se/io流/collections"
+              },
+              "next": {
+                "title": "IO流",
+                "permalink": "/docs/java/java-se/io流/IO流"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/collections",
+              "id": "java/java-se/io流/collections",
+              "title": "collections工具类",
+              "description": "addAll，批量添加元素",
+              "source": "@site/docs/11.java/01.java-se/10.io流/02.collections.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/collections",
+              "permalink": "/docs/java/java-se/io流/collections",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/02.collections.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "IO流与File",
+                "permalink": "/docs/java/java-se/io流/intro"
+              },
+              "next": {
+                "title": "ArrayList",
+                "permalink": "/docs/java/java-se/io流/ArrayList"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/hashmap",
+              "id": "java/java-se/io流/hashmap",
+              "title": "hashmap",
+              "description": "练兵场",
+              "source": "@site/docs/11.java/01.java-se/10.io流/hashmap.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/hashmap",
+              "permalink": "/docs/java/java-se/io流/hashmap",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/hashmap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "关于WeekHashMap",
+                "permalink": "/docs/java/java-se/io流/WeakHashMap"
+              },
+              "next": {
+                "title": "map集合源码实现",
+                "permalink": "/docs/java/java-se/io流/map集合原理"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/intro",
+              "id": "java/java-se/io流/intro",
+              "title": "IO流与File",
+              "description": "存储数据方案--持久化，",
+              "source": "@site/docs/11.java/01.java-se/10.io流/00.intro.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/intro",
+              "permalink": "/docs/java/java-se/io流/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/00.intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 0,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "可变参数细节",
+                "permalink": "/docs/java/java-se/集合/可变参数细节"
+              },
+              "next": {
+                "title": "collections工具类",
+                "permalink": "/docs/java/java-se/io流/collections"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/IO流",
+              "id": "java/java-se/io流/IO流",
+              "title": "IO流",
+              "description": "字符集",
+              "source": "@site/docs/11.java/01.java-se/10.io流/03.IO流.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/IO流",
+              "permalink": "/docs/java/java-se/io流/IO流",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/03.IO流.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "ArrayList",
+                "permalink": "/docs/java/java-se/io流/ArrayList"
+              },
+              "next": {
+                "title": "set系列集合",
+                "permalink": "/docs/java/java-se/io流/set系列集合"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/map",
+              "id": "java/java-se/io流/map",
+              "title": "map系列key/value集合",
+              "description": "map系列接口是key/value类型的集合，其特点是无序，无索引，key不可重复，value无所谓。",
+              "source": "@site/docs/11.java/01.java-se/10.io流/05.map.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/map",
+              "permalink": "/docs/java/java-se/io流/map",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/05.map.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "set系列集合",
+                "permalink": "/docs/java/java-se/io流/set系列集合"
+              },
+              "next": {
+                "title": "关于WeekHashMap",
+                "permalink": "/docs/java/java-se/io流/WeakHashMap"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/map集合原理",
+              "id": "java/java-se/io流/map集合原理",
+              "title": "map集合源码实现",
+              "description": "hashmap",
+              "source": "@site/docs/11.java/01.java-se/10.io流/map集合原理.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/map集合原理",
+              "permalink": "/docs/java/java-se/io流/map集合原理",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/map集合原理.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "hashmap",
+                "permalink": "/docs/java/java-se/io流/hashmap"
+              },
+              "next": {
+                "title": "可变参数细节",
+                "permalink": "/docs/java/java-se/io流/可变参数细节"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/set系列集合",
+              "id": "java/java-se/io流/set系列集合",
+              "title": "set系列集合",
+              "description": "TreeSet",
+              "source": "@site/docs/11.java/01.java-se/10.io流/04.set系列集合.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/set系列集合",
+              "permalink": "/docs/java/java-se/io流/set系列集合",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/04.set系列集合.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "IO流",
+                "permalink": "/docs/java/java-se/io流/IO流"
+              },
+              "next": {
+                "title": "map系列key/value集合",
+                "permalink": "/docs/java/java-se/io流/map"
+              }
+            },
+            {
+              "unversionedId": "java/java-se/io流/WeakHashMap",
+              "id": "java/java-se/io流/WeakHashMap",
+              "title": "关于WeekHashMap",
+              "description": "引用相关",
+              "source": "@site/docs/11.java/01.java-se/10.io流/WeakHashMap.md",
+              "sourceDirName": "11.java/01.java-se/10.io流",
+              "slug": "/java/java-se/io流/WeakHashMap",
+              "permalink": "/docs/java/java-se/io流/WeakHashMap",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.io流/WeakHashMap.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "java",
+              "previous": {
+                "title": "map系列key/value集合",
+                "permalink": "/docs/java/java-se/io流/map"
+              },
+              "next": {
+                "title": "hashmap",
+                "permalink": "/docs/java/java-se/io流/hashmap"
+              }
+            },
+            {
               "unversionedId": "java/java-se/java面向对象",
               "id": "java/java-se/java面向对象",
               "title": "java面向对象",
@@ -1630,7 +1972,7 @@
               "sidebar": "java",
               "previous": {
                 "title": "可变参数细节",
-                "permalink": "/docs/java/java-se/集合/可变参数细节"
+                "permalink": "/docs/java/java-se/io流/可变参数细节"
               },
               "next": {
                 "title": "readme",
@@ -1773,6 +2115,54 @@
                 "title": "刷题必备",
                 "permalink": "/docs/linux/nginx/刷题必备"
               }
+            },
+            {
+              "unversionedId": "php/路径函数/仅获取",
+              "id": "php/路径函数/仅获取",
+              "title": "仅获取",
+              "description": "获取路径中的文件名",
+              "source": "@site/docs/13.php/路径函数/仅获取.md",
+              "sourceDirName": "13.php/路径函数",
+              "slug": "/php/路径函数/仅获取",
+              "permalink": "/docs/php/路径函数/仅获取",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/13.php/路径函数/仅获取.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
+            },
+            {
+              "unversionedId": "php/intro",
+              "id": "php/intro",
+              "title": "go语言学习记录",
+              "description": "go项目",
+              "source": "@site/docs/13.php/intro.md",
+              "sourceDirName": "13.php",
+              "slug": "/php/intro",
+              "permalink": "/docs/php/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/13.php/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              }
+            },
+            {
+              "unversionedId": "php/thinkphp/七牛",
+              "id": "php/thinkphp/七牛",
+              "title": "php框架集成七牛sdk",
+              "description": "thinkphp框架集成七牛sdk",
+              "source": "@site/docs/13.php/thinkphp/七牛.md",
+              "sourceDirName": "13.php/thinkphp",
+              "slug": "/php/thinkphp/七牛",
+              "permalink": "/docs/php/thinkphp/七牛",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/13.php/thinkphp/七牛.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
             },
             {
               "unversionedId": "tutorial-basics/congratulations",
@@ -3285,6 +3675,21 @@
               "tags": [],
               "version": "current",
               "frontMatter": {}
+            },
+            {
+              "unversionedId": "win10系统/关于全角半角切换 - 副本",
+              "id": "win10系统/关于全角半角切换 - 副本",
+              "title": "关于全角半角切换 - 副本",
+              "description": "全角半角",
+              "source": "@site/docs/80.win10系统/关于全角半角切换 - 副本.md",
+              "sourceDirName": "80.win10系统",
+              "slug": "/win10系统/关于全角半角切换 - 副本",
+              "permalink": "/docs/win10系统/关于全角半角切换 - 副本",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/80.win10系统/关于全角半角切换 - 副本.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
             }
           ],
           "drafts": [],
@@ -3802,7 +4207,63 @@
                       },
                       {
                         "type": "doc",
+                        "id": "java/java-se/集合/hashmap"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/集合/map集合原理"
+                      },
+                      {
+                        "type": "doc",
                         "id": "java/java-se/集合/可变参数细节"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "io流",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/intro"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/collections"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/ArrayList"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/IO流"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/set系列集合"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/map"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/WeakHashMap"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/hashmap"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/map集合原理"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "java/java-se/io流/可变参数细节"
                       }
                     ]
                   },
@@ -3962,6 +4423,10 @@
                         "id": "java/java-se/正则表达式/正则入门"
                       }
                     ]
+                  },
+                  {
+                    "type": "doc",
+                    "id": "java/java-se/递归问题"
                   }
                 ]
               },
@@ -4108,6 +4573,18 @@
                   {
                     "type": "doc",
                     "id": "database/mysql学习手册/intro"
+                  },
+                  {
+                    "type": "category",
+                    "label": "mysql基础",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "database/mysql学习手册/mysql基础/二进制字符"
+                      }
+                    ]
                   }
                 ]
               },
@@ -4304,11 +4781,40 @@
               "permalink": "/blog/we1lcome112"
             },
             "nextItem": {
+              "title": "2024-01-08--hello one",
+              "permalink": "/blog/20240108"
+            }
+          },
+          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
+        },
+        {
+          "id": "20240108",
+          "metadata": {
+            "permalink": "/blog/20240108",
+            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2024/01/0108.md",
+            "source": "@site/blog/2024/01/0108.md",
+            "title": "2024-01-08--hello one",
+            "description": "java学习",
+            "date": "2024-01-01T00:00:00.000Z",
+            "formattedDate": "January 1, 2024",
+            "tags": [],
+            "readingTime": 0.285,
+            "hasTruncateMarker": false,
+            "authors": [],
+            "frontMatter": {
+              "slug": "20240108",
+              "title": "2024-01-08--hello one"
+            },
+            "prevItem": {
+              "title": "2024-01-07--hello one",
+              "permalink": "/blog/20240107"
+            },
+            "nextItem": {
               "title": "Welcome212",
               "permalink": "/blog/welcome212"
             }
           },
-          "content": "java面向对象基础\r\n\r\nfinal关键字\r\n\r\n继承和多态\r\n\r\n内部类，\r\n抽象类\r\n接口\r\n\r\n\r\n\r\nhttps://blog.csdn.net/nanhuaibeian/article/details/120764592"
+          "content": "java学习\r\n集合和线程并发\r\n网络编程\r\n\r\n\r\n\r\n本周任务，\r\n完成\r\n- js高级程序设计第四版\r\n- 阮一峰es入门标准\r\n- java高级程序设计\r\n\r\n视频教程，\r\n尚硅谷，js视频\r\n\r\n\r\nhttps://github.com/stepui/stepin-template\r\nhttp://dashboard-vben.yudao.iocoder.cn/http://static-vben.yudao.iocoder.cn/login?redirect=/dashboard"
         },
         {
           "id": "welcome212",
@@ -4366,8 +4872,8 @@
               ]
             },
             "prevItem": {
-              "title": "2024-01-07--hello one",
-              "permalink": "/blog/20240107"
+              "title": "2024-01-08--hello one",
+              "permalink": "/blog/20240108"
             },
             "nextItem": {
               "title": "Welcome221",
@@ -4695,6 +5201,7 @@
           "items": [
             "we1lcome112",
             "20240107",
+            "20240108",
             "welcome212",
             "welcome221",
             "welcome111",
@@ -4708,7 +5215,7 @@
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
-            "totalCount": 9,
+            "totalCount": 10,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
