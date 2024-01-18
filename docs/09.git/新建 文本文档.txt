@@ -15,3 +15,21 @@ hint:   git branch -m <name>
 
 
 git config --global init.defaultBranch master
+
+
+
+## 明明可以打开github，但是git客户端却提示
+ssh: connect to host github.com port 22: Connection timed out
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+
+```git
+edit ~/.ssh/config and put this lines:
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+```
