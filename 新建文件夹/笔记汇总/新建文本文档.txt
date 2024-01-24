@@ -1,0 +1,23 @@
+
+1. 出入量app日期问题 
+2. 密码强度问题
+3. 中新通调整，注册登录时，下单地址中新通
+4. 中新通货舱的修改
+5. 住建局项目前端展示问题
+6. 中新通订单详情页
+
+
+
+pan.baidu.com/s/1UqkMz0UeA4WfTKAseXp2zA [ez1f]
+
+
+
+1. 手机号验证不行
+
+
+
+ftp://118.24.167.201:21
+user: ebest
+pwd: xXy5hr43P2SJRTyD
+http://www.everbestshoes.com.cn/
+整理一份 综合电商系统
