@@ -1,0 +1,129 @@
+
+
+字符编码
+
+
+关于utf8编码中文的范围
+
+u4e00-u9fa5
+
+
+
+
+Unicode:汉字的Unicode编码范围为\u4E00-\u9FA5 \uF900-\uFA2D,如果不在这个范围内就不是汉字了. 
+
+https://segmentfault.com/a/1190000040529571
+
+
+
+更正的中文匹配方式 [\u4e00-\u9fff]
+
+
+/p{sc=Han}/gu
+```js
+
+```
+
+
+# 数组
+
+go语言中的数组长度是不可改变的
+
+声明一个固定长度的数组，
+
+
+元素默认值
+
+```go
+func main() {
+	var nums1 [5]int
+
+	nums1[0] = 1
+	nums1[1] = 2
+
+	var nums2 = [5]int{1, 2, 3}
+	for index, num := range nums2 {
+		fmt.Println(index, num)
+	}
+
+	nums3 := [5]int{1, 2, 3}
+	for index, num := range nums3 {
+		fmt.Println(index, num)
+	}
+}
+```
+
+访问数组元素，
+
+数组元素的默认值，就是其类型的默认值
+
+
+在数组初始化时，通过不确定元素个数，需要根据传入的元素个来确定的话，可以使用类似js中的展开运算符
+
+```go
+var nums4 = [...]int{2, 5, 10}
+for index, num := range nums4 {
+	fmt.Println(index, num)
+}
+```
+> 注意，这里仅仅是对比js，在go语言中并没有展开运算符的概念。
+
+
+
+
+当数组作为参数传递给函数时，必须指定数组的长度，
+
+
+
+可否传递不定长数组参数
+
+go语言在给函数传递数组时，不会修改原数组。
+
+
+
+数组是值类型，每次爨地都会产生一份副本，显然这种数据结构无法完全满足开发者的真实需求。
+
+
+
+如何解决这一问题呢？
+
+数组切片
+
+
+创建数组切片
+
+创建数组切片的方法主要有两种，基于数组和直接创建
+
+基于数组方式
+
+
+切片操作是一个左闭右开的区间
+
+```go
+func main() {
+	var nums1 = [...]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+	//1,2,3,4,5
+	var s1 []int = nums1[:5]
+	//3,4,5
+	var s2 []int = nums1[2:5]
+	fmt.Println(s1, s2)
+
+	fmt.Printf("s1 type=%T", nums1)
+	fmt.Printf("s1 type=%T", s1)
+
+	var s3 = make([]int, 3)
+	s3[0] = 10
+	s3[1] = 20
+	s3[2] = 20
+	for index, num := range s3 {
+		fmt.Println(index, num)
+	}
+}
+```
+
+
+
+
+可使用内置函数len来获取数组的长度
+
