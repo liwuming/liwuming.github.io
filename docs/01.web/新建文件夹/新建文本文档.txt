@@ -1,0 +1,24 @@
+
+# toastify
+
+```css
+toastify {
+  padding: 10px 20px;
+  max-width: calc(50% - 20px);
+  color: #fff;
+  display: inline-block;
+  box-shadow: 0 3px 6px -1px rgba(0, 0, 0, 0.12), 0 10px 36px -4px rgba(77, 96, 232, 0.3);
+  background: -webkit-linear-gradient(315deg, #73a5ff, #5477f5);
+  background: linear-gradient(135deg, #73a5ff, #5477f5);
+  background-color: rgba(63, 63, 63);
+  -webkit-box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.33);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.33);
+  position: fixed;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  z-index: 21474;
+}
+```
