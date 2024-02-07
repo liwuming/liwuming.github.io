@@ -1,0 +1,1 @@
+<input class="switch switch-anim" onchange="checkNum()" type="checkbox" checked />
