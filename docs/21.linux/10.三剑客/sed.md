@@ -45,6 +45,11 @@ select concat(firstname,lastname) as uname from hlk_customer where concat(trim(f
 
 
 
+
+
+
+
+
 真坑
 
 1. 字段左右有空格，
