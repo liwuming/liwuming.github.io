@@ -258,6 +258,94 @@ func main() {
 
 
 
+## 结构体嵌套
+
+```go
+type point struct {
+	x, y int
+}
+
+type circle struct {
+	point  point
+	radius int
+}
+
+func main() {
+	c1 := circle{
+		radius: 10,
+		point:  point{x: 10, y: 20},
+	}
+
+	c2 := circle{
+		point{x: 20, y: 20},
+		30,
+	}
+	fmt.Println(c1.point.x, c1.point.x)
+	fmt.Println(c2.point.x)
+}
+```
+
+对于结构体嵌套时,如何访问属性--剥皮,一层一层访问,
+
+
+
+对于结构体嵌套时,结构体使用匿名类型,且结构体不冲突时,可直接访问
+
+```go
+type point struct {
+	x, y int
+}
+
+type circle struct {
+	point
+	radius int
+}
+
+func main() {
+	c1 := circle{
+		radius: 10,
+		point:  point{x: 10, y: 20},
+	}
+
+	c2 := circle{
+		point{x: 20, y: 20},
+		30,
+	}
+	fmt.Println(c1.point.x, c1.x)
+	fmt.Println(c2.point.x)
+}
+```
+
+非常常用.最佳实现,最好在只有一个匿名字段结构体时使用,防止兄弟结构体字段冲突
+
+
+
+查找顺序,从外层结构体到内层匿名结构体,递归查找,至到查到即终止.
+
+
+
+
+
+
+
+
+
+
+
+结构体匿名字段
+
+
+
+
+
+结构体显式初始化与隐式初始化不能混用,适用于同一层级的结构体,不同层级的结构体,无此限制
+
+
+
+
+
+
+
 是值类型,也就意味着,可以使用new关键字声明变量.
 
 
@@ -379,6 +467,42 @@ func main() {
 ```
 
 
+
+
+
+
+
+
+
+## 结构体模拟实现继承
+
+
+
+```go
+type animal struct {
+	name string
+}
+
+func (a animal) move() {
+	fmt.Println(a.name, "i can move")
+}
+
+type cat struct {
+	animal
+}
+
+func (c cat) move() {
+	c.animal.move()
+	fmt.Println(c.name, "我不仅会动,还会抓老鼠")
+}
+
+func main() {
+	c := cat{animal{"猫"}}
+	c.move()
+}
+```
+
+其原理还是匿名结构体的嵌套,可直接访问匿名结构体的属性及方法
 
 
 

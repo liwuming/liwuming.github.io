@@ -1,3 +1,274 @@
+# 文件读写
+
+
+
+## 1. file.read()
+
+```go
+func main() {
+	workdir, err1 := os.Getwd()
+
+	if err1 != nil {
+		fmt.Println(err1)
+		return
+	}
+	fmt.Println(workdir)
+	dirpath := workdir + "/module6/lesson071/1.txt"
+
+	file, err2 := os.Open(dirpath)
+	if err2 != nil {
+		fmt.Println(err2)
+		return
+	}
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+	}(file)
+
+	var contents []byte
+	buf := make([]byte, 10)
+	for {
+		_, err3 := file.Read(buf)
+		if err3 == io.EOF {
+			break
+		} else if err3 != nil {
+			fmt.Println(err3)
+			return
+		}
+		contents = append(contents, buf[:]...)
+	}
+	fmt.Println(string(contents))
+}
+```
+
+
+
+os.open是对os.openfile的封装,在读取文件是使用os.open更加简单,在写入时需要使用openfile,有更多的选项控制.
+
+
+
+## 2. bufio读取文件
+
+在bufio包下有一个
+
+```go
+func main() {
+	workdir, err1 := os.Getwd()
+	if err1 != nil {
+		fmt.Println(err1)
+		return
+	}
+	filepath := workdir + "/module6/lesson071/1.txt"
+	file, err2 := os.Open(filepath)
+	if err2 != nil {
+		fmt.Println(err2)
+		return
+	}
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(file)
+
+	var lines []string
+	reader := bufio.NewReader(file)
+
+	for {
+		line, _, err3 := reader.ReadLine()
+		if err3 == io.EOF {
+			break
+		} else if err3 != nil {
+			fmt.Println(err3)
+			return
+		}
+		lines = append(lines, string(line))
+		fmt.Println(string(line))
+	}
+	fmt.Println(lines)
+}
+```
+
+
+
+
+
+```go
+func main() {
+	workdir, err1 := os.Getwd()
+	if err1 != nil {
+		fmt.Println(err1)
+		return
+	}
+	filepath := workdir + "/module6/lesson071/1.txt"
+	file, err2 := os.Open(filepath)
+	if err2 != nil {
+		fmt.Println(err2)
+		return
+	}
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(file)
+
+	var lines []string
+	reader := bufio.NewReader(file)
+	for {
+		line, err3 := reader.ReadString('\n')
+		if err3 == io.EOF {
+			lines = append(lines, line)
+			break
+		} else if err3 != nil {
+			fmt.Println(err3)
+			return
+		}
+		//line = line[:len(line)-1]
+		lines = append(lines, line)
+		//fmt.Println()
+	}
+	fmt.Println(lines)
+}
+```
+
+
+
+
+
+```go
+func main() {
+	workdir, err1 := os.Getwd()
+	if err1 != nil {
+		fmt.Println(err1)
+		return
+	}
+	filepath := workdir + "/module6/lesson071/1.txt"
+	file, err2 := os.Open(filepath)
+	if err2 != nil {
+		fmt.Println(err2)
+		return
+	}
+	defer func(file *os.File) {
+		err := file.Close()
+		if err != nil {
+			fmt.Println(err)
+		}
+	}(file)
+
+	var lines []string
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+	fmt.Println(lines)
+}
+```
+
+
+
+
+
+按行读取
+
+## 3.io.readFile
+
+```go
+func main(){	
+	root,_:= os.Getwd();
+	// fmt.Println(root);
+	filepath:=root+"/day07/1.txt"
+	contents,err:=os.ReadFile(filepath);
+
+	if err != nil{
+		fmt.Println(err);
+		return;
+	}
+	fmt.Println(string(contents));
+}
+```
+
+
+
+研究一下大神的代码
+
+```go
+func ReadFile(name string) ([]byte, error) {
+	f, err := Open(name)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	var size int
+	if info, err := f.Stat(); err == nil {
+		size64 := info.Size()
+		if int64(int(size64)) == size64 {
+			size = int(size64)
+		}
+	}
+	size++ // one byte for final read at EOF
+
+	// If a file claims a small size, read at least 512 bytes.
+	// In particular, files in Linux's /proc claim size 0 but
+	// then do not work right if read in small pieces,
+	// so an initial read of 1 byte would not work correctly.
+	if size < 512 {
+		size = 512
+	}
+
+	data := make([]byte, 0, size)
+	for {
+		if len(data) >= cap(data) {
+			d := append(data[:cap(data)], 0)
+			data = d[:len(data)]
+		}
+		n, err := f.Read(data[len(data):cap(data)])
+		data = data[:len(data)+n]
+		if err != nil {
+			if err == io.EOF {
+				err = nil
+			}
+			return data, err
+		}
+	}
+}
+```
+
+可以看出os.readFile实际上就是对file.read的封装而已,但是做了优化,比自己写的代码完善性能更高,值得学习.
+
+
+
+
+
+## 附录1:关于os包常用方法
+
+
+
+
+
+
+
+
+
+## 附录2:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
