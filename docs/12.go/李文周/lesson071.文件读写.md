@@ -245,6 +245,10 @@ func ReadFile(name string) ([]byte, error) {
 
 
 
+
+
+
+
 ## 附录1:关于os包常用方法
 
 
@@ -554,3 +558,26 @@ func main() {
 	writer.Flush()
 }
 ```
+
+
+
+从控制台获取用户输入,可能存在空格
+
+使用fmt.scan系列函数,在遇到空格就结束了,或者仅能获取到第一个字符.
+
+```go
+func main() {
+
+	reader := bufio.NewReader(os.Stdin)
+
+	str, err := reader.ReadString('\n')
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+	fmt.Println(str)
+}
+```
+
+
+
