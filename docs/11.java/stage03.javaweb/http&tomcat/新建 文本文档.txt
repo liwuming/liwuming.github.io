@@ -1,0 +1,11 @@
+
+
+<servlet>
+	<servlet-name>demo02</servlet-name>
+	<servlet-class>net.ibiancheng.servlet.ServletDemo02</servlet-name>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>demo02</servlet-name>
+	<url-pattern>/demo02</pattern>
+</servlet-mapping>
