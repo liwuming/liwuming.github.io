@@ -6,10 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: "liwuming'blog",
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -75,6 +74,48 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Tutorial',
+          },
+		  {
+            type: 'doc',
+            docId: 'js&ts/intro',
+            position: 'left',
+            label: 'ecma',
+          },
+		  {
+            type: 'doc',
+            docId: 'java/intro',
+            position: 'left',
+            label: 'java',
+          },
+		  {
+            type: 'doc',
+            docId: 'go/intro',
+            position: 'left',
+            label: 'go',
+          },
+		  {
+            type: 'doc',
+            docId: 'php/intro',
+            position: 'left',
+            label: 'php',
+          },
+		  {
+            type: 'doc',
+            docId: 'linux/intro',
+            position: 'left',
+            label: 'linux',
+          },
+		  {
+            type: 'doc',
+            docId: 'mysql/intro',
+            position: 'left',
+            label: 'mysql',
+          },
+		  {
+            type: 'doc',
+            docId: 'redis/intro',
+            position: 'left',
+            label: 'redis',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
