@@ -16,6 +16,41 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
+body{font-family:"Microsoft yahei";background-color:#f6f8fa;}
+aside.theme-doc-sidebar-container{min-height:100vh;background-color:#fff;}
+.docItemCol_node_modules-@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module{background-color:#fff;}
+
+main > .container{margin:18px auto;padding:0 30px;max-width:1024px;background-color:#fff;border-radius:13px;}
+
+.markdown.theme-doc-markdown>table{width:100%;display:table;}
+.markdown.theme-doc-markdown> blockquote {
+  background: #eef0f4;
+  border-left: 5px solid #dddfe4;
+  color: #787878;
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0 0 1em;
+  overflow: auto;
+  padding: 12px 10px;
+  position: relative;
+  word-break: break-word;
+}
+
+
+.docTOC{
+	width:230px;
+	height:calc(100vh - 200px);
+	background:#fff;
+	border-radius:10px;
+	position:fixed;right:15px;top:100px;
+	top: 100px;display:none;
+}
+
+@media (min-width:1800px) {	
+	.docTOC{display:none;}
+}
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
@@ -29,7 +64,28 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-
-
-.theme-doc-sidebar-container{min-height:100vh;}
-	
+code[class*="language-"], pre[class*="language-"] {
+    color: black;
+    background: none;
+    text-shadow: 0 1px white;
+	font-family: Fira Code, SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace, Consolas, "Courier New", monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+	font-weight: normal;
+	font-size: 15px;
+	font-feature-settings: "liga", "calt";
+	font-variation-settings: normal;
+	line-height: 23px;
+	letter-spacing: 0px;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}

@@ -1,9 +1,0 @@
-php -r "copy('https://install.phpcomposer.com/installer', 'composer-setup.php');"
-
-
-
-thinkphp 多应用
-composer require topthink/think-multi-app
-
-composer require topthink/think-view
-composer require topthink/think-template

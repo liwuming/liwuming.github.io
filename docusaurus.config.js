@@ -1,16 +1,19 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// `@type` JSDoc annotations allow editor autocompletion and type checking
+// (when paired with `@ts-check`).
+// There are various equivalent ways to declare your Docusaurus config.
+// See: https://docusaurus.io/docs/api/docusaurus-config
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "liwuming'blog",
+  title:"liwuming'blog",
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
+
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,9 +26,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // Even if you don't use internationalization, you can use this field to set
+  // useful metadata like html lang. For example, if your site is Chinese, you
+  // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -37,7 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
+		  sidebarCollapsed: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -51,7 +55,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
       }),
     ],
@@ -62,74 +66,41 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+	  
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "liwuming'blog",
+          src: 'https://v7-wiki.apipost.cn/img/logo.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-		  {
-            type: 'doc',
-            docId: 'js&ts/intro',
-            position: 'left',
-            label: 'ecma',
-          },
-		  {
-            type: 'doc',
-            docId: 'java/intro',
-            position: 'left',
-            label: 'java',
-          },
-		  {
-            type: 'doc',
-            docId: 'go/intro',
-            position: 'left',
-            label: 'go',
-          },
-		  {
-            type: 'doc',
-            docId: 'php/intro',
-            position: 'left',
-            label: 'php',
-          },
-		  {
-            type: 'doc',
-            docId: 'linux/intro',
-            position: 'left',
-            label: 'linux',
-          },
-		  {
-            type: 'doc',
-            docId: 'mysql/intro',
-            position: 'left',
-            label: 'mysql',
-          },
-		  {
-            type: 'doc',
-            docId: 'redis/intro',
-            position: 'left',
-            label: 'redis',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+			{type: 'doc',docId: 'js&ts/intro',position: 'left',label: 'ecma'},
+			{type: 'doc',docId: 'go/intro',position: 'left',label: 'go'},
+			{type: 'doc',docId: 'linux/intro',position: 'left',label: 'linux'},
+			{type: 'doc',docId: 'mysql/intro',position: 'left',label: 'mysql'},
+			{type: 'doc',docId: 'english/intro',position: 'left',label: 'english'},
+			{to: '/blog', label: 'Blog', position: 'left'},
+			{
+				href: 'https://github.com/facebook/docusaurus',
+				label: 'GitHub',
+				position: 'right',
+			},
         ],
       },
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} ibiancheng.net, Inc. Built with Docusaurus.`,
+      },
+	  docs:{
+		sidebar: {
+		  hideable: true,
+		  autoCollapseCategories: true,
+		},  
+	  },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
     }),
 };
 
-module.exports = config;
+export default config;

@@ -1,3 +1,0 @@
-
-
-./configure --with-php-config=/
