@@ -24,9 +24,9 @@ main > div.container{margin:18px auto;padding:0 30px;max-width:1024px;
  border:none!important;
  border-radius:13px;}
 
-
-.markdown.theme-doc-markdown>header{margin-bottom:18px;padding:5px 0 12px 0;position:relative;}
-.markdown.theme-doc-markdown>header>h1{margin:0;font-size:32px;font-family:"Microsoft yahei";color:#222226;}
+main > div.container article>nav{margin-bottom:0.3rem;}
+.markdown.theme-doc-markdown>header{margin-bottom:18px;padding:5px 0 8px 0;position:relative;}
+.markdown.theme-doc-markdown>header>h1{margin:0;font-size:30px;font-family:"Microsoft yahei";color:#222226;}
 .markdown.theme-doc-markdown>header::after{width:calc(100% + 60px);
 	border-bottom:2px solid #ddd;
 position:absolute;left:-30px;right:-30px;bottom:0;height:2px;content:"";}
@@ -38,8 +38,8 @@ position:absolute;left:-30px;right:-30px;bottom:0;height:2px;content:"";}
 .markdown.theme-doc-markdown>h5,
 .markdown.theme-doc-markdown>h6{color:#333;}
 
-.markdown.theme-doc-markdown>h2{line-height:40px;font-size:24px;border-bottom:3px double #eee;}
-.markdown.theme-doc-markdown>h3{line-height:40px;font-size:20px;border-bottom:3px double #eee;}
+.markdown.theme-doc-markdown>h2{line-height:32px;font-size:24px;border-bottom:3px double #eee;}
+.markdown.theme-doc-markdown>h3{line-height:28px;font-size:20px;border-bottom:3px double #eee;}
 .markdown.theme-doc-markdown>h4{line-height:40px;font-size:18px;border-bottom:3px double #eee;}
 .markdown.theme-doc-markdown>h5{line-height:40px;font-size:18px;border-bottom:3px double #eee;}
 .markdown.theme-doc-markdown>h6{line-height:40px;font-size:18px;border-bottom:3px double #eee;}
