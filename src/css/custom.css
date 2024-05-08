@@ -22,8 +22,8 @@
   font-weight:400;
   font-display:swap;
   src:local(""),
-  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-regular.woff2)format("woff2"),
-  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-regular.woff)format("woff")
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-v27-latin-regular.woff2)format("woff2"),
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-v27-latin-regular.woff)format("woff")
 }
 @font-face {
   font-family:roboto;
@@ -31,8 +31,8 @@
   font-weight:700;
   font-display:swap;
   src:local(""),
-  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff2)format("woff2"),
-  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff)format("woff")
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-v27-latin-700.woff2)format("woff2"),
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-v27-latin-700.woff)format("woff")
 }
 @font-face {
   font-family:roboto mono;
@@ -40,8 +40,8 @@
   font-weight:400;
   font-display:swap;
   src:local(""),
-  url(https://golang-minibear2333.github.io/fonts/roboto-mono-v13-latin-regular.woff2)format("woff2"),
-  url(https://golang-minibear2333.github.io/fonts/roboto-mono-v13-latin-regular.woff)format("woff")
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-mono-v13-latin-regular.woff2)format("woff2"),
+  url(https://cdn.ibiancheng.net/fonts/roboto/roboto-mono-v13-latin-regular.woff)format("woff")
 }
 body{font-family: roboto,sans-serif!important;background-color:#f6f8fa;}
 
@@ -55,6 +55,7 @@ main > div.container{margin:18px auto;padding:0 30px;max-width:1024px;
 main > div.container article>nav{margin-bottom:0.3rem;}
 
 /*
+/roboto-mono-v13-latin-regular.woff
 https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff2
 github
 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
