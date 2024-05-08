@@ -16,7 +16,35 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-body{font-family:"Microsoft yahei";background-color:#f6f8fa;}
+@font-face {
+  font-family:roboto;
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local(""),
+  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-regular.woff2)format("woff2"),
+  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-regular.woff)format("woff")
+}
+@font-face {
+  font-family:roboto;
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+  src:local(""),
+  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff2)format("woff2"),
+  url(https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff)format("woff")
+}
+@font-face {
+  font-family:roboto mono;
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+  src:local(""),
+  url(https://golang-minibear2333.github.io/fonts/roboto-mono-v13-latin-regular.woff2)format("woff2"),
+  url(https://golang-minibear2333.github.io/fonts/roboto-mono-v13-latin-regular.woff)format("woff")
+}
+body{font-family: roboto,sans-serif!important;background-color:#f6f8fa;}
+
 aside.theme-doc-sidebar-container{min-height:100vh;background-color:#fff;}
 main > div.container{margin:18px auto;padding:0 30px;max-width:1024px;
  
@@ -25,6 +53,18 @@ main > div.container{margin:18px auto;padding:0 30px;max-width:1024px;
  border-radius:13px;}
 
 main > div.container article>nav{margin-bottom:0.3rem;}
+
+/*
+https://golang-minibear2333.github.io/fonts/roboto-v27-latin-700.woff2
+github
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+*/
+.markdown.theme-doc-markdown{
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
 .markdown.theme-doc-markdown>header{margin-bottom:18px;padding:5px 0 8px 0;position:relative;}
 .markdown.theme-doc-markdown>header>h1{margin:0;font-size:30px;font-family:"Microsoft yahei";color:#222226;}
 .markdown.theme-doc-markdown>header::after{width:calc(100% + 60px);
@@ -38,7 +78,12 @@ position:absolute;left:-30px;right:-30px;bottom:0;height:2px;content:"";}
 .markdown.theme-doc-markdown>h5,
 .markdown.theme-doc-markdown>h6{color:#333;}
 
-.markdown.theme-doc-markdown>h2{line-height:32px;font-size:24px;border-bottom:3px double #eee;}
+.markdown.theme-doc-markdown>h2{
+	padding-bottom:.1em;
+	line-height:32px;font-size: 1.5em;
+	font-weight:600;
+	border-bottom:3px double #d0d7deb3;
+}
 .markdown.theme-doc-markdown>h3{line-height:28px;font-size:20px;border-bottom:3px double #eee;}
 .markdown.theme-doc-markdown>h4{line-height:40px;font-size:18px;border-bottom:3px double #eee;}
 .markdown.theme-doc-markdown>h5{line-height:40px;font-size:18px;border-bottom:3px double #eee;}
@@ -58,7 +103,10 @@ position:absolute;left:-30px;right:-30px;bottom:0;height:2px;content:"";}
   word-break: break-word;
 }
 
-
+.markdown.theme-doc-markdown pre>code{
+  font-family:"roboto mono",monospace!important;
+  font-size: 1em;
+}
 .docTOC{
 	width:230px;
 	height:calc(100vh - 200px);
