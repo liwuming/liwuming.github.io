@@ -47,4 +47,6 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 Update available 3.3.0 → 3.3.2
 To upgrade Docusaurus packages with the latest version, run the following command:		
 yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/types@latest    
-		
+
+
+--0508
