@@ -2,11 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://liwuming.github.io/blog</id>
     <title>liwuming'blog Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2024-05-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://liwuming.github.io/blog"/>
     <subtitle>liwuming'blog Blog</subtitle>
     <icon>https://liwuming.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://liwuming.github.io/blog/first-blog-post</id>
+        <link href="https://liwuming.github.io/blog/first-blog-post"/>
+        <updated>2024-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[vscode快捷键]]></summary>
+        <content type="html"><![CDATA[<p>vscode快捷键</p>
+<p>新增一行，</p>
+<p>ctrl+shift+enter，向光标所在行的上一行新增一行
+ctrl+enter,向下新增一行</p>
+<p>快速跳转行首行尾,</p>
+<p>复制当前行，
+删除当前行，
+移动当前行，</p>
+<p>ctrl+k，查看快捷键列表，</p>
+<p>文件读写，日期时间库</p>]]></content>
+        <author>
+            <name>Gao Wei</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="hola" term="hola"/>
+        <category label="docusaurus" term="docusaurus"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://liwuming.github.io/blog/welcome</id>
@@ -80,20 +103,6 @@
             <uri>https://github.com/endiliey</uri>
         </author>
         <category label="hello" term="hello"/>
-        <category label="docusaurus" term="docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://liwuming.github.io/blog/first-blog-post</id>
-        <link href="https://liwuming.github.io/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Gao Wei</name>
-            <uri>https://github.com/wgao19</uri>
-        </author>
-        <category label="hola" term="hola"/>
         <category label="docusaurus" term="docusaurus"/>
     </entry>
 </feed>
