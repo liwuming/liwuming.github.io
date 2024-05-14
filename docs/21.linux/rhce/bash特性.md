@@ -69,9 +69,34 @@ shopt extglob
 
 shopt命令可以调整bash的行为.
 
+文件，
+隐藏属性
+
+lsattr
+chattr,
+
++,增加某个特殊参数，其他参数不动
+=,
+-,设定参数，
+
+A，
+a,只能append，不能修改也不能删除
+i,只有root可以设置此属性
 
 
 
+suid，
+sgid，
+sgit,
+
+文件类型，
+type命令
 
 
+df，
+du，
+ip命令
+id命令
 
+crond,
+at命令
