@@ -15,3 +15,8 @@
  
  
  https://blog.csdn.net/dnpao/article/details/107101757
+ 
+ 
+ 
+ 1. Invalid prop: type check failed for prop "value". Expected String with value "3", got Number with value 3. 
+ 
