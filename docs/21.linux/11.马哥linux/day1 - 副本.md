@@ -64,7 +64,7 @@ $#,获取参数的个数
 
 数组遍历
 
-
+```bash
 for(()){
 
 }
@@ -73,11 +73,12 @@ for var in list
 do
 	//commands
 done
-
+```
 
 
 
 获取数组长度
+```bash
 ${#nums}
 
 for((i=0;i<${#nums[@]};i++));do
@@ -85,8 +86,7 @@ echo
 done
 
 ${nums[@]}
-
-
+```
 
 
 # 删除数组元素
