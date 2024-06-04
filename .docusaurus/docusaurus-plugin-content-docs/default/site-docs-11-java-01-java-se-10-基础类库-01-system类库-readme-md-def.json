@@ -1,0 +1,24 @@
+{
+  "unversionedId": "java/java-se/基础类库/system类库/readme",
+  "id": "java/java-se/基础类库/system类库/readme",
+  "title": "readme",
+  "description": "system类是java标准库中一个重要且常用的类，主要用与提供与系统相关的操作和信息访问功能。",
+  "source": "@site/docs/11.java/01.java-se/10.基础类库/01.system类库/readme.md",
+  "sourceDirName": "11.java/01.java-se/10.基础类库/01.system类库",
+  "slug": "/java/java-se/基础类库/system类库/",
+  "permalink": "/docs/java/java-se/基础类库/system类库/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.基础类库/01.system类库/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "java面向对象",
+    "permalink": "/docs/java/java-se/java面向对象"
+  },
+  "next": {
+    "title": "arrays",
+    "permalink": "/docs/java/java-se/基础类库/utils/arrays"
+  }
+}

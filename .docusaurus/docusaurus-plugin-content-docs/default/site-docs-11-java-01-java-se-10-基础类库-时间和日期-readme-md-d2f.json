@@ -1,0 +1,24 @@
+{
+  "unversionedId": "java/java-se/基础类库/时间和日期/readme",
+  "id": "java/java-se/基础类库/时间和日期/readme",
+  "title": "时间",
+  "description": "时间戳",
+  "source": "@site/docs/11.java/01.java-se/10.基础类库/时间和日期/readme.md",
+  "sourceDirName": "11.java/01.java-se/10.基础类库/时间和日期",
+  "slug": "/java/java-se/基础类库/时间和日期/",
+  "permalink": "/docs/java/java-se/基础类库/时间和日期/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/10.基础类库/时间和日期/readme.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "ArrayList",
+    "permalink": "/docs/java/java-se/基础类库/ArrayList"
+  },
+  "next": {
+    "title": "localDateTime",
+    "permalink": "/docs/java/java-se/基础类库/时间和日期/Time类库"
+  }
+}

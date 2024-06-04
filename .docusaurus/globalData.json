@@ -1,0 +1,838 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "web/intro",
+          "docs": [
+            {
+              "id": "algorithms/红黑树",
+              "path": "/docs/algorithms/红黑树",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "algorithms/刷题必备",
+              "path": "/docs/algorithms/刷题必备",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "algorithms/intro",
+              "path": "/docs/algorithms/intro",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "algorithms/leecode/两数之和",
+              "path": "/docs/algorithms/leecode/两数之和",
+              "sidebar": "算法与数据结构"
+            },
+            {
+              "id": "books/被讨厌的勇气/intro",
+              "path": "/docs/books/被讨厌的勇气/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "books/金字塔原理/intro",
+              "path": "/docs/books/金字塔原理/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "books/intro",
+              "path": "/docs/books/intro",
+              "sidebar": "books"
+            },
+            {
+              "id": "database/intro",
+              "path": "/docs/database/intro",
+              "sidebar": "database"
+            },
+            {
+              "id": "database/mysql学习手册/intro",
+              "path": "/docs/database/mysql学习手册/intro",
+              "sidebar": "database"
+            },
+            {
+              "id": "database/mysql学习手册/mysql基础/二进制字符",
+              "path": "/docs/database/mysql学习手册/mysql基础/二进制字符",
+              "sidebar": "database"
+            },
+            {
+              "id": "database/redis学习手册/intro",
+              "path": "/docs/database/redis学习手册/intro",
+              "sidebar": "database"
+            },
+            {
+              "id": "docker/刷题必备",
+              "path": "/docs/docker/刷题必备"
+            },
+            {
+              "id": "docker/intro",
+              "path": "/docs/docker/intro"
+            },
+            {
+              "id": "economist/intro",
+              "path": "/docs/economist/intro",
+              "sidebar": "economist"
+            },
+            {
+              "id": "economist/year-2024/month01/2024-01-03",
+              "path": "/docs/economist/year-2024/month01/2024-01-03",
+              "sidebar": "economist"
+            },
+            {
+              "id": "economist/year-2024/month01/2024-01-07",
+              "path": "/docs/economist/year-2024/month01/2024-01-07",
+              "sidebar": "economist"
+            },
+            {
+              "id": "git/忽略文件",
+              "path": "/docs/git/忽略文件"
+            },
+            {
+              "id": "go/intro",
+              "path": "/docs/go/intro",
+              "sidebar": "go"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro"
+            },
+            {
+              "id": "java/面试题/查找算法",
+              "path": "/docs/java/面试题/查找算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/面试题/排序算法",
+              "path": "/docs/java/面试题/排序算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/面试题/intro",
+              "path": "/docs/java/面试题/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/设计模式/单例模式",
+              "path": "/docs/java/设计模式/单例模式",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/设计模式/intro",
+              "path": "/docs/java/设计模式/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/查找算法",
+              "path": "/docs/java/算法与数据结构/查找算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/排序算法",
+              "path": "/docs/java/算法与数据结构/排序算法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/算法与数据结构/intro",
+              "path": "/docs/java/算法与数据结构/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/位运算",
+              "path": "/docs/java/位运算",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/ide使用技巧/错误集锦",
+              "path": "/docs/java/ide使用技巧/错误集锦",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/ide使用技巧/各种快捷键",
+              "path": "/docs/java/ide使用技巧/各种快捷键",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/ide使用技巧/idea",
+              "path": "/docs/java/ide使用技巧/idea",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/intro",
+              "path": "/docs/java/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/基本类型-int/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/基本类型-int/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/数组操作/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/数组操作/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/正则/数组的遍历",
+              "path": "/docs/java/java-se/常用操作总结/正则/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/常用操作总结/字符串/字符串对象",
+              "path": "/docs/java/java-se/常用操作总结/字符串/字符串对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/递归问题",
+              "path": "/docs/java/java-se/递归问题",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/泛型程序设计/泛型升序设计",
+              "path": "/docs/java/java-se/泛型程序设计/泛型升序设计",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/jdk8",
+              "path": "/docs/java/java-se/基础类库/时间和日期/jdk8",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/readme",
+              "path": "/docs/java/java-se/基础类库/时间和日期/",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/时间和日期/Time类库",
+              "path": "/docs/java/java-se/基础类库/时间和日期/Time类库",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/ArrayList",
+              "path": "/docs/java/java-se/基础类库/ArrayList",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/system类库/readme",
+              "path": "/docs/java/java-se/基础类库/system类库/",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/基础类库/utils/arrays",
+              "path": "/docs/java/java-se/基础类库/utils/arrays",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/可变参数细节",
+              "path": "/docs/java/java-se/集合/可变参数细节",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/ArrayList",
+              "path": "/docs/java/java-se/集合/ArrayList",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/collection",
+              "path": "/docs/java/java-se/集合/collection",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/collections",
+              "path": "/docs/java/java-se/集合/collections",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/hashmap",
+              "path": "/docs/java/java-se/集合/hashmap",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/intro",
+              "path": "/docs/java/java-se/集合/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/map",
+              "path": "/docs/java/java-se/集合/map",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/map集合原理",
+              "path": "/docs/java/java-se/集合/map集合原理",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/set系列集合",
+              "path": "/docs/java/java-se/集合/set系列集合",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/集合/WeakHashMap",
+              "path": "/docs/java/java-se/集合/WeakHashMap",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/泛型数组",
+              "path": "/docs/java/java-se/面向对象高级/泛型数组",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/继承",
+              "path": "/docs/java/java-se/面向对象高级/继承",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/接口",
+              "path": "/docs/java/java-se/面向对象高级/接口",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/内部类",
+              "path": "/docs/java/java-se/面向对象高级/内部类",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/intro",
+              "path": "/docs/java/java-se/面向对象高级/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/java生成随机数的方法",
+              "path": "/docs/java/java-se/面向对象高级/java生成随机数的方法",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/Object类",
+              "path": "/docs/java/java-se/面向对象高级/Object类",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/static关键字",
+              "path": "/docs/java/java-se/面向对象高级/static关键字",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象高级/this与super",
+              "path": "/docs/java/java-se/面向对象高级/this与super",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/访问权限控制",
+              "path": "/docs/java/java-se/面向对象基础/访问权限控制",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/新建 文本文档",
+              "path": "/docs/java/java-se/面向对象基础/新建 文本文档",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/面向对象基础/java面向对象",
+              "path": "/docs/java/java-se/面向对象基础/java面向对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/如何求平均数",
+              "path": "/docs/java/java-se/如何求平均数",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/数组/数组的遍历",
+              "path": "/docs/java/java-se/数组/数组的遍历",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/异常，断言和日志/处理错误",
+              "path": "/docs/java/java-se/异常，断言和日志/处理错误",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/正则表达式/正则入门",
+              "path": "/docs/java/java-se/正则表达式/正则入门",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/正则表达式/字符串函数",
+              "path": "/docs/java/java-se/正则表达式/字符串函数",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/总结/生成随机数",
+              "path": "/docs/java/java-se/总结/生成随机数",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/可变参数细节",
+              "path": "/docs/java/java-se/io流/可变参数细节",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/ArrayList",
+              "path": "/docs/java/java-se/io流/ArrayList",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/collections",
+              "path": "/docs/java/java-se/io流/collections",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/hashmap",
+              "path": "/docs/java/java-se/io流/hashmap",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/intro",
+              "path": "/docs/java/java-se/io流/intro",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/IO流",
+              "path": "/docs/java/java-se/io流/IO流",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/map",
+              "path": "/docs/java/java-se/io流/map",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/map集合原理",
+              "path": "/docs/java/java-se/io流/map集合原理",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/set系列集合",
+              "path": "/docs/java/java-se/io流/set系列集合",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/io流/WeakHashMap",
+              "path": "/docs/java/java-se/io流/WeakHashMap",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/java面向对象",
+              "path": "/docs/java/java-se/java面向对象",
+              "sidebar": "java"
+            },
+            {
+              "id": "java/java-se/lambda",
+              "path": "/docs/java/java-se/lambda",
+              "sidebar": "java"
+            },
+            {
+              "id": "linux/解惑迷经/巧计易混淆点",
+              "path": "/docs/linux/解惑迷经/巧计易混淆点",
+              "sidebar": "linux"
+            },
+            {
+              "id": "linux/刷题必备",
+              "path": "/docs/linux/刷题必备",
+              "sidebar": "linux"
+            },
+            {
+              "id": "linux/intro",
+              "path": "/docs/linux/intro",
+              "sidebar": "linux"
+            },
+            {
+              "id": "linux/nginx/刷题必备",
+              "path": "/docs/linux/nginx/刷题必备",
+              "sidebar": "linux"
+            },
+            {
+              "id": "linux/nginx/intro",
+              "path": "/docs/linux/nginx/intro",
+              "sidebar": "linux"
+            },
+            {
+              "id": "php/路径函数/仅获取",
+              "path": "/docs/php/路径函数/仅获取"
+            },
+            {
+              "id": "php/intro",
+              "path": "/docs/php/intro"
+            },
+            {
+              "id": "php/thinkphp/七牛",
+              "path": "/docs/php/thinkphp/七牛"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            },
+            {
+              "id": "web/前端错误集锦/如何开发npm包",
+              "path": "/docs/web/前端错误集锦/如何开发npm包",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端错误集锦/研究库",
+              "path": "/docs/web/前端错误集锦/研究库",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端错误集锦/js精度丢失",
+              "path": "/docs/web/前端错误集锦/js精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/阮一峰es6入门标准/01",
+              "path": "/docs/web/前端圣经书籍/阮一峰es6入门标准/01",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/阮一峰es6入门标准/02.",
+              "path": "/docs/web/前端圣经书籍/阮一峰es6入门标准/02.",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器",
+              "path": "/docs/web/前端圣经书籍/阮一峰es6入门标准/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程",
+              "path": "/docs/web/前端圣经书籍/阮一峰es6入门标准/面向对象程序编程",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/阮一峰es6入门标准/疑惑",
+              "path": "/docs/web/前端圣经书籍/阮一峰es6入门标准/疑惑",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/迭代器与生成器",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/面向对象程序编程",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap04.变量及作用域/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap05.基本引用类型/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/内置单例对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/原始值包装类型",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/date对象",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/chap06.集合引用类型/RegExp",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js高级程序设计-第四版/intro",
+              "path": "/docs/web/前端圣经书籍/js高级程序设计-第四版/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/查找",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/查找",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/基础准备",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/基础准备",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/快速排序",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/快速排序",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/排序",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/排序",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/线性结构",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/线性结构",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端圣经书籍/js数据结构与算法/intro",
+              "path": "/docs/web/前端圣经书籍/js数据结构与算法/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端优秀库集锦/如何开发npm包",
+              "path": "/docs/web/前端优秀库集锦/如何开发npm包",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端优秀库集锦/研究库",
+              "path": "/docs/web/前端优秀库集锦/研究库",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/前端优秀库集锦/js精度丢失",
+              "path": "/docs/web/前端优秀库集锦/js精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/实践经验/前端常见问题汇总/如何开发npm包",
+              "path": "/docs/web/实践经验/前端常见问题汇总/如何开发npm包",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/实践经验/前端常见问题汇总/js精度丢失",
+              "path": "/docs/web/实践经验/前端常见问题汇总/js精度丢失",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/实践经验/前端常见问题汇总/one",
+              "path": "/docs/web/实践经验/前端常见问题汇总/one",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/实践经验/前端开发",
+              "path": "/docs/web/实践经验/前端开发",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/实践经验/用户",
+              "path": "/docs/web/实践经验/用户",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/小程序开发/常见问题",
+              "path": "/docs/web/小程序开发/常见问题",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/小程序开发/地图",
+              "path": "/docs/web/小程序开发/地图",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/小程序开发/如何查看小程序管理员",
+              "path": "/docs/web/小程序开发/如何查看小程序管理员",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/es5入门到起飞/intro",
+              "path": "/docs/web/es5入门到起飞/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/es6入门到起飞/intro",
+              "path": "/docs/web/es6入门到起飞/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/html5&css3/intro",
+              "path": "/docs/web/html5&css3/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/intro",
+              "path": "/docs/web/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/react学习手册/intro",
+              "path": "/docs/web/react学习手册/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/ts入门到起飞/intro",
+              "path": "/docs/web/ts入门到起飞/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/02-27",
+              "path": "/docs/web/uniapp学习文档/02-27",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/0728",
+              "path": "/docs/web/uniapp学习文档/0728",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/常见问题",
+              "path": "/docs/web/uniapp学习文档/常见问题",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/地图",
+              "path": "/docs/web/uniapp学习文档/地图",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/聊天记录/发送语音",
+              "path": "/docs/web/uniapp学习文档/聊天记录/发送语音",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/如何实现导出excel",
+              "path": "/docs/web/uniapp学习文档/如何实现导出excel",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/下拉加载更多",
+              "path": "/docs/web/uniapp学习文档/下拉加载更多",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/uniapp学习文档/wifi调试",
+              "path": "/docs/web/uniapp学习文档/wifi调试",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "web/vue3学习手册/intro",
+              "path": "/docs/web/vue3学习手册/intro",
+              "sidebar": "ecma"
+            },
+            {
+              "id": "win10系统/关于全角半角切换",
+              "path": "/docs/win10系统/关于全角半角切换"
+            },
+            {
+              "id": "win10系统/关于全角半角切换 - 副本",
+              "path": "/docs/win10系统/关于全角半角切换 - 副本"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "ecma": {
+              "link": {
+                "path": "/docs/web/intro",
+                "label": "web/intro"
+              }
+            },
+            "java": {
+              "link": {
+                "path": "/docs/java/java-se/面向对象基础/java面向对象",
+                "label": "java/java-se/面向对象基础/java面向对象"
+              }
+            },
+            "go": {
+              "link": {
+                "path": "/docs/go/intro",
+                "label": "go/intro"
+              }
+            },
+            "linux": {
+              "link": {
+                "path": "/docs/linux/nginx/intro",
+                "label": "linux/nginx/intro"
+              }
+            },
+            "database": {
+              "link": {
+                "path": "/docs/database/intro",
+                "label": "database/intro"
+              }
+            },
+            "算法与数据结构": {
+              "link": {
+                "path": "/docs/algorithms/leecode/两数之和",
+                "label": "algorithms/leecode/两数之和"
+              }
+            },
+            "economist": {
+              "link": {
+                "path": "/docs/economist/intro",
+                "label": "economist/intro"
+              }
+            },
+            "books": {
+              "link": {
+                "path": "/docs/books/intro",
+                "label": "books/intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

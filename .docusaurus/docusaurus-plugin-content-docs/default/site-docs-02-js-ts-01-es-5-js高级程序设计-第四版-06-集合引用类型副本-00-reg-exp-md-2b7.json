@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/es5/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+  "id": "js&ts/es5/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+  "title": "RegExp",
+  "description": "如何接收application/json",
+  "source": "@site/docs/02.js&ts/01.es5/js高级程序设计(第四版)/06.集合引用类型副本/00.RegExp.md",
+  "sourceDirName": "02.js&ts/01.es5/js高级程序设计(第四版)/06.集合引用类型副本",
+  "slug": "/js&ts/es5/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+  "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/集合引用类型副本/RegExp",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/js高级程序设计(第四版)/06.集合引用类型副本/00.RegExp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "内置单例对象",
+    "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/基本引用类型/内置单例对象"
+  },
+  "next": {
+    "title": "date对象",
+    "permalink": "/docs/js&ts/es5/js高级程序设计(第四版)/集合引用类型副本/date对象"
+  }
+}

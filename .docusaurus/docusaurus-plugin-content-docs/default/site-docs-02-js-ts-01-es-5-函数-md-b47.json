@@ -1,0 +1,24 @@
+{
+  "unversionedId": "js&ts/es5/函数",
+  "id": "js&ts/es5/函数",
+  "title": "js之函数",
+  "description": "函数的定义",
+  "source": "@site/docs/02.js&ts/01.es5/函数.md",
+  "sourceDirName": "02.js&ts/01.es5",
+  "slug": "/js&ts/es5/函数",
+  "permalink": "/docs/js&ts/es5/函数",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/01.es5/函数.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "事件",
+    "permalink": "/docs/js&ts/es5/事件"
+  },
+  "next": {
+    "title": "本地存储",
+    "permalink": "/docs/js&ts/es5/本地存储"
+  }
+}

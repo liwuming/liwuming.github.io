@@ -1,0 +1,24 @@
+{
+  "unversionedId": "java/java-se/面向对象高级/泛型数组",
+  "id": "java/java-se/面向对象高级/泛型数组",
+  "title": "接口",
+  "description": "接口",
+  "source": "@site/docs/11.java/01.java-se/02.面向对象高级/泛型数组.md",
+  "sourceDirName": "11.java/01.java-se/02.面向对象高级",
+  "slug": "/java/java-se/面向对象高级/泛型数组",
+  "permalink": "/docs/java/java-se/面向对象高级/泛型数组",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/01.java-se/02.面向对象高级/泛型数组.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "本章学习目标",
+    "permalink": "/docs/java/java-se/面向对象高级/接口"
+  },
+  "next": {
+    "title": "处理错误",
+    "permalink": "/docs/java/java-se/异常，断言和日志/处理错误"
+  }
+}

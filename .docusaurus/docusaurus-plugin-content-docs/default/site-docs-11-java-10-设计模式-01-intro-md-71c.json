@@ -1,0 +1,25 @@
+{
+  "unversionedId": "java/设计模式/intro",
+  "id": "java/设计模式/intro",
+  "title": "关于设计模式概述",
+  "description": "设计模式是什么，设计模式是针对特定问题的最优解，",
+  "source": "@site/docs/11.java/10.设计模式/01.intro.md",
+  "sourceDirName": "11.java/10.设计模式",
+  "slug": "/java/设计模式/intro",
+  "permalink": "/docs/java/设计模式/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/11.java/10.设计模式/01.intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {},
+  "sidebar": "java",
+  "previous": {
+    "title": "查找算法",
+    "permalink": "/docs/java/算法与数据结构/查找算法"
+  },
+  "next": {
+    "title": "单例设计模式",
+    "permalink": "/docs/java/设计模式/单例模式"
+  }
+}

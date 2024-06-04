@@ -1,0 +1,183 @@
+
+    public static function getactioninfo(){
+        /*
+        case 1000:
+            $one = array('code'=>100,'msg'=>'hello 李武明 world');
+            Gateway::sendToClient(self::$client_id,json_encode($one));
+            break;
+        case '1001':
+            
+            break;
+        case '1002':
+
+            break;
+        /*单次获取位置信息*/
+        case '1011':
+            self::send2('cr');
+            break;
+        case '1012':
+            $command = 'UPLOAD,';
+            switch($obj['stype']){
+                //1分钟
+                case 1:
+                    $command .= 60;
+                    break;
+                //10分钟
+                case 2:
+                    $command .= 600;
+                    break;
+                //30分钟
+                case 3:
+                    $command .= 1800;
+                    break;
+                //1小时
+                case 4:
+                    $command .= 3600;
+                    break;
+                //6小时
+                case 5:
+                    $command .= 21600;
+                    break;
+                //12小时
+                case 6:
+                    $command .= 43200;
+                    break;
+            }
+            self::send2($command);
+            break;
+        /*获取心率血压--get_heart_rate*/
+        case 1041:
+
+            break;
+        /*测量心率血压--send_heart_rate*/
+        case 1042:
+            self::send2('hrtstart,1');
+            break;
+        /*设置异常心率血压--setting_heart_rate*/
+        case 1043:
+            break;
+        /*获取计步信息---get_sport*/
+        case 1044:
+
+            break;
+        /*设置计步信息--setting_sport*/
+        case 1045:
+            $state = $obj['state'];
+            $step = $obj['step'];
+            $weight = $obj['weight'];
+
+            $sport1_start = $obj['sport1_start'];
+            $sport2_start = $obj['sport2_start'];
+            $sport3_start = $obj['sport3_start'];
+            $sport1_end = $obj['sport1_end'];
+            $sport2_end = $obj['sport2_end'];
+            $sport3_end = $obj['sport3_end'];
+            
+            /*计步打开*/ 
+            self::send2("PEDO,{$state}");
+            /*暂停50毫秒，担心距离太近，两个记录傻傻分不清楚*/
+            usleep (50000);
+
+            /*计步时间段设置*/
+            self::send2("WALKTIME,{$sport1_start}-{$sport1_end},{$sport2_start}-{$sport2_end},{$sport3_start}-{$sport3_end}");
+            break;
+        /*设置吃药提醒--setting_medicine*/
+        case 1046:
+
+            break;
+        /*获取体温信息--get_body_temp*/
+        case 1047:
+
+            break;
+        /*单次体温--send_body_temp*/
+        case 1048:
+            self::send2('BODYTEMP2');
+            break;
+        /*循环测量设置--setting_body_temp1*/
+        case 1049:
+            $state = 0;$interval=0;
+            if(!empty($obj['state'])){
+                $state = 1;
+                if(empty($obj['interval'])){
+                    
+                }else{
+                    $interval = (int)$obj['interval'];
+                }
+            }
+            self::send2("BODYTEMP,{$state},{$interval}");
+            break;
+        /*定时测量设置--setting_body_temp2*/
+        case 1050:
+            $body_temp1_stype=empty($obj['body_temp1_stype'])?0:1;
+            $body_temp2_stype=empty($obj['body_temp2_stype'])?0:1;
+            $body_temp3_stype=empty($obj['body_temp3_stype'])?0:1;
+
+            $body_temp1_datetime=$obj['body_temp1_datetime'];
+            $body_temp2_datetime=$obj['body_temp2_datetime'];
+            $body_temp3_datetime=$obj['body_temp3_datetime'];
+
+            self::send2("BTTIMESET,3,{$body_temp1_datetime}\${$body_temp1_stype},{$body_temp2_datetime}\${$body_temp2_stype},{$body_temp3_datetime}\${$body_temp1_stype}");
+            break;
+        /*获取血氧数据--get_blood_oxygen*/
+        case 1051:
+            self::send2('hrtstart,1');
+            break;
+
+
+
+
+
+            /*设置设备信息*/
+            case 1571:
+                break;
+            /*设置密码*/
+            case 1572:
+                break;
+            /*找设备*/
+            case 1073:
+                self::send2('find');
+                break;
+            /*重启设备*/
+            case 1074:
+                self::send2('RESET');
+                break;
+            /*远程关机*/
+            case 1075:
+                self::send2('POWEROFF');
+                break;
+            /*恢复出厂设置*/
+            case 1076:
+                self::send2('');
+                break;
+            'FACTORY'=>'',
+            /*设置短信报警开关--13*/
+            'SMSONOFF'=>1077,
+            /*设置拆除开关--22*/
+            'REMOVESMS'=>1078,x
+            /*设置语音报时*/
+            'HSW'=>1079,
+            /*设置安全模式*/
+            'DEVREFUSEPHONESWITCH'=>1080,
+
+                break;
+            /*设置情景模式*/
+            case 1081:
+                break;
+            /*设置接听模式*/
+            'APPLOCK'=>1082
+
+            /*设置紧急号码*/
+            'sos'=>1083,
+            'sos2'=>1083,
+            'sos2'=>1083,
+            'sos2'=>1083,
+
+
+            /*设置闹钟提醒*/
+            'REMIND'=>1084
+            /*设置跌倒报警开关*/
+            'FALLDOWN'=>1085,
+            'LSSET'=>1085,
+            /*设置定时开关机*/
+            'SPOF'=>1086
+    }

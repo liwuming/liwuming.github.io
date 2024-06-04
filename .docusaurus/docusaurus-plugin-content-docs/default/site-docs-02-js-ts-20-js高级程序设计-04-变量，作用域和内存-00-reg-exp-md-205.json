@@ -1,0 +1,25 @@
+{
+  "unversionedId": "js&ts/js高级程序设计/变量，作用域和内存/RegExp",
+  "id": "js&ts/js高级程序设计/变量，作用域和内存/RegExp",
+  "title": "RegExp",
+  "description": "如何接收application/json",
+  "source": "@site/docs/02.js&ts/20.js高级程序设计/04.变量，作用域和内存/00.RegExp.md",
+  "sourceDirName": "02.js&ts/20.js高级程序设计/04.变量，作用域和内存",
+  "slug": "/js&ts/js高级程序设计/变量，作用域和内存/RegExp",
+  "permalink": "/docs/js&ts/js高级程序设计/变量，作用域和内存/RegExp",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/02.js&ts/20.js高级程序设计/04.变量，作用域和内存/00.RegExp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {},
+  "sidebar": "ecma",
+  "previous": {
+    "title": "新要求",
+    "permalink": "/docs/js&ts/react/新要求"
+  },
+  "next": {
+    "title": "1211",
+    "permalink": "/docs/js&ts/js高级程序设计/变量，作用域和内存/date对象"
+  }
+}
